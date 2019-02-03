@@ -1,0 +1,14 @@
+E:\GIT FILES\Sites\rising thunder c#\Rising Thunder Server CS\Rising Thunder Server CS\bin\Debug\netcoreapp2.1\Rising Thunder Server CS.deps.json
+E:\GIT FILES\Sites\rising thunder c#\Rising Thunder Server CS\Rising Thunder Server CS\bin\Debug\netcoreapp2.1\Rising Thunder Server CS.runtimeconfig.json
+E:\GIT FILES\Sites\rising thunder c#\Rising Thunder Server CS\Rising Thunder Server CS\bin\Debug\netcoreapp2.1\Rising Thunder Server CS.runtimeconfig.dev.json
+E:\GIT FILES\Sites\rising thunder c#\Rising Thunder Server CS\Rising Thunder Server CS\bin\Debug\netcoreapp2.1\Rising Thunder Server CS.dll
+E:\GIT FILES\Sites\rising thunder c#\Rising Thunder Server CS\Rising Thunder Server CS\bin\Debug\netcoreapp2.1\Rising Thunder Server CS.pdb
+E:\GIT FILES\Sites\rising thunder c#\Rising Thunder Server CS\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.csprojAssemblyReference.cache
+E:\GIT FILES\Sites\rising thunder c#\Rising Thunder Server CS\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.csproj.CoreCompileInputs.cache
+E:\GIT FILES\Sites\rising thunder c#\Rising Thunder Server CS\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.RazorAssemblyInfo.cache
+E:\GIT FILES\Sites\rising thunder c#\Rising Thunder Server CS\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.RazorAssemblyInfo.cs
+E:\GIT FILES\Sites\rising thunder c#\Rising Thunder Server CS\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.AssemblyInfoInputs.cache
+E:\GIT FILES\Sites\rising thunder c#\Rising Thunder Server CS\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.AssemblyInfo.cs
+E:\GIT FILES\Sites\rising thunder c#\Rising Thunder Server CS\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.RazorTargetAssemblyInfo.cache
+E:\GIT FILES\Sites\rising thunder c#\Rising Thunder Server CS\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.dll
+E:\GIT FILES\Sites\rising thunder c#\Rising Thunder Server CS\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.pdb

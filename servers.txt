@@ -1,0 +1,8 @@
+# mine
+RisingThunder.exe -server=http://localhost:8080/ryzthn/
+
+# local py server
+RisingThunder.exe -server=http://localhost:1337/_01/
+
+# hosted/pp server
+RisingThunder.exe -server=http://107.170.207.152:1337/_01/
