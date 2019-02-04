@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Tbmatch {
+namespace Rising_Thunder_Server_CS.Protobufs.Tbmatch {
 
   /// <summary>Holder for reflection information generated from tbmatch/crash.proto</summary>
   public static partial class CrashReflection {
@@ -31,9 +31,9 @@ namespace Tbmatch {
             "ZXBvcnQSGy50Ym1hdGNoLkNyYXNoUmVwb3J0UmVxdWVzdBoMLnRicnBjLkVt",
             "cHR5IgTI8xgAYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Tbrpc.TbrpcReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.TbrpcReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.CrashReportRequest), global::Tbmatch.CrashReportRequest.Parser, new[]{ "AppName", "BuildVersion", "MachineId", "Bundle" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.CrashReportRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.CrashReportRequest.Parser, new[]{ "AppName", "BuildVersion", "MachineId", "Bundle" }, null, null, null)
           }));
     }
     #endregion
@@ -48,7 +48,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.CrashReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.CrashReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

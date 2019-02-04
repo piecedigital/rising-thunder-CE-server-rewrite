@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Tbadmin {
+namespace Rising_Thunder_Server_CS.Protobufs.Tbadmin {
 
   /// <summary>Holder for reflection information generated from tbadmin/shop.proto</summary>
   public static partial class ShopReflection {
@@ -53,14 +53,14 @@ namespace Tbadmin {
             "dW5kUHVyY2hhc2VPcmRlclJlcXVlc3QaDC50YnJwYy5FbXB0eSIEyPMYF2IG",
             "cHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Tbrpc.TbrpcReflection.Descriptor, global::Tbmatch.ShopReflection.Descriptor, global::Tbmatch.QueryReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.TbrpcReflection.Descriptor, global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.ShopReflection.Descriptor, global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.QueryReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.OrderCriteria), global::Tbadmin.OrderCriteria.Parser, new[]{ "AccountId", "OrderStatus", "ModifyTime", "MinTotalAmount", "MaxTotalAmount", "UseAccountBalance", "BillLastName", "BillCity", "BillRegion", "BillCountry" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SearchPurchaseOrdersRequest), global::Tbadmin.SearchPurchaseOrdersRequest.Parser, new[]{ "Criteria", "Sort", "Offset", "Limit" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SearchPurchaseOrdersResult), global::Tbadmin.SearchPurchaseOrdersResult.Parser, new[]{ "Orders", "EndOfData" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SyncPurchaseOrderRequest), global::Tbadmin.SyncPurchaseOrderRequest.Parser, new[]{ "OrderNumber" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.VoidPurchaseOrderRequest), global::Tbadmin.VoidPurchaseOrderRequest.Parser, new[]{ "OrderNumber" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.RefundPurchaseOrderRequest), global::Tbadmin.RefundPurchaseOrderRequest.Parser, new[]{ "OrderNumber" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.OrderCriteria), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.OrderCriteria.Parser, new[]{ "AccountId", "OrderStatus", "ModifyTime", "MinTotalAmount", "MaxTotalAmount", "UseAccountBalance", "BillLastName", "BillCity", "BillRegion", "BillCountry" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SearchPurchaseOrdersRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SearchPurchaseOrdersRequest.Parser, new[]{ "Criteria", "Sort", "Offset", "Limit" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SearchPurchaseOrdersResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SearchPurchaseOrdersResult.Parser, new[]{ "Orders", "EndOfData" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SyncPurchaseOrderRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SyncPurchaseOrderRequest.Parser, new[]{ "OrderNumber" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.VoidPurchaseOrderRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.VoidPurchaseOrderRequest.Parser, new[]{ "OrderNumber" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RefundPurchaseOrderRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RefundPurchaseOrderRequest.Parser, new[]{ "OrderNumber" }, null, null, null)
           }));
     }
     #endregion
@@ -78,7 +78,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ShopReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ShopReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -129,12 +129,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "order_status" field.</summary>
     public const int OrderStatusFieldNumber = 2;
-    private global::Tbmatch.OrderStatus orderStatus_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.OrderStatus orderStatus_ = 0;
     /// <summary>
     /// If set, restrict by specific order status.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.OrderStatus OrderStatus {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.OrderStatus OrderStatus {
       get { return orderStatus_; }
       set {
         orderStatus_ = value;
@@ -143,12 +143,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "modify_time" field.</summary>
     public const int ModifyTimeFieldNumber = 3;
-    private global::Tbmatch.TimeRange modifyTime_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange modifyTime_;
     /// <summary>
     /// Restrict time range for last modify time.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.TimeRange ModifyTime {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange ModifyTime {
       get { return modifyTime_; }
       set {
         modifyTime_ = value;
@@ -157,12 +157,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "min_total_amount" field.</summary>
     public const int MinTotalAmountFieldNumber = 5;
-    private global::Tbrpc.Money minTotalAmount_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money minTotalAmount_;
     /// <summary>
     /// Total amount range.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbrpc.Money MinTotalAmount {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money MinTotalAmount {
       get { return minTotalAmount_; }
       set {
         minTotalAmount_ = value;
@@ -171,9 +171,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "max_total_amount" field.</summary>
     public const int MaxTotalAmountFieldNumber = 6;
-    private global::Tbrpc.Money maxTotalAmount_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money maxTotalAmount_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbrpc.Money MaxTotalAmount {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money MaxTotalAmount {
       get { return maxTotalAmount_; }
       set {
         maxTotalAmount_ = value;
@@ -196,12 +196,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "bill_last_name" field.</summary>
     public const int BillLastNameFieldNumber = 11;
-    private global::Tbmatch.StringMatch billLastName_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch billLastName_;
     /// <summary>
     /// Match billing fields.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.StringMatch BillLastName {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch BillLastName {
       get { return billLastName_; }
       set {
         billLastName_ = value;
@@ -210,9 +210,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "bill_city" field.</summary>
     public const int BillCityFieldNumber = 12;
-    private global::Tbmatch.StringMatch billCity_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch billCity_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.StringMatch BillCity {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch BillCity {
       get { return billCity_; }
       set {
         billCity_ = value;
@@ -221,9 +221,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "bill_region" field.</summary>
     public const int BillRegionFieldNumber = 13;
-    private global::Tbmatch.StringMatch billRegion_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch billRegion_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.StringMatch BillRegion {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch BillRegion {
       get { return billRegion_; }
       set {
         billRegion_ = value;
@@ -393,19 +393,19 @@ namespace Tbadmin {
       }
       if (other.modifyTime_ != null) {
         if (modifyTime_ == null) {
-          modifyTime_ = new global::Tbmatch.TimeRange();
+          modifyTime_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange();
         }
         ModifyTime.MergeFrom(other.ModifyTime);
       }
       if (other.minTotalAmount_ != null) {
         if (minTotalAmount_ == null) {
-          minTotalAmount_ = new global::Tbrpc.Money();
+          minTotalAmount_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money();
         }
         MinTotalAmount.MergeFrom(other.MinTotalAmount);
       }
       if (other.maxTotalAmount_ != null) {
         if (maxTotalAmount_ == null) {
-          maxTotalAmount_ = new global::Tbrpc.Money();
+          maxTotalAmount_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money();
         }
         MaxTotalAmount.MergeFrom(other.MaxTotalAmount);
       }
@@ -414,19 +414,19 @@ namespace Tbadmin {
       }
       if (other.billLastName_ != null) {
         if (billLastName_ == null) {
-          billLastName_ = new global::Tbmatch.StringMatch();
+          billLastName_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
         }
         BillLastName.MergeFrom(other.BillLastName);
       }
       if (other.billCity_ != null) {
         if (billCity_ == null) {
-          billCity_ = new global::Tbmatch.StringMatch();
+          billCity_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
         }
         BillCity.MergeFrom(other.BillCity);
       }
       if (other.billRegion_ != null) {
         if (billRegion_ == null) {
-          billRegion_ = new global::Tbmatch.StringMatch();
+          billRegion_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
         }
         BillRegion.MergeFrom(other.BillRegion);
       }
@@ -449,26 +449,26 @@ namespace Tbadmin {
             break;
           }
           case 16: {
-            orderStatus_ = (global::Tbmatch.OrderStatus) input.ReadEnum();
+            orderStatus_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.OrderStatus) input.ReadEnum();
             break;
           }
           case 26: {
             if (modifyTime_ == null) {
-              modifyTime_ = new global::Tbmatch.TimeRange();
+              modifyTime_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange();
             }
             input.ReadMessage(modifyTime_);
             break;
           }
           case 42: {
             if (minTotalAmount_ == null) {
-              minTotalAmount_ = new global::Tbrpc.Money();
+              minTotalAmount_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money();
             }
             input.ReadMessage(minTotalAmount_);
             break;
           }
           case 50: {
             if (maxTotalAmount_ == null) {
-              maxTotalAmount_ = new global::Tbrpc.Money();
+              maxTotalAmount_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money();
             }
             input.ReadMessage(maxTotalAmount_);
             break;
@@ -479,21 +479,21 @@ namespace Tbadmin {
           }
           case 90: {
             if (billLastName_ == null) {
-              billLastName_ = new global::Tbmatch.StringMatch();
+              billLastName_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
             }
             input.ReadMessage(billLastName_);
             break;
           }
           case 98: {
             if (billCity_ == null) {
-              billCity_ = new global::Tbmatch.StringMatch();
+              billCity_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
             }
             input.ReadMessage(billCity_);
             break;
           }
           case 106: {
             if (billRegion_ == null) {
-              billRegion_ = new global::Tbmatch.StringMatch();
+              billRegion_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
             }
             input.ReadMessage(billRegion_);
             break;
@@ -519,7 +519,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ShopReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ShopReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -550,12 +550,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "criteria" field.</summary>
     public const int CriteriaFieldNumber = 1;
-    private global::Tbadmin.OrderCriteria criteria_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.OrderCriteria criteria_;
     /// <summary>
     /// Restrictions on the search.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.OrderCriteria Criteria {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.OrderCriteria Criteria {
       get { return criteria_; }
       set {
         criteria_ = value;
@@ -564,12 +564,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "sort" field.</summary>
     public const int SortFieldNumber = 2;
-    private global::Tbmatch.OrderSort sort_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.OrderSort sort_;
     /// <summary>
     /// Order sorting
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.OrderSort Sort {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.OrderSort Sort {
       get { return sort_; }
       set {
         sort_ = value;
@@ -693,13 +693,13 @@ namespace Tbadmin {
       }
       if (other.criteria_ != null) {
         if (criteria_ == null) {
-          criteria_ = new global::Tbadmin.OrderCriteria();
+          criteria_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.OrderCriteria();
         }
         Criteria.MergeFrom(other.Criteria);
       }
       if (other.sort_ != null) {
         if (sort_ == null) {
-          sort_ = new global::Tbmatch.OrderSort();
+          sort_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.OrderSort();
         }
         Sort.MergeFrom(other.Sort);
       }
@@ -722,14 +722,14 @@ namespace Tbadmin {
             break;
           case 10: {
             if (criteria_ == null) {
-              criteria_ = new global::Tbadmin.OrderCriteria();
+              criteria_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.OrderCriteria();
             }
             input.ReadMessage(criteria_);
             break;
           }
           case 18: {
             if (sort_ == null) {
-              sort_ = new global::Tbmatch.OrderSort();
+              sort_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.OrderSort();
             }
             input.ReadMessage(sort_);
             break;
@@ -756,7 +756,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ShopReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ShopReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -785,14 +785,14 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "orders" field.</summary>
     public const int OrdersFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbmatch.PurchaseOrder> _repeated_orders_codec
-        = pb::FieldCodec.ForMessage(10, global::Tbmatch.PurchaseOrder.Parser);
-    private readonly pbc::RepeatedField<global::Tbmatch.PurchaseOrder> orders_ = new pbc::RepeatedField<global::Tbmatch.PurchaseOrder>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PurchaseOrder> _repeated_orders_codec
+        = pb::FieldCodec.ForMessage(10, global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PurchaseOrder.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PurchaseOrder> orders_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PurchaseOrder>();
     /// <summary>
     /// Orders that matched the criteria.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbmatch.PurchaseOrder> Orders {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PurchaseOrder> Orders {
       get { return orders_; }
     }
 
@@ -915,7 +915,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ShopReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ShopReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1047,7 +1047,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ShopReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ShopReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1179,7 +1179,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ShopReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ShopReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

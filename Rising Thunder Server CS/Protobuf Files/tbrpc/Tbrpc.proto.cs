@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Tbrpc {
+namespace Rising_Thunder_Server_CS.Protobufs.Tbrpc {
 
   /// <summary>Holder for reflection information generated from tbrpc/tbrpc.proto</summary>
   public static partial class TbrpcReflection {
@@ -62,18 +62,18 @@ namespace Tbrpc {
             "dG9idWYuRmllbGRPcHRpb25zGIGQAyABKAliBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { pbr::FileDescriptor.DescriptorProtoFileDescriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Tbrpc.Status), typeof(global::Tbrpc.Access), typeof(global::Tbrpc.SessionType), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbrpc.MsgParam), global::Tbrpc.MsgParam.Parser, new[]{ "Str", "Int", "Flt" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Tbrpc.MsgParam.Types.Str), global::Tbrpc.MsgParam.Types.Str.Parser, new[]{ "Value" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbrpc.MsgParam.Types.Int), global::Tbrpc.MsgParam.Types.Int.Parser, new[]{ "Value" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbrpc.MsgParam.Types.Float), global::Tbrpc.MsgParam.Types.Float.Parser, new[]{ "Value" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbrpc.LocMsg), global::Tbrpc.LocMsg.Parser, new[]{ "Id", "Param" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbrpc.Result), global::Tbrpc.Result.Parser, new[]{ "Msg", "Content", "DeprecatedMsgId", "DeprecatedMsgParams" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbrpc.Empty), global::Tbrpc.Empty.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbrpc.DiscordUserData), global::Tbrpc.DiscordUserData.Parser, new[]{ "Username", "Id" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbrpc.Money), global::Tbrpc.Money.Parser, new[]{ "Whole", "Cents" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbrpc.RpcClientConfig), global::Tbrpc.RpcClientConfig.Parser, new[]{ "RpcTimeoutMs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbrpc.LBTargetGCEBackendService), global::Tbrpc.LBTargetGCEBackendService.Parser, new[]{ "ServiceAccount", "ApiProxyUrl", "Project", "BackendService", "PollIntervalSecs", "EndpointUri" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbrpc.LBClientConfig), global::Tbrpc.LBClientConfig.Parser, new[]{ "Discovery", "Host", "Client", "FailureRetrySec", "IdlePingSec" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Status), typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Access), typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.SessionType), }, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Parser, new[]{ "Str", "Int", "Flt" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Str), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Str.Parser, new[]{ "Value" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Int), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Int.Parser, new[]{ "Value" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Float), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Float.Parser, new[]{ "Value" }, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LocMsg), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LocMsg.Parser, new[]{ "Id", "Param" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Result), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Result.Parser, new[]{ "Msg", "Content", "DeprecatedMsgId", "DeprecatedMsgParams" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Empty), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Empty.Parser, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.DiscordUserData), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.DiscordUserData.Parser, new[]{ "Username", "Id" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money.Parser, new[]{ "Whole", "Cents" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.RpcClientConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.RpcClientConfig.Parser, new[]{ "RpcTimeoutMs" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LBTargetGCEBackendService), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LBTargetGCEBackendService.Parser, new[]{ "ServiceAccount", "ApiProxyUrl", "Project", "BackendService", "PollIntervalSecs", "EndpointUri" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LBClientConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LBClientConfig.Parser, new[]{ "Discovery", "Host", "Client", "FailureRetrySec", "IdlePingSec" }, null, null, null)
           }));
     }
     #endregion
@@ -202,7 +202,7 @@ namespace Tbrpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbrpc.TbrpcReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.TbrpcReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -232,9 +232,9 @@ namespace Tbrpc {
 
     /// <summary>Field number for the "str" field.</summary>
     public const int StrFieldNumber = 1;
-    private global::Tbrpc.MsgParam.Types.Str str_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Str str_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbrpc.MsgParam.Types.Str Str {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Str Str {
       get { return str_; }
       set {
         str_ = value;
@@ -243,9 +243,9 @@ namespace Tbrpc {
 
     /// <summary>Field number for the "int" field.</summary>
     public const int IntFieldNumber = 2;
-    private global::Tbrpc.MsgParam.Types.Int int_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Int int_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbrpc.MsgParam.Types.Int Int {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Int Int {
       get { return int_; }
       set {
         int_ = value;
@@ -254,9 +254,9 @@ namespace Tbrpc {
 
     /// <summary>Field number for the "flt" field.</summary>
     public const int FltFieldNumber = 3;
-    private global::Tbrpc.MsgParam.Types.Float flt_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Float flt_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbrpc.MsgParam.Types.Float Flt {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Float Flt {
       get { return flt_; }
       set {
         flt_ = value;
@@ -343,19 +343,19 @@ namespace Tbrpc {
       }
       if (other.str_ != null) {
         if (str_ == null) {
-          str_ = new global::Tbrpc.MsgParam.Types.Str();
+          str_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Str();
         }
         Str.MergeFrom(other.Str);
       }
       if (other.int_ != null) {
         if (int_ == null) {
-          int_ = new global::Tbrpc.MsgParam.Types.Int();
+          int_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Int();
         }
         Int.MergeFrom(other.Int);
       }
       if (other.flt_ != null) {
         if (flt_ == null) {
-          flt_ = new global::Tbrpc.MsgParam.Types.Float();
+          flt_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Float();
         }
         Flt.MergeFrom(other.Flt);
       }
@@ -372,21 +372,21 @@ namespace Tbrpc {
             break;
           case 10: {
             if (str_ == null) {
-              str_ = new global::Tbrpc.MsgParam.Types.Str();
+              str_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Str();
             }
             input.ReadMessage(str_);
             break;
           }
           case 18: {
             if (int_ == null) {
-              int_ = new global::Tbrpc.MsgParam.Types.Int();
+              int_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Int();
             }
             input.ReadMessage(int_);
             break;
           }
           case 26: {
             if (flt_ == null) {
-              flt_ = new global::Tbrpc.MsgParam.Types.Float();
+              flt_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Float();
             }
             input.ReadMessage(flt_);
             break;
@@ -407,7 +407,7 @@ namespace Tbrpc {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::Tbrpc.MsgParam.Descriptor.NestedTypes[0]; }
+          get { return global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Descriptor.NestedTypes[0]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -536,7 +536,7 @@ namespace Tbrpc {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::Tbrpc.MsgParam.Descriptor.NestedTypes[1]; }
+          get { return global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Descriptor.NestedTypes[1]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -665,7 +665,7 @@ namespace Tbrpc {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::Tbrpc.MsgParam.Descriptor.NestedTypes[2]; }
+          get { return global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Descriptor.NestedTypes[2]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -802,7 +802,7 @@ namespace Tbrpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbrpc.TbrpcReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.TbrpcReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -842,11 +842,11 @@ namespace Tbrpc {
 
     /// <summary>Field number for the "param" field.</summary>
     public const int ParamFieldNumber = 2;
-    private static readonly pb::FieldCodec<global::Tbrpc.MsgParam> _repeated_param_codec
-        = pb::FieldCodec.ForMessage(18, global::Tbrpc.MsgParam.Parser);
-    private readonly pbc::RepeatedField<global::Tbrpc.MsgParam> param_ = new pbc::RepeatedField<global::Tbrpc.MsgParam>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam> _repeated_param_codec
+        = pb::FieldCodec.ForMessage(18, global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam> param_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbrpc.MsgParam> Param {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam> Param {
       get { return param_; }
     }
 
@@ -955,7 +955,7 @@ namespace Tbrpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbrpc.TbrpcReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.TbrpcReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -986,12 +986,12 @@ namespace Tbrpc {
 
     /// <summary>Field number for the "msg" field.</summary>
     public const int MsgFieldNumber = 4;
-    private global::Tbrpc.LocMsg msg_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LocMsg msg_;
     /// <summary>
     /// result message, usually set when result != S_SUCCESS.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbrpc.LocMsg Msg {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LocMsg Msg {
       get { return msg_; }
       set {
         msg_ = value;
@@ -1028,11 +1028,11 @@ namespace Tbrpc {
 
     /// <summary>Field number for the "deprecated_msg_params" field.</summary>
     public const int DeprecatedMsgParamsFieldNumber = 3;
-    private static readonly pb::FieldCodec<global::Tbrpc.MsgParam> _repeated_deprecatedMsgParams_codec
-        = pb::FieldCodec.ForMessage(26, global::Tbrpc.MsgParam.Parser);
-    private readonly pbc::RepeatedField<global::Tbrpc.MsgParam> deprecatedMsgParams_ = new pbc::RepeatedField<global::Tbrpc.MsgParam>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam> _repeated_deprecatedMsgParams_codec
+        = pb::FieldCodec.ForMessage(26, global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam> deprecatedMsgParams_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbrpc.MsgParam> DeprecatedMsgParams {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam> DeprecatedMsgParams {
       get { return deprecatedMsgParams_; }
     }
 
@@ -1120,7 +1120,7 @@ namespace Tbrpc {
       }
       if (other.msg_ != null) {
         if (msg_ == null) {
-          msg_ = new global::Tbrpc.LocMsg();
+          msg_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LocMsg();
         }
         Msg.MergeFrom(other.Msg);
       }
@@ -1152,7 +1152,7 @@ namespace Tbrpc {
           }
           case 34: {
             if (msg_ == null) {
-              msg_ = new global::Tbrpc.LocMsg();
+              msg_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LocMsg();
             }
             input.ReadMessage(msg_);
             break;
@@ -1181,7 +1181,7 @@ namespace Tbrpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbrpc.TbrpcReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.TbrpcReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1285,7 +1285,7 @@ namespace Tbrpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbrpc.TbrpcReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.TbrpcReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1462,7 +1462,7 @@ namespace Tbrpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbrpc.TbrpcReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.TbrpcReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1629,7 +1629,7 @@ namespace Tbrpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbrpc.TbrpcReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.TbrpcReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1761,7 +1761,7 @@ namespace Tbrpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbrpc.TbrpcReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.TbrpcReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2048,7 +2048,7 @@ namespace Tbrpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbrpc.TbrpcReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.TbrpcReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2080,12 +2080,12 @@ namespace Tbrpc {
 
     /// <summary>Field number for the "discovery" field.</summary>
     public const int DiscoveryFieldNumber = 1;
-    private global::Tbrpc.LBTargetGCEBackendService discovery_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LBTargetGCEBackendService discovery_;
     /// <summary>
     /// Backend service to use for API discovery monitor.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbrpc.LBTargetGCEBackendService Discovery {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LBTargetGCEBackendService Discovery {
       get { return discovery_; }
       set {
         discovery_ = value;
@@ -2107,12 +2107,12 @@ namespace Tbrpc {
 
     /// <summary>Field number for the "client" field.</summary>
     public const int ClientFieldNumber = 4;
-    private global::Tbrpc.RpcClientConfig client_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.RpcClientConfig client_;
     /// <summary>
     /// Per-host connection pool settings.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbrpc.RpcClientConfig Client {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.RpcClientConfig Client {
       get { return client_; }
       set {
         client_ = value;
@@ -2240,14 +2240,14 @@ namespace Tbrpc {
       }
       if (other.discovery_ != null) {
         if (discovery_ == null) {
-          discovery_ = new global::Tbrpc.LBTargetGCEBackendService();
+          discovery_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LBTargetGCEBackendService();
         }
         Discovery.MergeFrom(other.Discovery);
       }
       host_.Add(other.host_);
       if (other.client_ != null) {
         if (client_ == null) {
-          client_ = new global::Tbrpc.RpcClientConfig();
+          client_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.RpcClientConfig();
         }
         Client.MergeFrom(other.Client);
       }
@@ -2270,7 +2270,7 @@ namespace Tbrpc {
             break;
           case 10: {
             if (discovery_ == null) {
-              discovery_ = new global::Tbrpc.LBTargetGCEBackendService();
+              discovery_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LBTargetGCEBackendService();
             }
             input.ReadMessage(discovery_);
             break;
@@ -2281,7 +2281,7 @@ namespace Tbrpc {
           }
           case 34: {
             if (client_ == null) {
-              client_ = new global::Tbrpc.RpcClientConfig();
+              client_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.RpcClientConfig();
             }
             input.ReadMessage(client_);
             break;

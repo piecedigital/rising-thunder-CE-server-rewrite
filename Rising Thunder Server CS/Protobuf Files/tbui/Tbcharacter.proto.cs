@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Tbui {
+namespace Rising_Thunder_Server_CS.Protobufs.Tbui {
 
   /// <summary>Holder for reflection information generated from tbui/tbcharacter.proto</summary>
   public static partial class TbcharacterReflection {
@@ -79,28 +79,28 @@ namespace Tbui {
             "BRIPCgtSUlRfUEVSRkVDVBAGYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Tbui.WindowResolutionType), typeof(global::Tbui.GraphicsQualityType), typeof(global::Tbui.RoundResultType), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.UIVariantSpec), global::Tbui.UIVariantSpec.Parser, new[]{ "Id", "Name", "Description" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.UISpecialsSpec), global::Tbui.UISpecialsSpec.Parser, new[]{ "Variants" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.UIMechSpec), global::Tbui.UIMechSpec.Parser, new[]{ "Name" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.UIPilotSpec), global::Tbui.UIPilotSpec.Parser, new[]{ "Name", "Age", "Origin" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.UICharacterSpec), global::Tbui.UICharacterSpec.Parser, new[]{ "TypeName", "Mech", "Pilot", "Specials", "UiOrder" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.UICharacterData), global::Tbui.UICharacterData.Parser, new[]{ "CharSpecs", "SelectedChar", "SelectedOpp" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.GraphicsSettings), global::Tbui.GraphicsSettings.Parser, new[]{ "Vsync", "OverallQuality", "ResolutionQuality", "AntiAliasingQuality", "ShadowQuality", "PostProcessQuality", "TextureQuality", "EffectsQuality" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.Resolution), global::Tbui.Resolution.Parser, new[]{ "Width", "Height" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.ResolutionSettings), global::Tbui.ResolutionSettings.Parser, new[]{ "AvailableResolutions", "CurrentResolution", "Type" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.GraphicsSpec), global::Tbui.GraphicsSpec.Parser, new[]{ "Resolution", "Graphics" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.LocalPlayerPreferences), global::Tbui.LocalPlayerPreferences.Parser, new[]{ "KeyBindings", "SkillEstimate" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.KeyBinding), global::Tbui.KeyBinding.Parser, new[]{ "BoundKeys" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.KeyBindingSet), global::Tbui.KeyBindingSet.Parser, new[]{ "Bindings" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.KeyBindingConfig), global::Tbui.KeyBindingConfig.Parser, new[]{ "InputBinding" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.GlobalSettings), global::Tbui.GlobalSettings.Parser, new[]{ "ServerUrl", "ListenPort", "BuildVersion", "AutoPlay", "InactiveTimeoutSec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.NetworkSpec), global::Tbui.NetworkSpec.Parser, new[]{ "AutoConf", "LocalPort", "ExternalPort" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.SoundSpec), global::Tbui.SoundSpec.Parser, new[]{ "MusicVolume", "VoVolume", "FxVolume", "VolumeMax" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.GameOutcome), global::Tbui.GameOutcome.Parser, new[]{ "Winner", "Loser", "Draw", "P1Won", "P2Won" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.DebugSpec), global::Tbui.DebugSpec.Parser, new[]{ "GgpoLog" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.PlayerRoundHistory), global::Tbui.PlayerRoundHistory.Parser, new[]{ "History" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbui.RoundHistory), global::Tbui.RoundHistory.Parser, new[]{ "PlayerHistory" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.WindowResolutionType), typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType), typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.RoundResultType), }, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIVariantSpec), global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIVariantSpec.Parser, new[]{ "Id", "Name", "Description" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.UISpecialsSpec), global::Rising_Thunder_Server_CS.Protobufs.Tbui.UISpecialsSpec.Parser, new[]{ "Variants" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIMechSpec), global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIMechSpec.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIPilotSpec), global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIPilotSpec.Parser, new[]{ "Name", "Age", "Origin" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.UICharacterSpec), global::Rising_Thunder_Server_CS.Protobufs.Tbui.UICharacterSpec.Parser, new[]{ "TypeName", "Mech", "Pilot", "Specials", "UiOrder" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.UICharacterData), global::Rising_Thunder_Server_CS.Protobufs.Tbui.UICharacterData.Parser, new[]{ "CharSpecs", "SelectedChar", "SelectedOpp" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsSettings), global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsSettings.Parser, new[]{ "Vsync", "OverallQuality", "ResolutionQuality", "AntiAliasingQuality", "ShadowQuality", "PostProcessQuality", "TextureQuality", "EffectsQuality" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.Resolution), global::Rising_Thunder_Server_CS.Protobufs.Tbui.Resolution.Parser, new[]{ "Width", "Height" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.ResolutionSettings), global::Rising_Thunder_Server_CS.Protobufs.Tbui.ResolutionSettings.Parser, new[]{ "AvailableResolutions", "CurrentResolution", "Type" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsSpec), global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsSpec.Parser, new[]{ "Resolution", "Graphics" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.LocalPlayerPreferences), global::Rising_Thunder_Server_CS.Protobufs.Tbui.LocalPlayerPreferences.Parser, new[]{ "KeyBindings", "SkillEstimate" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBinding), global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBinding.Parser, new[]{ "BoundKeys" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBindingSet), global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBindingSet.Parser, new[]{ "Bindings" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBindingConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBindingConfig.Parser, new[]{ "InputBinding" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.GlobalSettings), global::Rising_Thunder_Server_CS.Protobufs.Tbui.GlobalSettings.Parser, new[]{ "ServerUrl", "ListenPort", "BuildVersion", "AutoPlay", "InactiveTimeoutSec" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.NetworkSpec), global::Rising_Thunder_Server_CS.Protobufs.Tbui.NetworkSpec.Parser, new[]{ "AutoConf", "LocalPort", "ExternalPort" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.SoundSpec), global::Rising_Thunder_Server_CS.Protobufs.Tbui.SoundSpec.Parser, new[]{ "MusicVolume", "VoVolume", "FxVolume", "VolumeMax" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.GameOutcome), global::Rising_Thunder_Server_CS.Protobufs.Tbui.GameOutcome.Parser, new[]{ "Winner", "Loser", "Draw", "P1Won", "P2Won" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.DebugSpec), global::Rising_Thunder_Server_CS.Protobufs.Tbui.DebugSpec.Parser, new[]{ "GgpoLog" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.PlayerRoundHistory), global::Rising_Thunder_Server_CS.Protobufs.Tbui.PlayerRoundHistory.Parser, new[]{ "History" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbui.RoundHistory), global::Rising_Thunder_Server_CS.Protobufs.Tbui.RoundHistory.Parser, new[]{ "PlayerHistory" }, null, null, null)
           }));
     }
     #endregion
@@ -152,7 +152,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -337,7 +337,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -365,11 +365,11 @@ namespace Tbui {
 
     /// <summary>Field number for the "variants" field.</summary>
     public const int VariantsFieldNumber = 2;
-    private static readonly pb::FieldCodec<global::Tbui.UIVariantSpec> _repeated_variants_codec
-        = pb::FieldCodec.ForMessage(18, global::Tbui.UIVariantSpec.Parser);
-    private readonly pbc::RepeatedField<global::Tbui.UIVariantSpec> variants_ = new pbc::RepeatedField<global::Tbui.UIVariantSpec>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIVariantSpec> _repeated_variants_codec
+        = pb::FieldCodec.ForMessage(18, global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIVariantSpec.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIVariantSpec> variants_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIVariantSpec>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbui.UIVariantSpec> Variants {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIVariantSpec> Variants {
       get { return variants_; }
     }
 
@@ -458,7 +458,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -587,7 +587,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -772,7 +772,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -815,9 +815,9 @@ namespace Tbui {
 
     /// <summary>Field number for the "mech" field.</summary>
     public const int MechFieldNumber = 2;
-    private global::Tbui.UIMechSpec mech_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIMechSpec mech_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbui.UIMechSpec Mech {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIMechSpec Mech {
       get { return mech_; }
       set {
         mech_ = value;
@@ -826,9 +826,9 @@ namespace Tbui {
 
     /// <summary>Field number for the "pilot" field.</summary>
     public const int PilotFieldNumber = 3;
-    private global::Tbui.UIPilotSpec pilot_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIPilotSpec pilot_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbui.UIPilotSpec Pilot {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIPilotSpec Pilot {
       get { return pilot_; }
       set {
         pilot_ = value;
@@ -837,11 +837,11 @@ namespace Tbui {
 
     /// <summary>Field number for the "specials" field.</summary>
     public const int SpecialsFieldNumber = 4;
-    private static readonly pb::FieldCodec<global::Tbui.UISpecialsSpec> _repeated_specials_codec
-        = pb::FieldCodec.ForMessage(34, global::Tbui.UISpecialsSpec.Parser);
-    private readonly pbc::RepeatedField<global::Tbui.UISpecialsSpec> specials_ = new pbc::RepeatedField<global::Tbui.UISpecialsSpec>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbui.UISpecialsSpec> _repeated_specials_codec
+        = pb::FieldCodec.ForMessage(34, global::Rising_Thunder_Server_CS.Protobufs.Tbui.UISpecialsSpec.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.UISpecialsSpec> specials_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.UISpecialsSpec>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbui.UISpecialsSpec> Specials {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.UISpecialsSpec> Specials {
       get { return specials_; }
     }
 
@@ -952,13 +952,13 @@ namespace Tbui {
       }
       if (other.mech_ != null) {
         if (mech_ == null) {
-          mech_ = new global::Tbui.UIMechSpec();
+          mech_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIMechSpec();
         }
         Mech.MergeFrom(other.Mech);
       }
       if (other.pilot_ != null) {
         if (pilot_ == null) {
-          pilot_ = new global::Tbui.UIPilotSpec();
+          pilot_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIPilotSpec();
         }
         Pilot.MergeFrom(other.Pilot);
       }
@@ -983,14 +983,14 @@ namespace Tbui {
           }
           case 18: {
             if (mech_ == null) {
-              mech_ = new global::Tbui.UIMechSpec();
+              mech_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIMechSpec();
             }
             input.ReadMessage(mech_);
             break;
           }
           case 26: {
             if (pilot_ == null) {
-              pilot_ = new global::Tbui.UIPilotSpec();
+              pilot_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbui.UIPilotSpec();
             }
             input.ReadMessage(pilot_);
             break;
@@ -1017,7 +1017,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1047,11 +1047,11 @@ namespace Tbui {
 
     /// <summary>Field number for the "char_specs" field.</summary>
     public const int CharSpecsFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbui.UICharacterSpec> _repeated_charSpecs_codec
-        = pb::FieldCodec.ForMessage(10, global::Tbui.UICharacterSpec.Parser);
-    private readonly pbc::RepeatedField<global::Tbui.UICharacterSpec> charSpecs_ = new pbc::RepeatedField<global::Tbui.UICharacterSpec>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbui.UICharacterSpec> _repeated_charSpecs_codec
+        = pb::FieldCodec.ForMessage(10, global::Rising_Thunder_Server_CS.Protobufs.Tbui.UICharacterSpec.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.UICharacterSpec> charSpecs_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.UICharacterSpec>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbui.UICharacterSpec> CharSpecs {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.UICharacterSpec> CharSpecs {
       get { return charSpecs_; }
     }
 
@@ -1197,7 +1197,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1243,9 +1243,9 @@ namespace Tbui {
 
     /// <summary>Field number for the "overall_quality" field.</summary>
     public const int OverallQualityFieldNumber = 2;
-    private global::Tbui.GraphicsQualityType overallQuality_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType overallQuality_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbui.GraphicsQualityType OverallQuality {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType OverallQuality {
       get { return overallQuality_; }
       set {
         overallQuality_ = value;
@@ -1254,9 +1254,9 @@ namespace Tbui {
 
     /// <summary>Field number for the "resolution_quality" field.</summary>
     public const int ResolutionQualityFieldNumber = 3;
-    private global::Tbui.GraphicsQualityType resolutionQuality_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType resolutionQuality_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbui.GraphicsQualityType ResolutionQuality {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType ResolutionQuality {
       get { return resolutionQuality_; }
       set {
         resolutionQuality_ = value;
@@ -1265,9 +1265,9 @@ namespace Tbui {
 
     /// <summary>Field number for the "anti_aliasing_quality" field.</summary>
     public const int AntiAliasingQualityFieldNumber = 4;
-    private global::Tbui.GraphicsQualityType antiAliasingQuality_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType antiAliasingQuality_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbui.GraphicsQualityType AntiAliasingQuality {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType AntiAliasingQuality {
       get { return antiAliasingQuality_; }
       set {
         antiAliasingQuality_ = value;
@@ -1276,9 +1276,9 @@ namespace Tbui {
 
     /// <summary>Field number for the "shadow_quality" field.</summary>
     public const int ShadowQualityFieldNumber = 5;
-    private global::Tbui.GraphicsQualityType shadowQuality_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType shadowQuality_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbui.GraphicsQualityType ShadowQuality {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType ShadowQuality {
       get { return shadowQuality_; }
       set {
         shadowQuality_ = value;
@@ -1287,9 +1287,9 @@ namespace Tbui {
 
     /// <summary>Field number for the "post_process_quality" field.</summary>
     public const int PostProcessQualityFieldNumber = 6;
-    private global::Tbui.GraphicsQualityType postProcessQuality_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType postProcessQuality_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbui.GraphicsQualityType PostProcessQuality {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType PostProcessQuality {
       get { return postProcessQuality_; }
       set {
         postProcessQuality_ = value;
@@ -1298,9 +1298,9 @@ namespace Tbui {
 
     /// <summary>Field number for the "texture_quality" field.</summary>
     public const int TextureQualityFieldNumber = 7;
-    private global::Tbui.GraphicsQualityType textureQuality_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType textureQuality_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbui.GraphicsQualityType TextureQuality {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType TextureQuality {
       get { return textureQuality_; }
       set {
         textureQuality_ = value;
@@ -1309,9 +1309,9 @@ namespace Tbui {
 
     /// <summary>Field number for the "effects_quality" field.</summary>
     public const int EffectsQualityFieldNumber = 8;
-    private global::Tbui.GraphicsQualityType effectsQuality_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType effectsQuality_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbui.GraphicsQualityType EffectsQuality {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType EffectsQuality {
       get { return effectsQuality_; }
       set {
         effectsQuality_ = value;
@@ -1481,31 +1481,31 @@ namespace Tbui {
             break;
           }
           case 16: {
-            overallQuality_ = (global::Tbui.GraphicsQualityType) input.ReadEnum();
+            overallQuality_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType) input.ReadEnum();
             break;
           }
           case 24: {
-            resolutionQuality_ = (global::Tbui.GraphicsQualityType) input.ReadEnum();
+            resolutionQuality_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType) input.ReadEnum();
             break;
           }
           case 32: {
-            antiAliasingQuality_ = (global::Tbui.GraphicsQualityType) input.ReadEnum();
+            antiAliasingQuality_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType) input.ReadEnum();
             break;
           }
           case 40: {
-            shadowQuality_ = (global::Tbui.GraphicsQualityType) input.ReadEnum();
+            shadowQuality_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType) input.ReadEnum();
             break;
           }
           case 48: {
-            postProcessQuality_ = (global::Tbui.GraphicsQualityType) input.ReadEnum();
+            postProcessQuality_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType) input.ReadEnum();
             break;
           }
           case 56: {
-            textureQuality_ = (global::Tbui.GraphicsQualityType) input.ReadEnum();
+            textureQuality_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType) input.ReadEnum();
             break;
           }
           case 64: {
-            effectsQuality_ = (global::Tbui.GraphicsQualityType) input.ReadEnum();
+            effectsQuality_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsQualityType) input.ReadEnum();
             break;
           }
         }
@@ -1522,7 +1522,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1679,7 +1679,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1709,11 +1709,11 @@ namespace Tbui {
 
     /// <summary>Field number for the "available_resolutions" field.</summary>
     public const int AvailableResolutionsFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbui.Resolution> _repeated_availableResolutions_codec
-        = pb::FieldCodec.ForMessage(10, global::Tbui.Resolution.Parser);
-    private readonly pbc::RepeatedField<global::Tbui.Resolution> availableResolutions_ = new pbc::RepeatedField<global::Tbui.Resolution>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbui.Resolution> _repeated_availableResolutions_codec
+        = pb::FieldCodec.ForMessage(10, global::Rising_Thunder_Server_CS.Protobufs.Tbui.Resolution.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.Resolution> availableResolutions_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.Resolution>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbui.Resolution> AvailableResolutions {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.Resolution> AvailableResolutions {
       get { return availableResolutions_; }
     }
 
@@ -1733,9 +1733,9 @@ namespace Tbui {
 
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 3;
-    private global::Tbui.WindowResolutionType type_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbui.WindowResolutionType type_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbui.WindowResolutionType Type {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbui.WindowResolutionType Type {
       get { return type_; }
       set {
         type_ = value;
@@ -1842,7 +1842,7 @@ namespace Tbui {
             break;
           }
           case 24: {
-            type_ = (global::Tbui.WindowResolutionType) input.ReadEnum();
+            type_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbui.WindowResolutionType) input.ReadEnum();
             break;
           }
         }
@@ -1859,7 +1859,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1888,9 +1888,9 @@ namespace Tbui {
 
     /// <summary>Field number for the "resolution" field.</summary>
     public const int ResolutionFieldNumber = 1;
-    private global::Tbui.ResolutionSettings resolution_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbui.ResolutionSettings resolution_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbui.ResolutionSettings Resolution {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbui.ResolutionSettings Resolution {
       get { return resolution_; }
       set {
         resolution_ = value;
@@ -1899,9 +1899,9 @@ namespace Tbui {
 
     /// <summary>Field number for the "graphics" field.</summary>
     public const int GraphicsFieldNumber = 2;
-    private global::Tbui.GraphicsSettings graphics_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsSettings graphics_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbui.GraphicsSettings Graphics {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsSettings Graphics {
       get { return graphics_; }
       set {
         graphics_ = value;
@@ -1979,13 +1979,13 @@ namespace Tbui {
       }
       if (other.resolution_ != null) {
         if (resolution_ == null) {
-          resolution_ = new global::Tbui.ResolutionSettings();
+          resolution_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbui.ResolutionSettings();
         }
         Resolution.MergeFrom(other.Resolution);
       }
       if (other.graphics_ != null) {
         if (graphics_ == null) {
-          graphics_ = new global::Tbui.GraphicsSettings();
+          graphics_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsSettings();
         }
         Graphics.MergeFrom(other.Graphics);
       }
@@ -2002,14 +2002,14 @@ namespace Tbui {
             break;
           case 10: {
             if (resolution_ == null) {
-              resolution_ = new global::Tbui.ResolutionSettings();
+              resolution_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbui.ResolutionSettings();
             }
             input.ReadMessage(resolution_);
             break;
           }
           case 18: {
             if (graphics_ == null) {
-              graphics_ = new global::Tbui.GraphicsSettings();
+              graphics_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbui.GraphicsSettings();
             }
             input.ReadMessage(graphics_);
             break;
@@ -2032,7 +2032,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2061,9 +2061,9 @@ namespace Tbui {
 
     /// <summary>Field number for the "key_bindings" field.</summary>
     public const int KeyBindingsFieldNumber = 1;
-    private global::Tbui.KeyBindingConfig keyBindings_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBindingConfig keyBindings_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbui.KeyBindingConfig KeyBindings {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBindingConfig KeyBindings {
       get { return keyBindings_; }
       set {
         keyBindings_ = value;
@@ -2152,7 +2152,7 @@ namespace Tbui {
       }
       if (other.keyBindings_ != null) {
         if (keyBindings_ == null) {
-          keyBindings_ = new global::Tbui.KeyBindingConfig();
+          keyBindings_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBindingConfig();
         }
         KeyBindings.MergeFrom(other.KeyBindings);
       }
@@ -2172,7 +2172,7 @@ namespace Tbui {
             break;
           case 10: {
             if (keyBindings_ == null) {
-              keyBindings_ = new global::Tbui.KeyBindingConfig();
+              keyBindings_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBindingConfig();
             }
             input.ReadMessage(keyBindings_);
             break;
@@ -2195,7 +2195,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2319,7 +2319,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2347,14 +2347,14 @@ namespace Tbui {
 
     /// <summary>Field number for the "bindings" field.</summary>
     public const int BindingsFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbui.KeyBinding> _repeated_bindings_codec
-        = pb::FieldCodec.ForMessage(10, global::Tbui.KeyBinding.Parser);
-    private readonly pbc::RepeatedField<global::Tbui.KeyBinding> bindings_ = new pbc::RepeatedField<global::Tbui.KeyBinding>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBinding> _repeated_bindings_codec
+        = pb::FieldCodec.ForMessage(10, global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBinding.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBinding> bindings_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBinding>();
     /// <summary>
     /// The id of the binding is its position in the array.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbui.KeyBinding> Bindings {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBinding> Bindings {
       get { return bindings_; }
     }
 
@@ -2443,7 +2443,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2471,14 +2471,14 @@ namespace Tbui {
 
     /// <summary>Field number for the "input_binding" field.</summary>
     public const int InputBindingFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbui.KeyBindingSet> _repeated_inputBinding_codec
-        = pb::FieldCodec.ForMessage(10, global::Tbui.KeyBindingSet.Parser);
-    private readonly pbc::RepeatedField<global::Tbui.KeyBindingSet> inputBinding_ = new pbc::RepeatedField<global::Tbui.KeyBindingSet>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBindingSet> _repeated_inputBinding_codec
+        = pb::FieldCodec.ForMessage(10, global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBindingSet.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBindingSet> inputBinding_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBindingSet>();
     /// <summary>
     /// A set of bindings for every type of input (controller, keyboard)
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbui.KeyBindingSet> InputBinding {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.KeyBindingSet> InputBinding {
       get { return inputBinding_; }
     }
 
@@ -2570,7 +2570,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2811,7 +2811,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3008,7 +3008,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3221,7 +3221,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3477,7 +3477,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3609,7 +3609,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3637,11 +3637,11 @@ namespace Tbui {
 
     /// <summary>Field number for the "history" field.</summary>
     public const int HistoryFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbui.RoundResultType> _repeated_history_codec
-        = pb::FieldCodec.ForEnum(10, x => (int) x, x => (global::Tbui.RoundResultType) x);
-    private readonly pbc::RepeatedField<global::Tbui.RoundResultType> history_ = new pbc::RepeatedField<global::Tbui.RoundResultType>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbui.RoundResultType> _repeated_history_codec
+        = pb::FieldCodec.ForEnum(10, x => (int) x, x => (global::Rising_Thunder_Server_CS.Protobufs.Tbui.RoundResultType) x);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.RoundResultType> history_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.RoundResultType>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbui.RoundResultType> History {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.RoundResultType> History {
       get { return history_; }
     }
 
@@ -3731,7 +3731,7 @@ namespace Tbui {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbui.TbcharacterReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbui.TbcharacterReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3759,11 +3759,11 @@ namespace Tbui {
 
     /// <summary>Field number for the "player_history" field.</summary>
     public const int PlayerHistoryFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbui.PlayerRoundHistory> _repeated_playerHistory_codec
-        = pb::FieldCodec.ForMessage(10, global::Tbui.PlayerRoundHistory.Parser);
-    private readonly pbc::RepeatedField<global::Tbui.PlayerRoundHistory> playerHistory_ = new pbc::RepeatedField<global::Tbui.PlayerRoundHistory>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbui.PlayerRoundHistory> _repeated_playerHistory_codec
+        = pb::FieldCodec.ForMessage(10, global::Rising_Thunder_Server_CS.Protobufs.Tbui.PlayerRoundHistory.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.PlayerRoundHistory> playerHistory_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.PlayerRoundHistory>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbui.PlayerRoundHistory> PlayerHistory {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbui.PlayerRoundHistory> PlayerHistory {
       get { return playerHistory_; }
     }
 

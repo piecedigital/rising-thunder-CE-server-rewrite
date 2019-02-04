@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Tbmatch {
+namespace Rising_Thunder_Server_CS.Protobufs.Tbmatch {
 
   /// <summary>Holder for reflection information generated from tbmatch/query.proto</summary>
   public static partial class QueryReflection {
@@ -32,9 +32,9 @@ namespace Tbmatch {
             "bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Tbmatch.MatchPattern), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.StringMatch), global::Tbmatch.StringMatch.Parser, new[]{ "Pattern", "Value" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.TimeRange), global::Tbmatch.TimeRange.Parser, new[]{ "Start", "End" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchPattern), }, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch.Parser, new[]{ "Pattern", "Value" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange.Parser, new[]{ "Start", "End" }, null, null, null)
           }));
     }
     #endregion
@@ -71,7 +71,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.QueryReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.QueryReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -100,9 +100,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "pattern" field.</summary>
     public const int PatternFieldNumber = 1;
-    private global::Tbmatch.MatchPattern pattern_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchPattern pattern_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.MatchPattern Pattern {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchPattern Pattern {
       get { return pattern_; }
       set {
         pattern_ = value;
@@ -207,7 +207,7 @@ namespace Tbmatch {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            pattern_ = (global::Tbmatch.MatchPattern) input.ReadEnum();
+            pattern_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchPattern) input.ReadEnum();
             break;
           }
           case 18: {
@@ -231,7 +231,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.QueryReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.QueryReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Tbmatch {
+namespace Rising_Thunder_Server_CS.Protobufs.Tbmatch {
 
   /// <summary>Holder for reflection information generated from tbmatch/event.proto</summary>
   public static partial class EventReflection {
@@ -110,29 +110,29 @@ namespace Tbmatch {
             "GAHQ8xgBEjEKCUV2ZW50UGluZxIMLnRicnBjLkVtcHR5GgwudGJycGMuRW1w",
             "dHkiCMjzGAHQ8xgBYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Tbrpc.TbrpcReflection.Descriptor, global::Tbmatch.MatchReflection.Descriptor, global::Tbmatch.LobbyReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.TbrpcReflection.Descriptor, global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchReflection.Descriptor, global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.FilterChangedEvent), global::Tbmatch.FilterChangedEvent.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.WaitMatchProgressEvent), global::Tbmatch.WaitMatchProgressEvent.Parser, new[]{ "Status", "MatchId", "Config", "Endpoint", "UsersWaiting", "DeprecatedUsersOnline" }, null, new[]{ typeof(global::Tbmatch.WaitMatchProgressEvent.Types.Status) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.MatchCreatedEvent), global::Tbmatch.MatchCreatedEvent.Parser, new[]{ "GameConfig", "DeprecatedMatchId", "DeprecatedUserId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.MatchConnectedEvent), global::Tbmatch.MatchConnectedEvent.Parser, new[]{ "MatchId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.GameBeginEvent), global::Tbmatch.GameBeginEvent.Parser, new[]{ "MatchId", "NextGame", "SequenceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.GameInputEvent), global::Tbmatch.GameInputEvent.Parser, new[]{ "MatchId", "StartFrame", "NumBits", "Bits", "Final" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.GameOverEvent), global::Tbmatch.GameOverEvent.Parser, new[]{ "MatchId", "Report", "SequenceId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.MatchAbandonedEvent), global::Tbmatch.MatchAbandonedEvent.Parser, new[]{ "MatchId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.MatchOverEvent), global::Tbmatch.MatchOverEvent.Parser, new[]{ "MatchId", "Status", "WinSlot", "Draw" }, null, new[]{ typeof(global::Tbmatch.MatchOverEvent.Types.Status) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.MatchOutcomeEvent), global::Tbmatch.MatchOutcomeEvent.Parser, new[]{ "Result", "Exp", "StatsUpdate" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.UserCheckNetworkEvent), global::Tbmatch.UserCheckNetworkEvent.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.UserSessionClosedEvent), global::Tbmatch.UserSessionClosedEvent.Parser, new[]{ "ReasonMsgId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.PingTestCompleteEvent), global::Tbmatch.PingTestCompleteEvent.Parser, new[]{ "AvgRttMs", "MaxRttMs", "LossRatio", "Success" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.LobbyJoinEvent), global::Tbmatch.LobbyJoinEvent.Parser, new[]{ "Lobby" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.LobbyLeaveEvent), global::Tbmatch.LobbyLeaveEvent.Parser, new[]{ "LobbyId", "Reason" }, null, new[]{ typeof(global::Tbmatch.LobbyLeaveEvent.Types.Reason) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.LobbyUpdateEvent), global::Tbmatch.LobbyUpdateEvent.Parser, new[]{ "LobbyId", "Update", "Removed", "State", "GameConfig", "Queue", "Options" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.LobbyMatchStartEvent), global::Tbmatch.LobbyMatchStartEvent.Parser, new[]{ "LobbyId", "MatchId", "Config", "Endpoint" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.Event), global::Tbmatch.Event.Parser, new[]{ "EventId", "Type", "TimestampMsec", "FilterChanged", "WaitMatchProgress", "MatchCreated", "MatchOutcome", "MatchAbandoned", "MatchConnected", "MatchOver", "GameBegin", "GameInput", "GameOver", "UserCheckNetwork", "UserSessionClosed", "PingTestComplete", "LobbyJoin", "LobbyLeave", "LobbyUpdate", "LobbyMatchStart" }, null, new[]{ typeof(global::Tbmatch.Event.Types.Type) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.QueuedEvent), global::Tbmatch.QueuedEvent.Parser, new[]{ "Event", "RestrictSessionId", "ExpiryTimestampMsec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.GetEventRequest), global::Tbmatch.GetEventRequest.Parser, new[]{ "Version" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.GetEventResult), global::Tbmatch.GetEventResult.Parser, new[]{ "Version", "Event" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.FilterChangedEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.FilterChangedEvent.Parser, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.WaitMatchProgressEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.WaitMatchProgressEvent.Parser, new[]{ "Status", "MatchId", "Config", "Endpoint", "UsersWaiting", "DeprecatedUsersOnline" }, null, new[]{ typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.WaitMatchProgressEvent.Types.Status) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchCreatedEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchCreatedEvent.Parser, new[]{ "GameConfig", "DeprecatedMatchId", "DeprecatedUserId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchConnectedEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchConnectedEvent.Parser, new[]{ "MatchId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameBeginEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameBeginEvent.Parser, new[]{ "MatchId", "NextGame", "SequenceId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameInputEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameInputEvent.Parser, new[]{ "MatchId", "StartFrame", "NumBits", "Bits", "Final" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameOverEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameOverEvent.Parser, new[]{ "MatchId", "Report", "SequenceId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchAbandonedEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchAbandonedEvent.Parser, new[]{ "MatchId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchOverEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchOverEvent.Parser, new[]{ "MatchId", "Status", "WinSlot", "Draw" }, null, new[]{ typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchOverEvent.Types.Status) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchOutcomeEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchOutcomeEvent.Parser, new[]{ "Result", "Exp", "StatsUpdate" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserCheckNetworkEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserCheckNetworkEvent.Parser, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserSessionClosedEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserSessionClosedEvent.Parser, new[]{ "ReasonMsgId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PingTestCompleteEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PingTestCompleteEvent.Parser, new[]{ "AvgRttMs", "MaxRttMs", "LossRatio", "Success" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyJoinEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyJoinEvent.Parser, new[]{ "Lobby" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyLeaveEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyLeaveEvent.Parser, new[]{ "LobbyId", "Reason" }, null, new[]{ typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyLeaveEvent.Types.Reason) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyUpdateEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyUpdateEvent.Parser, new[]{ "LobbyId", "Update", "Removed", "State", "GameConfig", "Queue", "Options" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyMatchStartEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyMatchStartEvent.Parser, new[]{ "LobbyId", "MatchId", "Config", "Endpoint" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Event), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Event.Parser, new[]{ "EventId", "Type", "TimestampMsec", "FilterChanged", "WaitMatchProgress", "MatchCreated", "MatchOutcome", "MatchAbandoned", "MatchConnected", "MatchOver", "GameBegin", "GameInput", "GameOver", "UserCheckNetwork", "UserSessionClosed", "PingTestComplete", "LobbyJoin", "LobbyLeave", "LobbyUpdate", "LobbyMatchStart" }, null, new[]{ typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Event.Types.Type) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.QueuedEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.QueuedEvent.Parser, new[]{ "Event", "RestrictSessionId", "ExpiryTimestampMsec" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GetEventRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GetEventRequest.Parser, new[]{ "Version" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GetEventResult), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GetEventResult.Parser, new[]{ "Version", "Event" }, null, null, null)
           }));
     }
     #endregion
@@ -152,7 +152,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -257,7 +257,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -290,9 +290,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 1;
-    private global::Tbmatch.WaitMatchProgressEvent.Types.Status status_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.WaitMatchProgressEvent.Types.Status status_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.WaitMatchProgressEvent.Types.Status Status {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.WaitMatchProgressEvent.Types.Status Status {
       get { return status_; }
       set {
         status_ = value;
@@ -315,12 +315,12 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "config" field.</summary>
     public const int ConfigFieldNumber = 3;
-    private global::Tbmatch.GameConfig config_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameConfig config_;
     /// <summary>
     /// Game config to run for game 0 (when status == MATCH).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.GameConfig Config {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameConfig Config {
       get { return config_; }
       set {
         config_ = value;
@@ -329,12 +329,12 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "endpoint" field.</summary>
     public const int EndpointFieldNumber = 4;
-    private global::Tbmatch.GameEndpointConfig endpoint_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameEndpointConfig endpoint_;
     /// <summary>
     /// Player slot and connection for game 0 (when status == MATCH).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.GameEndpointConfig Endpoint {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameEndpointConfig Endpoint {
       get { return endpoint_; }
       set {
         endpoint_ = value;
@@ -482,13 +482,13 @@ namespace Tbmatch {
       }
       if (other.config_ != null) {
         if (config_ == null) {
-          config_ = new global::Tbmatch.GameConfig();
+          config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameConfig();
         }
         Config.MergeFrom(other.Config);
       }
       if (other.endpoint_ != null) {
         if (endpoint_ == null) {
-          endpoint_ = new global::Tbmatch.GameEndpointConfig();
+          endpoint_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameEndpointConfig();
         }
         Endpoint.MergeFrom(other.Endpoint);
       }
@@ -510,7 +510,7 @@ namespace Tbmatch {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            status_ = (global::Tbmatch.WaitMatchProgressEvent.Types.Status) input.ReadEnum();
+            status_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.WaitMatchProgressEvent.Types.Status) input.ReadEnum();
             break;
           }
           case 16: {
@@ -519,14 +519,14 @@ namespace Tbmatch {
           }
           case 26: {
             if (config_ == null) {
-              config_ = new global::Tbmatch.GameConfig();
+              config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameConfig();
             }
             input.ReadMessage(config_);
             break;
           }
           case 34: {
             if (endpoint_ == null) {
-              endpoint_ = new global::Tbmatch.GameEndpointConfig();
+              endpoint_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameEndpointConfig();
             }
             input.ReadMessage(endpoint_);
             break;
@@ -598,7 +598,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -628,9 +628,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "game_config" field.</summary>
     public const int GameConfigFieldNumber = 3;
-    private global::Tbmatch.GameConfig gameConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameConfig gameConfig_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.GameConfig GameConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameConfig GameConfig {
       get { return gameConfig_; }
       set {
         gameConfig_ = value;
@@ -733,7 +733,7 @@ namespace Tbmatch {
       }
       if (other.gameConfig_ != null) {
         if (gameConfig_ == null) {
-          gameConfig_ = new global::Tbmatch.GameConfig();
+          gameConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameConfig();
         }
         GameConfig.MergeFrom(other.GameConfig);
       }
@@ -763,7 +763,7 @@ namespace Tbmatch {
           }
           case 26: {
             if (gameConfig_ == null) {
-              gameConfig_ = new global::Tbmatch.GameConfig();
+              gameConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameConfig();
             }
             input.ReadMessage(gameConfig_);
             break;
@@ -787,7 +787,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -920,7 +920,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -961,9 +961,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "next_game" field.</summary>
     public const int NextGameFieldNumber = 2;
-    private global::Tbmatch.NextGameConfig nextGame_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.NextGameConfig nextGame_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.NextGameConfig NextGame {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.NextGameConfig NextGame {
       get { return nextGame_; }
       set {
         nextGame_ = value;
@@ -1068,7 +1068,7 @@ namespace Tbmatch {
       }
       if (other.nextGame_ != null) {
         if (nextGame_ == null) {
-          nextGame_ = new global::Tbmatch.NextGameConfig();
+          nextGame_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.NextGameConfig();
         }
         NextGame.MergeFrom(other.NextGame);
       }
@@ -1092,7 +1092,7 @@ namespace Tbmatch {
           }
           case 18: {
             if (nextGame_ == null) {
-              nextGame_ = new global::Tbmatch.NextGameConfig();
+              nextGame_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.NextGameConfig();
             }
             input.ReadMessage(nextGame_);
             break;
@@ -1119,7 +1119,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1376,7 +1376,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1417,9 +1417,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "report" field.</summary>
     public const int ReportFieldNumber = 2;
-    private global::Tbmatch.GameReport report_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameReport report_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.GameReport Report {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameReport Report {
       get { return report_; }
       set {
         report_ = value;
@@ -1520,7 +1520,7 @@ namespace Tbmatch {
       }
       if (other.report_ != null) {
         if (report_ == null) {
-          report_ = new global::Tbmatch.GameReport();
+          report_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameReport();
         }
         Report.MergeFrom(other.Report);
       }
@@ -1544,7 +1544,7 @@ namespace Tbmatch {
           }
           case 18: {
             if (report_ == null) {
-              report_ = new global::Tbmatch.GameReport();
+              report_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameReport();
             }
             input.ReadMessage(report_);
             break;
@@ -1573,7 +1573,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1706,7 +1706,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1748,9 +1748,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 2;
-    private global::Tbmatch.MatchOverEvent.Types.Status status_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchOverEvent.Types.Status status_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.MatchOverEvent.Types.Status Status {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchOverEvent.Types.Status Status {
       get { return status_; }
       set {
         status_ = value;
@@ -1900,7 +1900,7 @@ namespace Tbmatch {
             break;
           }
           case 16: {
-            status_ = (global::Tbmatch.MatchOverEvent.Types.Status) input.ReadEnum();
+            status_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchOverEvent.Types.Status) input.ReadEnum();
             break;
           }
           case 24: {
@@ -1954,7 +1954,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1984,12 +1984,12 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "result" field.</summary>
     public const int ResultFieldNumber = 1;
-    private global::Tbmatch.MatchResult result_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchResult result_;
     /// <summary>
     /// What happened in the match.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.MatchResult Result {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchResult Result {
       get { return result_; }
       set {
         result_ = value;
@@ -1998,12 +1998,12 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "exp" field.</summary>
     public const int ExpFieldNumber = 2;
-    private global::Tbmatch.MatchExperience exp_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchExperience exp_;
     /// <summary>
     /// Spoils of war.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.MatchExperience Exp {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchExperience Exp {
       get { return exp_; }
       set {
         exp_ = value;
@@ -2012,12 +2012,12 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "stats_update" field.</summary>
     public const int StatsUpdateFieldNumber = 3;
-    private global::Tbmatch.PlayerStats statsUpdate_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerStats statsUpdate_;
     /// <summary>
     /// Updates to user stats.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.PlayerStats StatsUpdate {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerStats StatsUpdate {
       get { return statsUpdate_; }
       set {
         statsUpdate_ = value;
@@ -2104,19 +2104,19 @@ namespace Tbmatch {
       }
       if (other.result_ != null) {
         if (result_ == null) {
-          result_ = new global::Tbmatch.MatchResult();
+          result_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchResult();
         }
         Result.MergeFrom(other.Result);
       }
       if (other.exp_ != null) {
         if (exp_ == null) {
-          exp_ = new global::Tbmatch.MatchExperience();
+          exp_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchExperience();
         }
         Exp.MergeFrom(other.Exp);
       }
       if (other.statsUpdate_ != null) {
         if (statsUpdate_ == null) {
-          statsUpdate_ = new global::Tbmatch.PlayerStats();
+          statsUpdate_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerStats();
         }
         StatsUpdate.MergeFrom(other.StatsUpdate);
       }
@@ -2133,21 +2133,21 @@ namespace Tbmatch {
             break;
           case 10: {
             if (result_ == null) {
-              result_ = new global::Tbmatch.MatchResult();
+              result_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchResult();
             }
             input.ReadMessage(result_);
             break;
           }
           case 18: {
             if (exp_ == null) {
-              exp_ = new global::Tbmatch.MatchExperience();
+              exp_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchExperience();
             }
             input.ReadMessage(exp_);
             break;
           }
           case 26: {
             if (statsUpdate_ == null) {
-              statsUpdate_ = new global::Tbmatch.PlayerStats();
+              statsUpdate_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerStats();
             }
             input.ReadMessage(statsUpdate_);
             break;
@@ -2169,7 +2169,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2275,7 +2275,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2407,7 +2407,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2635,7 +2635,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2663,12 +2663,12 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "lobby" field.</summary>
     public const int LobbyFieldNumber = 1;
-    private global::Tbmatch.Lobby lobby_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Lobby lobby_;
     /// <summary>
     /// Current state of the joined lobby.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.Lobby Lobby {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Lobby Lobby {
       get { return lobby_; }
       set {
         lobby_ = value;
@@ -2737,7 +2737,7 @@ namespace Tbmatch {
       }
       if (other.lobby_ != null) {
         if (lobby_ == null) {
-          lobby_ = new global::Tbmatch.Lobby();
+          lobby_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Lobby();
         }
         Lobby.MergeFrom(other.Lobby);
       }
@@ -2754,7 +2754,7 @@ namespace Tbmatch {
             break;
           case 10: {
             if (lobby_ == null) {
-              lobby_ = new global::Tbmatch.Lobby();
+              lobby_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Lobby();
             }
             input.ReadMessage(lobby_);
             break;
@@ -2777,7 +2777,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2817,9 +2817,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "reason" field.</summary>
     public const int ReasonFieldNumber = 2;
-    private global::Tbmatch.LobbyLeaveEvent.Types.Reason reason_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyLeaveEvent.Types.Reason reason_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.LobbyLeaveEvent.Types.Reason Reason {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyLeaveEvent.Types.Reason Reason {
       get { return reason_; }
       set {
         reason_ = value;
@@ -2917,7 +2917,7 @@ namespace Tbmatch {
             break;
           }
           case 16: {
-            reason_ = (global::Tbmatch.LobbyLeaveEvent.Types.Reason) input.ReadEnum();
+            reason_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyLeaveEvent.Types.Reason) input.ReadEnum();
             break;
           }
         }
@@ -2963,7 +2963,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3008,14 +3008,14 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "update" field.</summary>
     public const int UpdateFieldNumber = 2;
-    private static readonly pb::FieldCodec<global::Tbmatch.LobbyMember> _repeated_update_codec
-        = pb::FieldCodec.ForMessage(18, global::Tbmatch.LobbyMember.Parser);
-    private readonly pbc::RepeatedField<global::Tbmatch.LobbyMember> update_ = new pbc::RepeatedField<global::Tbmatch.LobbyMember>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyMember> _repeated_update_codec
+        = pb::FieldCodec.ForMessage(18, global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyMember.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyMember> update_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyMember>();
     /// <summary>
     /// Members added or whose state changed.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbmatch.LobbyMember> Update {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyMember> Update {
       get { return update_; }
     }
 
@@ -3034,12 +3034,12 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "state" field.</summary>
     public const int StateFieldNumber = 4;
-    private global::Tbmatch.LobbyState state_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyState state_ = 0;
     /// <summary>
     /// Current state of the lobby.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.LobbyState State {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyState State {
       get { return state_; }
       set {
         state_ = value;
@@ -3048,12 +3048,12 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "game_config" field.</summary>
     public const int GameConfigFieldNumber = 5;
-    private global::Tbmatch.GameConfig gameConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameConfig gameConfig_;
     /// <summary>
     /// For state == LS_MATCH, GameConfig that started the running match.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.GameConfig GameConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameConfig GameConfig {
       get { return gameConfig_; }
       set {
         gameConfig_ = value;
@@ -3075,12 +3075,12 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "options" field.</summary>
     public const int OptionsFieldNumber = 7;
-    private global::Tbmatch.GameOptions options_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameOptions options_;
     /// <summary>
     /// Options for games generated by this lobby.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.GameOptions Options {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameOptions Options {
       get { return options_; }
       set {
         options_ = value;
@@ -3196,14 +3196,14 @@ namespace Tbmatch {
       }
       if (other.gameConfig_ != null) {
         if (gameConfig_ == null) {
-          gameConfig_ = new global::Tbmatch.GameConfig();
+          gameConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameConfig();
         }
         GameConfig.MergeFrom(other.GameConfig);
       }
       queue_.Add(other.queue_);
       if (other.options_ != null) {
         if (options_ == null) {
-          options_ = new global::Tbmatch.GameOptions();
+          options_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameOptions();
         }
         Options.MergeFrom(other.Options);
       }
@@ -3232,12 +3232,12 @@ namespace Tbmatch {
             break;
           }
           case 32: {
-            state_ = (global::Tbmatch.LobbyState) input.ReadEnum();
+            state_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyState) input.ReadEnum();
             break;
           }
           case 42: {
             if (gameConfig_ == null) {
-              gameConfig_ = new global::Tbmatch.GameConfig();
+              gameConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameConfig();
             }
             input.ReadMessage(gameConfig_);
             break;
@@ -3249,7 +3249,7 @@ namespace Tbmatch {
           }
           case 58: {
             if (options_ == null) {
-              options_ = new global::Tbmatch.GameOptions();
+              options_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameOptions();
             }
             input.ReadMessage(options_);
             break;
@@ -3272,7 +3272,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3328,12 +3328,12 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "config" field.</summary>
     public const int ConfigFieldNumber = 3;
-    private global::Tbmatch.GameConfig config_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameConfig config_;
     /// <summary>
     /// Game config for first game of the match.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.GameConfig Config {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameConfig Config {
       get { return config_; }
       set {
         config_ = value;
@@ -3342,12 +3342,12 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "endpoint" field.</summary>
     public const int EndpointFieldNumber = 4;
-    private global::Tbmatch.GameEndpointConfig endpoint_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameEndpointConfig endpoint_;
     /// <summary>
     /// Player slot and connection.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.GameEndpointConfig Endpoint {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameEndpointConfig Endpoint {
       get { return endpoint_; }
       set {
         endpoint_ = value;
@@ -3449,13 +3449,13 @@ namespace Tbmatch {
       }
       if (other.config_ != null) {
         if (config_ == null) {
-          config_ = new global::Tbmatch.GameConfig();
+          config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameConfig();
         }
         Config.MergeFrom(other.Config);
       }
       if (other.endpoint_ != null) {
         if (endpoint_ == null) {
-          endpoint_ = new global::Tbmatch.GameEndpointConfig();
+          endpoint_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameEndpointConfig();
         }
         Endpoint.MergeFrom(other.Endpoint);
       }
@@ -3480,14 +3480,14 @@ namespace Tbmatch {
           }
           case 26: {
             if (config_ == null) {
-              config_ = new global::Tbmatch.GameConfig();
+              config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameConfig();
             }
             input.ReadMessage(config_);
             break;
           }
           case 34: {
             if (endpoint_ == null) {
-              endpoint_ = new global::Tbmatch.GameEndpointConfig();
+              endpoint_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameEndpointConfig();
             }
             input.ReadMessage(endpoint_);
             break;
@@ -3509,7 +3509,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3570,12 +3570,12 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 2;
-    private global::Tbmatch.Event.Types.Type type_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Event.Types.Type type_ = 0;
     /// <summary>
     /// Type of the event.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.Event.Types.Type Type {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Event.Types.Type Type {
       get { return type_; }
       set {
         type_ = value;
@@ -3598,12 +3598,12 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "filter_changed" field.</summary>
     public const int FilterChangedFieldNumber = 13;
-    private global::Tbmatch.FilterChangedEvent filterChanged_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.FilterChangedEvent filterChanged_;
     /// <summary>
     /// Event fields based on type.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.FilterChangedEvent FilterChanged {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.FilterChangedEvent FilterChanged {
       get { return filterChanged_; }
       set {
         filterChanged_ = value;
@@ -3612,9 +3612,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "wait_match_progress" field.</summary>
     public const int WaitMatchProgressFieldNumber = 14;
-    private global::Tbmatch.WaitMatchProgressEvent waitMatchProgress_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.WaitMatchProgressEvent waitMatchProgress_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.WaitMatchProgressEvent WaitMatchProgress {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.WaitMatchProgressEvent WaitMatchProgress {
       get { return waitMatchProgress_; }
       set {
         waitMatchProgress_ = value;
@@ -3623,9 +3623,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "match_created" field.</summary>
     public const int MatchCreatedFieldNumber = 15;
-    private global::Tbmatch.MatchCreatedEvent matchCreated_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchCreatedEvent matchCreated_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.MatchCreatedEvent MatchCreated {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchCreatedEvent MatchCreated {
       get { return matchCreated_; }
       set {
         matchCreated_ = value;
@@ -3634,9 +3634,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "match_outcome" field.</summary>
     public const int MatchOutcomeFieldNumber = 18;
-    private global::Tbmatch.MatchOutcomeEvent matchOutcome_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchOutcomeEvent matchOutcome_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.MatchOutcomeEvent MatchOutcome {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchOutcomeEvent MatchOutcome {
       get { return matchOutcome_; }
       set {
         matchOutcome_ = value;
@@ -3645,9 +3645,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "match_abandoned" field.</summary>
     public const int MatchAbandonedFieldNumber = 21;
-    private global::Tbmatch.MatchAbandonedEvent matchAbandoned_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchAbandonedEvent matchAbandoned_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.MatchAbandonedEvent MatchAbandoned {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchAbandonedEvent MatchAbandoned {
       get { return matchAbandoned_; }
       set {
         matchAbandoned_ = value;
@@ -3656,9 +3656,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "match_connected" field.</summary>
     public const int MatchConnectedFieldNumber = 23;
-    private global::Tbmatch.MatchConnectedEvent matchConnected_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchConnectedEvent matchConnected_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.MatchConnectedEvent MatchConnected {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchConnectedEvent MatchConnected {
       get { return matchConnected_; }
       set {
         matchConnected_ = value;
@@ -3667,9 +3667,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "match_over" field.</summary>
     public const int MatchOverFieldNumber = 24;
-    private global::Tbmatch.MatchOverEvent matchOver_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchOverEvent matchOver_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.MatchOverEvent MatchOver {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchOverEvent MatchOver {
       get { return matchOver_; }
       set {
         matchOver_ = value;
@@ -3678,9 +3678,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "game_begin" field.</summary>
     public const int GameBeginFieldNumber = 25;
-    private global::Tbmatch.GameBeginEvent gameBegin_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameBeginEvent gameBegin_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.GameBeginEvent GameBegin {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameBeginEvent GameBegin {
       get { return gameBegin_; }
       set {
         gameBegin_ = value;
@@ -3689,9 +3689,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "game_input" field.</summary>
     public const int GameInputFieldNumber = 26;
-    private global::Tbmatch.GameInputEvent gameInput_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameInputEvent gameInput_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.GameInputEvent GameInput {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameInputEvent GameInput {
       get { return gameInput_; }
       set {
         gameInput_ = value;
@@ -3700,9 +3700,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "game_over" field.</summary>
     public const int GameOverFieldNumber = 27;
-    private global::Tbmatch.GameOverEvent gameOver_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameOverEvent gameOver_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.GameOverEvent GameOver {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameOverEvent GameOver {
       get { return gameOver_; }
       set {
         gameOver_ = value;
@@ -3711,9 +3711,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "user_check_network" field.</summary>
     public const int UserCheckNetworkFieldNumber = 30;
-    private global::Tbmatch.UserCheckNetworkEvent userCheckNetwork_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserCheckNetworkEvent userCheckNetwork_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.UserCheckNetworkEvent UserCheckNetwork {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserCheckNetworkEvent UserCheckNetwork {
       get { return userCheckNetwork_; }
       set {
         userCheckNetwork_ = value;
@@ -3722,9 +3722,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "user_session_closed" field.</summary>
     public const int UserSessionClosedFieldNumber = 31;
-    private global::Tbmatch.UserSessionClosedEvent userSessionClosed_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserSessionClosedEvent userSessionClosed_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.UserSessionClosedEvent UserSessionClosed {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserSessionClosedEvent UserSessionClosed {
       get { return userSessionClosed_; }
       set {
         userSessionClosed_ = value;
@@ -3733,9 +3733,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "ping_test_complete" field.</summary>
     public const int PingTestCompleteFieldNumber = 40;
-    private global::Tbmatch.PingTestCompleteEvent pingTestComplete_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PingTestCompleteEvent pingTestComplete_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.PingTestCompleteEvent PingTestComplete {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PingTestCompleteEvent PingTestComplete {
       get { return pingTestComplete_; }
       set {
         pingTestComplete_ = value;
@@ -3744,9 +3744,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "lobby_join" field.</summary>
     public const int LobbyJoinFieldNumber = 50;
-    private global::Tbmatch.LobbyJoinEvent lobbyJoin_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyJoinEvent lobbyJoin_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.LobbyJoinEvent LobbyJoin {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyJoinEvent LobbyJoin {
       get { return lobbyJoin_; }
       set {
         lobbyJoin_ = value;
@@ -3755,9 +3755,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "lobby_leave" field.</summary>
     public const int LobbyLeaveFieldNumber = 51;
-    private global::Tbmatch.LobbyLeaveEvent lobbyLeave_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyLeaveEvent lobbyLeave_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.LobbyLeaveEvent LobbyLeave {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyLeaveEvent LobbyLeave {
       get { return lobbyLeave_; }
       set {
         lobbyLeave_ = value;
@@ -3766,9 +3766,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "lobby_update" field.</summary>
     public const int LobbyUpdateFieldNumber = 52;
-    private global::Tbmatch.LobbyUpdateEvent lobbyUpdate_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyUpdateEvent lobbyUpdate_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.LobbyUpdateEvent LobbyUpdate {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyUpdateEvent LobbyUpdate {
       get { return lobbyUpdate_; }
       set {
         lobbyUpdate_ = value;
@@ -3777,9 +3777,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "lobby_match_start" field.</summary>
     public const int LobbyMatchStartFieldNumber = 53;
-    private global::Tbmatch.LobbyMatchStartEvent lobbyMatchStart_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyMatchStartEvent lobbyMatchStart_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.LobbyMatchStartEvent LobbyMatchStart {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyMatchStartEvent LobbyMatchStart {
       get { return lobbyMatchStart_; }
       set {
         lobbyMatchStart_ = value;
@@ -4028,103 +4028,103 @@ namespace Tbmatch {
       }
       if (other.filterChanged_ != null) {
         if (filterChanged_ == null) {
-          filterChanged_ = new global::Tbmatch.FilterChangedEvent();
+          filterChanged_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.FilterChangedEvent();
         }
         FilterChanged.MergeFrom(other.FilterChanged);
       }
       if (other.waitMatchProgress_ != null) {
         if (waitMatchProgress_ == null) {
-          waitMatchProgress_ = new global::Tbmatch.WaitMatchProgressEvent();
+          waitMatchProgress_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.WaitMatchProgressEvent();
         }
         WaitMatchProgress.MergeFrom(other.WaitMatchProgress);
       }
       if (other.matchCreated_ != null) {
         if (matchCreated_ == null) {
-          matchCreated_ = new global::Tbmatch.MatchCreatedEvent();
+          matchCreated_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchCreatedEvent();
         }
         MatchCreated.MergeFrom(other.MatchCreated);
       }
       if (other.matchOutcome_ != null) {
         if (matchOutcome_ == null) {
-          matchOutcome_ = new global::Tbmatch.MatchOutcomeEvent();
+          matchOutcome_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchOutcomeEvent();
         }
         MatchOutcome.MergeFrom(other.MatchOutcome);
       }
       if (other.matchAbandoned_ != null) {
         if (matchAbandoned_ == null) {
-          matchAbandoned_ = new global::Tbmatch.MatchAbandonedEvent();
+          matchAbandoned_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchAbandonedEvent();
         }
         MatchAbandoned.MergeFrom(other.MatchAbandoned);
       }
       if (other.matchConnected_ != null) {
         if (matchConnected_ == null) {
-          matchConnected_ = new global::Tbmatch.MatchConnectedEvent();
+          matchConnected_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchConnectedEvent();
         }
         MatchConnected.MergeFrom(other.MatchConnected);
       }
       if (other.matchOver_ != null) {
         if (matchOver_ == null) {
-          matchOver_ = new global::Tbmatch.MatchOverEvent();
+          matchOver_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchOverEvent();
         }
         MatchOver.MergeFrom(other.MatchOver);
       }
       if (other.gameBegin_ != null) {
         if (gameBegin_ == null) {
-          gameBegin_ = new global::Tbmatch.GameBeginEvent();
+          gameBegin_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameBeginEvent();
         }
         GameBegin.MergeFrom(other.GameBegin);
       }
       if (other.gameInput_ != null) {
         if (gameInput_ == null) {
-          gameInput_ = new global::Tbmatch.GameInputEvent();
+          gameInput_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameInputEvent();
         }
         GameInput.MergeFrom(other.GameInput);
       }
       if (other.gameOver_ != null) {
         if (gameOver_ == null) {
-          gameOver_ = new global::Tbmatch.GameOverEvent();
+          gameOver_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameOverEvent();
         }
         GameOver.MergeFrom(other.GameOver);
       }
       if (other.userCheckNetwork_ != null) {
         if (userCheckNetwork_ == null) {
-          userCheckNetwork_ = new global::Tbmatch.UserCheckNetworkEvent();
+          userCheckNetwork_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserCheckNetworkEvent();
         }
         UserCheckNetwork.MergeFrom(other.UserCheckNetwork);
       }
       if (other.userSessionClosed_ != null) {
         if (userSessionClosed_ == null) {
-          userSessionClosed_ = new global::Tbmatch.UserSessionClosedEvent();
+          userSessionClosed_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserSessionClosedEvent();
         }
         UserSessionClosed.MergeFrom(other.UserSessionClosed);
       }
       if (other.pingTestComplete_ != null) {
         if (pingTestComplete_ == null) {
-          pingTestComplete_ = new global::Tbmatch.PingTestCompleteEvent();
+          pingTestComplete_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PingTestCompleteEvent();
         }
         PingTestComplete.MergeFrom(other.PingTestComplete);
       }
       if (other.lobbyJoin_ != null) {
         if (lobbyJoin_ == null) {
-          lobbyJoin_ = new global::Tbmatch.LobbyJoinEvent();
+          lobbyJoin_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyJoinEvent();
         }
         LobbyJoin.MergeFrom(other.LobbyJoin);
       }
       if (other.lobbyLeave_ != null) {
         if (lobbyLeave_ == null) {
-          lobbyLeave_ = new global::Tbmatch.LobbyLeaveEvent();
+          lobbyLeave_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyLeaveEvent();
         }
         LobbyLeave.MergeFrom(other.LobbyLeave);
       }
       if (other.lobbyUpdate_ != null) {
         if (lobbyUpdate_ == null) {
-          lobbyUpdate_ = new global::Tbmatch.LobbyUpdateEvent();
+          lobbyUpdate_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyUpdateEvent();
         }
         LobbyUpdate.MergeFrom(other.LobbyUpdate);
       }
       if (other.lobbyMatchStart_ != null) {
         if (lobbyMatchStart_ == null) {
-          lobbyMatchStart_ = new global::Tbmatch.LobbyMatchStartEvent();
+          lobbyMatchStart_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyMatchStartEvent();
         }
         LobbyMatchStart.MergeFrom(other.LobbyMatchStart);
       }
@@ -4144,7 +4144,7 @@ namespace Tbmatch {
             break;
           }
           case 16: {
-            type_ = (global::Tbmatch.Event.Types.Type) input.ReadEnum();
+            type_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Event.Types.Type) input.ReadEnum();
             break;
           }
           case 24: {
@@ -4153,119 +4153,119 @@ namespace Tbmatch {
           }
           case 106: {
             if (filterChanged_ == null) {
-              filterChanged_ = new global::Tbmatch.FilterChangedEvent();
+              filterChanged_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.FilterChangedEvent();
             }
             input.ReadMessage(filterChanged_);
             break;
           }
           case 114: {
             if (waitMatchProgress_ == null) {
-              waitMatchProgress_ = new global::Tbmatch.WaitMatchProgressEvent();
+              waitMatchProgress_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.WaitMatchProgressEvent();
             }
             input.ReadMessage(waitMatchProgress_);
             break;
           }
           case 122: {
             if (matchCreated_ == null) {
-              matchCreated_ = new global::Tbmatch.MatchCreatedEvent();
+              matchCreated_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchCreatedEvent();
             }
             input.ReadMessage(matchCreated_);
             break;
           }
           case 146: {
             if (matchOutcome_ == null) {
-              matchOutcome_ = new global::Tbmatch.MatchOutcomeEvent();
+              matchOutcome_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchOutcomeEvent();
             }
             input.ReadMessage(matchOutcome_);
             break;
           }
           case 170: {
             if (matchAbandoned_ == null) {
-              matchAbandoned_ = new global::Tbmatch.MatchAbandonedEvent();
+              matchAbandoned_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchAbandonedEvent();
             }
             input.ReadMessage(matchAbandoned_);
             break;
           }
           case 186: {
             if (matchConnected_ == null) {
-              matchConnected_ = new global::Tbmatch.MatchConnectedEvent();
+              matchConnected_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchConnectedEvent();
             }
             input.ReadMessage(matchConnected_);
             break;
           }
           case 194: {
             if (matchOver_ == null) {
-              matchOver_ = new global::Tbmatch.MatchOverEvent();
+              matchOver_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchOverEvent();
             }
             input.ReadMessage(matchOver_);
             break;
           }
           case 202: {
             if (gameBegin_ == null) {
-              gameBegin_ = new global::Tbmatch.GameBeginEvent();
+              gameBegin_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameBeginEvent();
             }
             input.ReadMessage(gameBegin_);
             break;
           }
           case 210: {
             if (gameInput_ == null) {
-              gameInput_ = new global::Tbmatch.GameInputEvent();
+              gameInput_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameInputEvent();
             }
             input.ReadMessage(gameInput_);
             break;
           }
           case 218: {
             if (gameOver_ == null) {
-              gameOver_ = new global::Tbmatch.GameOverEvent();
+              gameOver_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameOverEvent();
             }
             input.ReadMessage(gameOver_);
             break;
           }
           case 242: {
             if (userCheckNetwork_ == null) {
-              userCheckNetwork_ = new global::Tbmatch.UserCheckNetworkEvent();
+              userCheckNetwork_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserCheckNetworkEvent();
             }
             input.ReadMessage(userCheckNetwork_);
             break;
           }
           case 250: {
             if (userSessionClosed_ == null) {
-              userSessionClosed_ = new global::Tbmatch.UserSessionClosedEvent();
+              userSessionClosed_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserSessionClosedEvent();
             }
             input.ReadMessage(userSessionClosed_);
             break;
           }
           case 322: {
             if (pingTestComplete_ == null) {
-              pingTestComplete_ = new global::Tbmatch.PingTestCompleteEvent();
+              pingTestComplete_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PingTestCompleteEvent();
             }
             input.ReadMessage(pingTestComplete_);
             break;
           }
           case 402: {
             if (lobbyJoin_ == null) {
-              lobbyJoin_ = new global::Tbmatch.LobbyJoinEvent();
+              lobbyJoin_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyJoinEvent();
             }
             input.ReadMessage(lobbyJoin_);
             break;
           }
           case 410: {
             if (lobbyLeave_ == null) {
-              lobbyLeave_ = new global::Tbmatch.LobbyLeaveEvent();
+              lobbyLeave_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyLeaveEvent();
             }
             input.ReadMessage(lobbyLeave_);
             break;
           }
           case 418: {
             if (lobbyUpdate_ == null) {
-              lobbyUpdate_ = new global::Tbmatch.LobbyUpdateEvent();
+              lobbyUpdate_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyUpdateEvent();
             }
             input.ReadMessage(lobbyUpdate_);
             break;
           }
           case 426: {
             if (lobbyMatchStart_ == null) {
-              lobbyMatchStart_ = new global::Tbmatch.LobbyMatchStartEvent();
+              lobbyMatchStart_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LobbyMatchStartEvent();
             }
             input.ReadMessage(lobbyMatchStart_);
             break;
@@ -4315,7 +4315,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4345,12 +4345,12 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "event" field.</summary>
     public const int EventFieldNumber = 1;
-    private global::Tbmatch.Event event_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Event event_;
     /// <summary>
     /// The event queued for delivery.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.Event Event {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Event Event {
       get { return event_; }
       set {
         event_ = value;
@@ -4465,7 +4465,7 @@ namespace Tbmatch {
       }
       if (other.event_ != null) {
         if (event_ == null) {
-          event_ = new global::Tbmatch.Event();
+          event_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Event();
         }
         Event.MergeFrom(other.Event);
       }
@@ -4488,7 +4488,7 @@ namespace Tbmatch {
             break;
           case 10: {
             if (event_ == null) {
-              event_ = new global::Tbmatch.Event();
+              event_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Event();
             }
             input.ReadMessage(event_);
             break;
@@ -4515,7 +4515,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4644,7 +4644,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.EventReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.EventReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4684,11 +4684,11 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "event" field.</summary>
     public const int EventFieldNumber = 2;
-    private static readonly pb::FieldCodec<global::Tbmatch.Event> _repeated_event_codec
-        = pb::FieldCodec.ForMessage(18, global::Tbmatch.Event.Parser);
-    private readonly pbc::RepeatedField<global::Tbmatch.Event> event_ = new pbc::RepeatedField<global::Tbmatch.Event>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Event> _repeated_event_codec
+        = pb::FieldCodec.ForMessage(18, global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Event.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Event> event_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Event>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbmatch.Event> Event {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.Event> Event {
       get { return event_; }
     }
 

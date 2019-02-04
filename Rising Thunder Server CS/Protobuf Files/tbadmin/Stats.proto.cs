@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Tbadmin {
+namespace Rising_Thunder_Server_CS.Protobufs.Tbadmin {
 
   /// <summary>Holder for reflection information generated from tbadmin/stats.proto</summary>
   public static partial class StatsReflection {
@@ -67,19 +67,19 @@ namespace Tbadmin {
             "aW4uR2V0Q2hhcmFjdGVyVXNhZ2VSZXF1ZXN0GiAudGJhZG1pbi5HZXRDaGFy",
             "YWN0ZXJVc2FnZVJlc3VsdCIEyPMYEmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Tbrpc.TbrpcReflection.Descriptor, global::Tbmatch.MatchReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.TbrpcReflection.Descriptor, global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.UserCountStats), global::Tbadmin.UserCountStats.Parser, new[]{ "Total", "NoAccess", "Role" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.UserCountStats.Types.RoleCount), global::Tbadmin.UserCountStats.Types.RoleCount.Parser, new[]{ "Role", "Count" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.Session), global::Tbadmin.Session.Parser, new[]{ "AccountId", "Handle", "Email", "BuildVersion", "StartTimeUnix", "LastActiveTimeUnix", "RemoteIp", "Type" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.CharacterReportOptions), global::Tbadmin.CharacterReportOptions.Parser, new[]{ "StartTimeUnix", "EndTimeUnix", "BuildVersion", "MatchType", "IncludeDisconnect", "IncludeDisagree", "MaxRatingDiff", "RatingBucketSize" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.Matchup), global::Tbadmin.Matchup.Parser, new[]{ "CharType", "VersusType", "Wins", "Total" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.RatingWinRatioReport), global::Tbadmin.RatingWinRatioReport.Parser, new[]{ "RatingCap", "Matchup" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.CharacterUsage), global::Tbadmin.CharacterUsage.Parser, new[]{ "TypeName", "TotalMatches", "UniqueUsers", "Wins", "Disconnects", "VariantTopN" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.CharacterUsage.Types.VariantUsage), global::Tbadmin.CharacterUsage.Types.VariantUsage.Parser, new[]{ "Specials", "Count" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.CharacterUsageReport), global::Tbadmin.CharacterUsageReport.Parser, new[]{ "ReportTime", "Options", "TotalMatches", "TotalUsers", "CharUsage", "WinRatio" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.GetSessionsRequest), global::Tbadmin.GetSessionsRequest.Parser, new[]{ "MaxAgeSec", "Limit" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.GetSessionsResult), global::Tbadmin.GetSessionsResult.Parser, new[]{ "Game", "Launcher", "Web", "Total" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.GetCharacterUsageRequest), global::Tbadmin.GetCharacterUsageRequest.Parser, new[]{ "Options" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.GetCharacterUsageResult), global::Tbadmin.GetCharacterUsageResult.Parser, new[]{ "Report" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserCountStats), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserCountStats.Parser, new[]{ "Total", "NoAccess", "Role" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserCountStats.Types.RoleCount), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserCountStats.Types.RoleCount.Parser, new[]{ "Role", "Count" }, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Session), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Session.Parser, new[]{ "AccountId", "Handle", "Email", "BuildVersion", "StartTimeUnix", "LastActiveTimeUnix", "RemoteIp", "Type" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterReportOptions), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterReportOptions.Parser, new[]{ "StartTimeUnix", "EndTimeUnix", "BuildVersion", "MatchType", "IncludeDisconnect", "IncludeDisagree", "MaxRatingDiff", "RatingBucketSize" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Matchup), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Matchup.Parser, new[]{ "CharType", "VersusType", "Wins", "Total" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RatingWinRatioReport), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RatingWinRatioReport.Parser, new[]{ "RatingCap", "Matchup" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsage), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsage.Parser, new[]{ "TypeName", "TotalMatches", "UniqueUsers", "Wins", "Disconnects", "VariantTopN" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsage.Types.VariantUsage), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsage.Types.VariantUsage.Parser, new[]{ "Specials", "Count" }, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsageReport), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsageReport.Parser, new[]{ "ReportTime", "Options", "TotalMatches", "TotalUsers", "CharUsage", "WinRatio" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetSessionsRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetSessionsRequest.Parser, new[]{ "MaxAgeSec", "Limit" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetSessionsResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetSessionsResult.Parser, new[]{ "Game", "Launcher", "Web", "Total" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetCharacterUsageRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetCharacterUsageRequest.Parser, new[]{ "Options" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetCharacterUsageResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetCharacterUsageResult.Parser, new[]{ "Report" }, null, null, null)
           }));
     }
     #endregion
@@ -94,7 +94,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.StatsReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.StatsReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -146,11 +146,11 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "role" field.</summary>
     public const int RoleFieldNumber = 3;
-    private static readonly pb::FieldCodec<global::Tbadmin.UserCountStats.Types.RoleCount> _repeated_role_codec
-        = pb::FieldCodec.ForMessage(26, global::Tbadmin.UserCountStats.Types.RoleCount.Parser);
-    private readonly pbc::RepeatedField<global::Tbadmin.UserCountStats.Types.RoleCount> role_ = new pbc::RepeatedField<global::Tbadmin.UserCountStats.Types.RoleCount>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserCountStats.Types.RoleCount> _repeated_role_codec
+        = pb::FieldCodec.ForMessage(26, global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserCountStats.Types.RoleCount.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserCountStats.Types.RoleCount> role_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserCountStats.Types.RoleCount>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbadmin.UserCountStats.Types.RoleCount> Role {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserCountStats.Types.RoleCount> Role {
       get { return role_; }
     }
 
@@ -273,7 +273,7 @@ namespace Tbadmin {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::Tbadmin.UserCountStats.Descriptor.NestedTypes[0]; }
+          get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserCountStats.Descriptor.NestedTypes[0]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -302,9 +302,9 @@ namespace Tbadmin {
 
         /// <summary>Field number for the "role" field.</summary>
         public const int RoleFieldNumber = 1;
-        private global::Tbrpc.Access role_ = 0;
+        private global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Access role_ = 0;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public global::Tbrpc.Access Role {
+        public global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Access Role {
           get { return role_; }
           set {
             role_ = value;
@@ -409,7 +409,7 @@ namespace Tbadmin {
                 _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
                 break;
               case 8: {
-                role_ = (global::Tbrpc.Access) input.ReadEnum();
+                role_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Access) input.ReadEnum();
                 break;
               }
               case 16: {
@@ -435,7 +435,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.StatsReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.StatsReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -760,7 +760,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.StatsReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.StatsReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -837,12 +837,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "match_type" field.</summary>
     public const int MatchTypeFieldNumber = 5;
-    private global::Tbmatch.MatchType matchType_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchType matchType_ = 0;
     /// <summary>
     /// Limit results to a specific match type.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.MatchType MatchType {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchType MatchType {
       get { return matchType_; }
       set {
         matchType_ = value;
@@ -1076,7 +1076,7 @@ namespace Tbadmin {
             break;
           }
           case 40: {
-            matchType_ = (global::Tbmatch.MatchType) input.ReadEnum();
+            matchType_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchType) input.ReadEnum();
             break;
           }
           case 48: {
@@ -1109,7 +1109,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.StatsReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.StatsReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1325,7 +1325,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.StatsReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.StatsReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1368,11 +1368,11 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "matchup" field.</summary>
     public const int MatchupFieldNumber = 2;
-    private static readonly pb::FieldCodec<global::Tbadmin.Matchup> _repeated_matchup_codec
-        = pb::FieldCodec.ForMessage(18, global::Tbadmin.Matchup.Parser);
-    private readonly pbc::RepeatedField<global::Tbadmin.Matchup> matchup_ = new pbc::RepeatedField<global::Tbadmin.Matchup>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Matchup> _repeated_matchup_codec
+        = pb::FieldCodec.ForMessage(18, global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Matchup.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Matchup> matchup_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Matchup>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbadmin.Matchup> Matchup {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Matchup> Matchup {
       get { return matchup_; }
     }
 
@@ -1480,7 +1480,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.StatsReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.StatsReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1574,11 +1574,11 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "variant_top_n" field.</summary>
     public const int VariantTopNFieldNumber = 6;
-    private static readonly pb::FieldCodec<global::Tbadmin.CharacterUsage.Types.VariantUsage> _repeated_variantTopN_codec
-        = pb::FieldCodec.ForMessage(50, global::Tbadmin.CharacterUsage.Types.VariantUsage.Parser);
-    private readonly pbc::RepeatedField<global::Tbadmin.CharacterUsage.Types.VariantUsage> variantTopN_ = new pbc::RepeatedField<global::Tbadmin.CharacterUsage.Types.VariantUsage>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsage.Types.VariantUsage> _repeated_variantTopN_codec
+        = pb::FieldCodec.ForMessage(50, global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsage.Types.VariantUsage.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsage.Types.VariantUsage> variantTopN_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsage.Types.VariantUsage>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbadmin.CharacterUsage.Types.VariantUsage> VariantTopN {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsage.Types.VariantUsage> VariantTopN {
       get { return variantTopN_; }
     }
 
@@ -1749,7 +1749,7 @@ namespace Tbadmin {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::Tbadmin.CharacterUsage.Descriptor.NestedTypes[0]; }
+          get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsage.Descriptor.NestedTypes[0]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1911,7 +1911,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.StatsReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.StatsReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1958,12 +1958,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "options" field.</summary>
     public const int OptionsFieldNumber = 2;
-    private global::Tbadmin.CharacterReportOptions options_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterReportOptions options_;
     /// <summary>
     /// Query parameters that bounded the report scope.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.CharacterReportOptions Options {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterReportOptions Options {
       get { return options_; }
       set {
         options_ = value;
@@ -2000,27 +2000,27 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "char_usage" field.</summary>
     public const int CharUsageFieldNumber = 13;
-    private static readonly pb::FieldCodec<global::Tbadmin.CharacterUsage> _repeated_charUsage_codec
-        = pb::FieldCodec.ForMessage(106, global::Tbadmin.CharacterUsage.Parser);
-    private readonly pbc::RepeatedField<global::Tbadmin.CharacterUsage> charUsage_ = new pbc::RepeatedField<global::Tbadmin.CharacterUsage>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsage> _repeated_charUsage_codec
+        = pb::FieldCodec.ForMessage(106, global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsage.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsage> charUsage_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsage>();
     /// <summary>
     /// Summary stats for each character.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbadmin.CharacterUsage> CharUsage {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsage> CharUsage {
       get { return charUsage_; }
     }
 
     /// <summary>Field number for the "win_ratio" field.</summary>
     public const int WinRatioFieldNumber = 14;
-    private static readonly pb::FieldCodec<global::Tbadmin.RatingWinRatioReport> _repeated_winRatio_codec
-        = pb::FieldCodec.ForMessage(114, global::Tbadmin.RatingWinRatioReport.Parser);
-    private readonly pbc::RepeatedField<global::Tbadmin.RatingWinRatioReport> winRatio_ = new pbc::RepeatedField<global::Tbadmin.RatingWinRatioReport>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RatingWinRatioReport> _repeated_winRatio_codec
+        = pb::FieldCodec.ForMessage(114, global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RatingWinRatioReport.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RatingWinRatioReport> winRatio_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RatingWinRatioReport>();
     /// <summary>
     /// Half-matrix of win/loss ratios for each character combo &amp; rating band.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbadmin.RatingWinRatioReport> WinRatio {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RatingWinRatioReport> WinRatio {
       get { return winRatio_; }
     }
 
@@ -2124,7 +2124,7 @@ namespace Tbadmin {
       }
       if (other.options_ != null) {
         if (options_ == null) {
-          options_ = new global::Tbadmin.CharacterReportOptions();
+          options_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterReportOptions();
         }
         Options.MergeFrom(other.Options);
       }
@@ -2153,7 +2153,7 @@ namespace Tbadmin {
           }
           case 18: {
             if (options_ == null) {
-              options_ = new global::Tbadmin.CharacterReportOptions();
+              options_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterReportOptions();
             }
             input.ReadMessage(options_);
             break;
@@ -2188,7 +2188,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.StatsReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.StatsReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2345,7 +2345,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.StatsReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.StatsReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2376,31 +2376,31 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "game" field.</summary>
     public const int GameFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbadmin.Session> _repeated_game_codec
-        = pb::FieldCodec.ForMessage(10, global::Tbadmin.Session.Parser);
-    private readonly pbc::RepeatedField<global::Tbadmin.Session> game_ = new pbc::RepeatedField<global::Tbadmin.Session>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Session> _repeated_game_codec
+        = pb::FieldCodec.ForMessage(10, global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Session.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Session> game_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Session>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbadmin.Session> Game {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Session> Game {
       get { return game_; }
     }
 
     /// <summary>Field number for the "launcher" field.</summary>
     public const int LauncherFieldNumber = 2;
-    private static readonly pb::FieldCodec<global::Tbadmin.Session> _repeated_launcher_codec
-        = pb::FieldCodec.ForMessage(18, global::Tbadmin.Session.Parser);
-    private readonly pbc::RepeatedField<global::Tbadmin.Session> launcher_ = new pbc::RepeatedField<global::Tbadmin.Session>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Session> _repeated_launcher_codec
+        = pb::FieldCodec.ForMessage(18, global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Session.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Session> launcher_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Session>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbadmin.Session> Launcher {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Session> Launcher {
       get { return launcher_; }
     }
 
     /// <summary>Field number for the "web" field.</summary>
     public const int WebFieldNumber = 3;
-    private static readonly pb::FieldCodec<global::Tbadmin.Session> _repeated_web_codec
-        = pb::FieldCodec.ForMessage(26, global::Tbadmin.Session.Parser);
-    private readonly pbc::RepeatedField<global::Tbadmin.Session> web_ = new pbc::RepeatedField<global::Tbadmin.Session>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Session> _repeated_web_codec
+        = pb::FieldCodec.ForMessage(26, global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Session.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Session> web_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Session>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbadmin.Session> Web {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Session> Web {
       get { return web_; }
     }
 
@@ -2537,7 +2537,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.StatsReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.StatsReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2565,9 +2565,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "options" field.</summary>
     public const int OptionsFieldNumber = 1;
-    private global::Tbadmin.CharacterReportOptions options_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterReportOptions options_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.CharacterReportOptions Options {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterReportOptions Options {
       get { return options_; }
       set {
         options_ = value;
@@ -2636,7 +2636,7 @@ namespace Tbadmin {
       }
       if (other.options_ != null) {
         if (options_ == null) {
-          options_ = new global::Tbadmin.CharacterReportOptions();
+          options_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterReportOptions();
         }
         Options.MergeFrom(other.Options);
       }
@@ -2653,7 +2653,7 @@ namespace Tbadmin {
             break;
           case 10: {
             if (options_ == null) {
-              options_ = new global::Tbadmin.CharacterReportOptions();
+              options_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterReportOptions();
             }
             input.ReadMessage(options_);
             break;
@@ -2672,7 +2672,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.StatsReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.StatsReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2700,9 +2700,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "report" field.</summary>
     public const int ReportFieldNumber = 1;
-    private global::Tbadmin.CharacterUsageReport report_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsageReport report_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.CharacterUsageReport Report {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsageReport Report {
       get { return report_; }
       set {
         report_ = value;
@@ -2771,7 +2771,7 @@ namespace Tbadmin {
       }
       if (other.report_ != null) {
         if (report_ == null) {
-          report_ = new global::Tbadmin.CharacterUsageReport();
+          report_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsageReport();
         }
         Report.MergeFrom(other.Report);
       }
@@ -2788,7 +2788,7 @@ namespace Tbadmin {
             break;
           case 10: {
             if (report_ == null) {
-              report_ = new global::Tbadmin.CharacterUsageReport();
+              report_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CharacterUsageReport();
             }
             input.ReadMessage(report_);
             break;

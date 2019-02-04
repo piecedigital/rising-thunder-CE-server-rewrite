@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Tbadmin {
+namespace Rising_Thunder_Server_CS.Protobufs.Tbadmin {
 
   /// <summary>Holder for reflection information generated from tbadmin/account.proto</summary>
   public static partial class AccountReflection {
@@ -95,26 +95,26 @@ namespace Tbadmin {
             "YWlsTm90aWZpY2F0aW9uEikudGJhZG1pbi5TZW5kVXNlckVtYWlsTm90aWZp",
             "Y2F0aW9uUmVxdWVzdBoMLnRicnBjLkVtcHR5IgTI8xgVYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Tbrpc.TbrpcReflection.Descriptor, global::Tbmatch.AccountReflection.Descriptor, global::Tbmatch.QueryReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.TbrpcReflection.Descriptor, global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.AccountReflection.Descriptor, global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.QueryReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.LookupUserRequest), global::Tbadmin.LookupUserRequest.Parser, new[]{ "AccountId", "Email", "Handle" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.UserCriteria), global::Tbadmin.UserCriteria.Parser, new[]{ "Email", "Handle", "GivenName", "FamilyName", "CountryCode", "CreateTime", "ModifyTime", "LastLoginTime" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.UserSort), global::Tbadmin.UserSort.Parser, new[]{ "First", "Second", "Descending" }, null, new[]{ typeof(global::Tbadmin.UserSort.Types.SortBy) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.HandleChange), global::Tbadmin.HandleChange.Parser, new[]{ "Time", "Old", "New" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SearchUsersRequest), global::Tbadmin.SearchUsersRequest.Parser, new[]{ "Criteria", "Sort", "Offset", "Limit" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SearchUsersResult), global::Tbadmin.SearchUsersResult.Parser, new[]{ "Users", "EndOfData" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.UpdateUserRequest), global::Tbadmin.UpdateUserRequest.Parser, new[]{ "AccountId", "Spec", "Prefs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.CreateUserRequest), global::Tbadmin.CreateUserRequest.Parser, new[]{ "Spec", "Prefs", "Access", "LoginStatus" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.CreateUserResult), global::Tbadmin.CreateUserResult.Parser, new[]{ "AccountId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SetUserContactAddressRequest), global::Tbadmin.SetUserContactAddressRequest.Parser, new[]{ "AccountId", "ContactAddress" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SetUserAccessRequest), global::Tbadmin.SetUserAccessRequest.Parser, new[]{ "AccountId", "Grant", "Revoke", "DeprecatedAccess" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SetUserLoginStatusRequest), global::Tbadmin.SetUserLoginStatusRequest.Parser, new[]{ "AccountId", "LoginStatus" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.ResetUserPasswordRequest), global::Tbadmin.ResetUserPasswordRequest.Parser, new[]{ "AccountId", "Password" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.NukeHandleRequest), global::Tbadmin.NukeHandleRequest.Parser, new[]{ "AccountId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.NukeHandleResult), global::Tbadmin.NukeHandleResult.Parser, new[]{ "AccountId", "NewHandle" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.GetHandleHistoryRequest), global::Tbadmin.GetHandleHistoryRequest.Parser, new[]{ "AccountId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.GetHandleHistoryResult), global::Tbadmin.GetHandleHistoryResult.Parser, new[]{ "AccountId", "Change" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SendUserEmailNotificationRequest), global::Tbadmin.SendUserEmailNotificationRequest.Parser, new[]{ "AccountId", "Type", "FriendCodes" }, null, new[]{ typeof(global::Tbadmin.SendUserEmailNotificationRequest.Types.NotifyType) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SendUserEmailNotificationRequest.Types.FriendCodes), global::Tbadmin.SendUserEmailNotificationRequest.Types.FriendCodes.Parser, new[]{ "CodeCount", "AccessFlags" }, null, null, null)})
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LookupUserRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LookupUserRequest.Parser, new[]{ "AccountId", "Email", "Handle" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserCriteria), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserCriteria.Parser, new[]{ "Email", "Handle", "GivenName", "FamilyName", "CountryCode", "CreateTime", "ModifyTime", "LastLoginTime" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserSort), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserSort.Parser, new[]{ "First", "Second", "Descending" }, null, new[]{ typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserSort.Types.SortBy) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.HandleChange), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.HandleChange.Parser, new[]{ "Time", "Old", "New" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SearchUsersRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SearchUsersRequest.Parser, new[]{ "Criteria", "Sort", "Offset", "Limit" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SearchUsersResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SearchUsersResult.Parser, new[]{ "Users", "EndOfData" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UpdateUserRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UpdateUserRequest.Parser, new[]{ "AccountId", "Spec", "Prefs" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CreateUserRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CreateUserRequest.Parser, new[]{ "Spec", "Prefs", "Access", "LoginStatus" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CreateUserResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CreateUserResult.Parser, new[]{ "AccountId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SetUserContactAddressRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SetUserContactAddressRequest.Parser, new[]{ "AccountId", "ContactAddress" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SetUserAccessRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SetUserAccessRequest.Parser, new[]{ "AccountId", "Grant", "Revoke", "DeprecatedAccess" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SetUserLoginStatusRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SetUserLoginStatusRequest.Parser, new[]{ "AccountId", "LoginStatus" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ResetUserPasswordRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ResetUserPasswordRequest.Parser, new[]{ "AccountId", "Password" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.NukeHandleRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.NukeHandleRequest.Parser, new[]{ "AccountId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.NukeHandleResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.NukeHandleResult.Parser, new[]{ "AccountId", "NewHandle" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetHandleHistoryRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetHandleHistoryRequest.Parser, new[]{ "AccountId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetHandleHistoryResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetHandleHistoryResult.Parser, new[]{ "AccountId", "Change" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SendUserEmailNotificationRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SendUserEmailNotificationRequest.Parser, new[]{ "AccountId", "Type", "FriendCodes" }, null, new[]{ typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SendUserEmailNotificationRequest.Types.NotifyType) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SendUserEmailNotificationRequest.Types.FriendCodes), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SendUserEmailNotificationRequest.Types.FriendCodes.Parser, new[]{ "CodeCount", "AccessFlags" }, null, null, null)})
           }));
     }
     #endregion
@@ -132,7 +132,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AccountReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -329,7 +329,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AccountReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -364,9 +364,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "email" field.</summary>
     public const int EmailFieldNumber = 1;
-    private global::Tbmatch.StringMatch email_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch email_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.StringMatch Email {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch Email {
       get { return email_; }
       set {
         email_ = value;
@@ -375,9 +375,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "handle" field.</summary>
     public const int HandleFieldNumber = 2;
-    private global::Tbmatch.StringMatch handle_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch handle_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.StringMatch Handle {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch Handle {
       get { return handle_; }
       set {
         handle_ = value;
@@ -386,9 +386,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "given_name" field.</summary>
     public const int GivenNameFieldNumber = 3;
-    private global::Tbmatch.StringMatch givenName_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch givenName_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.StringMatch GivenName {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch GivenName {
       get { return givenName_; }
       set {
         givenName_ = value;
@@ -397,9 +397,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "family_name" field.</summary>
     public const int FamilyNameFieldNumber = 4;
-    private global::Tbmatch.StringMatch familyName_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch familyName_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.StringMatch FamilyName {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch FamilyName {
       get { return familyName_; }
       set {
         familyName_ = value;
@@ -419,9 +419,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "create_time" field.</summary>
     public const int CreateTimeFieldNumber = 10;
-    private global::Tbmatch.TimeRange createTime_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange createTime_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.TimeRange CreateTime {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange CreateTime {
       get { return createTime_; }
       set {
         createTime_ = value;
@@ -430,9 +430,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "modify_time" field.</summary>
     public const int ModifyTimeFieldNumber = 11;
-    private global::Tbmatch.TimeRange modifyTime_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange modifyTime_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.TimeRange ModifyTime {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange ModifyTime {
       get { return modifyTime_; }
       set {
         modifyTime_ = value;
@@ -441,9 +441,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "last_login_time" field.</summary>
     public const int LastLoginTimeFieldNumber = 12;
-    private global::Tbmatch.TimeRange lastLoginTime_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange lastLoginTime_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.TimeRange LastLoginTime {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange LastLoginTime {
       get { return lastLoginTime_; }
       set {
         lastLoginTime_ = value;
@@ -575,25 +575,25 @@ namespace Tbadmin {
       }
       if (other.email_ != null) {
         if (email_ == null) {
-          email_ = new global::Tbmatch.StringMatch();
+          email_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
         }
         Email.MergeFrom(other.Email);
       }
       if (other.handle_ != null) {
         if (handle_ == null) {
-          handle_ = new global::Tbmatch.StringMatch();
+          handle_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
         }
         Handle.MergeFrom(other.Handle);
       }
       if (other.givenName_ != null) {
         if (givenName_ == null) {
-          givenName_ = new global::Tbmatch.StringMatch();
+          givenName_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
         }
         GivenName.MergeFrom(other.GivenName);
       }
       if (other.familyName_ != null) {
         if (familyName_ == null) {
-          familyName_ = new global::Tbmatch.StringMatch();
+          familyName_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
         }
         FamilyName.MergeFrom(other.FamilyName);
       }
@@ -602,19 +602,19 @@ namespace Tbadmin {
       }
       if (other.createTime_ != null) {
         if (createTime_ == null) {
-          createTime_ = new global::Tbmatch.TimeRange();
+          createTime_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange();
         }
         CreateTime.MergeFrom(other.CreateTime);
       }
       if (other.modifyTime_ != null) {
         if (modifyTime_ == null) {
-          modifyTime_ = new global::Tbmatch.TimeRange();
+          modifyTime_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange();
         }
         ModifyTime.MergeFrom(other.ModifyTime);
       }
       if (other.lastLoginTime_ != null) {
         if (lastLoginTime_ == null) {
-          lastLoginTime_ = new global::Tbmatch.TimeRange();
+          lastLoginTime_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange();
         }
         LastLoginTime.MergeFrom(other.LastLoginTime);
       }
@@ -631,28 +631,28 @@ namespace Tbadmin {
             break;
           case 10: {
             if (email_ == null) {
-              email_ = new global::Tbmatch.StringMatch();
+              email_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
             }
             input.ReadMessage(email_);
             break;
           }
           case 18: {
             if (handle_ == null) {
-              handle_ = new global::Tbmatch.StringMatch();
+              handle_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
             }
             input.ReadMessage(handle_);
             break;
           }
           case 26: {
             if (givenName_ == null) {
-              givenName_ = new global::Tbmatch.StringMatch();
+              givenName_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
             }
             input.ReadMessage(givenName_);
             break;
           }
           case 34: {
             if (familyName_ == null) {
-              familyName_ = new global::Tbmatch.StringMatch();
+              familyName_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
             }
             input.ReadMessage(familyName_);
             break;
@@ -663,21 +663,21 @@ namespace Tbadmin {
           }
           case 82: {
             if (createTime_ == null) {
-              createTime_ = new global::Tbmatch.TimeRange();
+              createTime_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange();
             }
             input.ReadMessage(createTime_);
             break;
           }
           case 90: {
             if (modifyTime_ == null) {
-              modifyTime_ = new global::Tbmatch.TimeRange();
+              modifyTime_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange();
             }
             input.ReadMessage(modifyTime_);
             break;
           }
           case 98: {
             if (lastLoginTime_ == null) {
-              lastLoginTime_ = new global::Tbmatch.TimeRange();
+              lastLoginTime_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange();
             }
             input.ReadMessage(lastLoginTime_);
             break;
@@ -699,7 +699,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AccountReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -729,9 +729,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "first" field.</summary>
     public const int FirstFieldNumber = 1;
-    private global::Tbadmin.UserSort.Types.SortBy first_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserSort.Types.SortBy first_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.UserSort.Types.SortBy First {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserSort.Types.SortBy First {
       get { return first_; }
       set {
         first_ = value;
@@ -740,9 +740,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "second" field.</summary>
     public const int SecondFieldNumber = 2;
-    private global::Tbadmin.UserSort.Types.SortBy second_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserSort.Types.SortBy second_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.UserSort.Types.SortBy Second {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserSort.Types.SortBy Second {
       get { return second_; }
       set {
         second_ = value;
@@ -859,11 +859,11 @@ namespace Tbadmin {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            first_ = (global::Tbadmin.UserSort.Types.SortBy) input.ReadEnum();
+            first_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserSort.Types.SortBy) input.ReadEnum();
             break;
           }
           case 16: {
-            second_ = (global::Tbadmin.UserSort.Types.SortBy) input.ReadEnum();
+            second_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserSort.Types.SortBy) input.ReadEnum();
             break;
           }
           case 24: {
@@ -903,7 +903,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AccountReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1100,7 +1100,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AccountReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1131,9 +1131,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "criteria" field.</summary>
     public const int CriteriaFieldNumber = 1;
-    private global::Tbadmin.UserCriteria criteria_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserCriteria criteria_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.UserCriteria Criteria {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserCriteria Criteria {
       get { return criteria_; }
       set {
         criteria_ = value;
@@ -1142,9 +1142,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "sort" field.</summary>
     public const int SortFieldNumber = 2;
-    private global::Tbadmin.UserSort sort_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserSort sort_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.UserSort Sort {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserSort Sort {
       get { return sort_; }
       set {
         sort_ = value;
@@ -1265,13 +1265,13 @@ namespace Tbadmin {
       }
       if (other.criteria_ != null) {
         if (criteria_ == null) {
-          criteria_ = new global::Tbadmin.UserCriteria();
+          criteria_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserCriteria();
         }
         Criteria.MergeFrom(other.Criteria);
       }
       if (other.sort_ != null) {
         if (sort_ == null) {
-          sort_ = new global::Tbadmin.UserSort();
+          sort_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserSort();
         }
         Sort.MergeFrom(other.Sort);
       }
@@ -1294,14 +1294,14 @@ namespace Tbadmin {
             break;
           case 10: {
             if (criteria_ == null) {
-              criteria_ = new global::Tbadmin.UserCriteria();
+              criteria_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserCriteria();
             }
             input.ReadMessage(criteria_);
             break;
           }
           case 18: {
             if (sort_ == null) {
-              sort_ = new global::Tbadmin.UserSort();
+              sort_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UserSort();
             }
             input.ReadMessage(sort_);
             break;
@@ -1328,7 +1328,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AccountReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1357,14 +1357,14 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "users" field.</summary>
     public const int UsersFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbmatch.UserInfo> _repeated_users_codec
-        = pb::FieldCodec.ForMessage(10, global::Tbmatch.UserInfo.Parser);
-    private readonly pbc::RepeatedField<global::Tbmatch.UserInfo> users_ = new pbc::RepeatedField<global::Tbmatch.UserInfo>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserInfo> _repeated_users_codec
+        = pb::FieldCodec.ForMessage(10, global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserInfo.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserInfo> users_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserInfo>();
     /// <summary>
     /// Results do not include preferences or contact address.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbmatch.UserInfo> Users {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserInfo> Users {
       get { return users_; }
     }
 
@@ -1483,7 +1483,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AccountReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1524,12 +1524,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "spec" field.</summary>
     public const int SpecFieldNumber = 2;
-    private global::Tbmatch.UserAccountSpec spec_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserAccountSpec spec_;
     /// <summary>
     /// Changes to account record.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.UserAccountSpec Spec {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserAccountSpec Spec {
       get { return spec_; }
       set {
         spec_ = value;
@@ -1538,12 +1538,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "prefs" field.</summary>
     public const int PrefsFieldNumber = 3;
-    private global::Tbmatch.UserPrefs prefs_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserPrefs prefs_;
     /// <summary>
     /// Changes to preferences.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.UserPrefs Prefs {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserPrefs Prefs {
       get { return prefs_; }
       set {
         prefs_ = value;
@@ -1633,13 +1633,13 @@ namespace Tbadmin {
       }
       if (other.spec_ != null) {
         if (spec_ == null) {
-          spec_ = new global::Tbmatch.UserAccountSpec();
+          spec_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserAccountSpec();
         }
         Spec.MergeFrom(other.Spec);
       }
       if (other.prefs_ != null) {
         if (prefs_ == null) {
-          prefs_ = new global::Tbmatch.UserPrefs();
+          prefs_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserPrefs();
         }
         Prefs.MergeFrom(other.Prefs);
       }
@@ -1660,14 +1660,14 @@ namespace Tbadmin {
           }
           case 18: {
             if (spec_ == null) {
-              spec_ = new global::Tbmatch.UserAccountSpec();
+              spec_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserAccountSpec();
             }
             input.ReadMessage(spec_);
             break;
           }
           case 26: {
             if (prefs_ == null) {
-              prefs_ = new global::Tbmatch.UserPrefs();
+              prefs_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserPrefs();
             }
             input.ReadMessage(prefs_);
             break;
@@ -1689,7 +1689,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AccountReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1720,12 +1720,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "spec" field.</summary>
     public const int SpecFieldNumber = 1;
-    private global::Tbmatch.UserAccountSpec spec_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserAccountSpec spec_;
     /// <summary>
     /// New account owner, identifiers and authentication.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.UserAccountSpec Spec {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserAccountSpec Spec {
       get { return spec_; }
       set {
         spec_ = value;
@@ -1734,12 +1734,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "prefs" field.</summary>
     public const int PrefsFieldNumber = 2;
-    private global::Tbmatch.UserPrefs prefs_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserPrefs prefs_;
     /// <summary>
     /// preferences.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.UserPrefs Prefs {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserPrefs Prefs {
       get { return prefs_; }
       set {
         prefs_ = value;
@@ -1763,12 +1763,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "login_status" field.</summary>
     public const int LoginStatusFieldNumber = 11;
-    private global::Tbmatch.LoginStatus loginStatus_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LoginStatus loginStatus_ = 0;
     /// <summary>
     /// Login state of the account.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.LoginStatus LoginStatus {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LoginStatus LoginStatus {
       get { return loginStatus_; }
       set {
         loginStatus_ = value;
@@ -1864,13 +1864,13 @@ namespace Tbadmin {
       }
       if (other.spec_ != null) {
         if (spec_ == null) {
-          spec_ = new global::Tbmatch.UserAccountSpec();
+          spec_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserAccountSpec();
         }
         Spec.MergeFrom(other.Spec);
       }
       if (other.prefs_ != null) {
         if (prefs_ == null) {
-          prefs_ = new global::Tbmatch.UserPrefs();
+          prefs_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserPrefs();
         }
         Prefs.MergeFrom(other.Prefs);
       }
@@ -1893,14 +1893,14 @@ namespace Tbadmin {
             break;
           case 10: {
             if (spec_ == null) {
-              spec_ = new global::Tbmatch.UserAccountSpec();
+              spec_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserAccountSpec();
             }
             input.ReadMessage(spec_);
             break;
           }
           case 18: {
             if (prefs_ == null) {
-              prefs_ = new global::Tbmatch.UserPrefs();
+              prefs_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserPrefs();
             }
             input.ReadMessage(prefs_);
             break;
@@ -1910,7 +1910,7 @@ namespace Tbadmin {
             break;
           }
           case 88: {
-            loginStatus_ = (global::Tbmatch.LoginStatus) input.ReadEnum();
+            loginStatus_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LoginStatus) input.ReadEnum();
             break;
           }
         }
@@ -1927,7 +1927,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AccountReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2059,7 +2059,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AccountReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2099,9 +2099,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "contact_address" field.</summary>
     public const int ContactAddressFieldNumber = 2;
-    private global::Tbmatch.ContactAddress contactAddress_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.ContactAddress contactAddress_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.ContactAddress ContactAddress {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.ContactAddress ContactAddress {
       get { return contactAddress_; }
       set {
         contactAddress_ = value;
@@ -2182,7 +2182,7 @@ namespace Tbadmin {
       }
       if (other.contactAddress_ != null) {
         if (contactAddress_ == null) {
-          contactAddress_ = new global::Tbmatch.ContactAddress();
+          contactAddress_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.ContactAddress();
         }
         ContactAddress.MergeFrom(other.ContactAddress);
       }
@@ -2203,7 +2203,7 @@ namespace Tbadmin {
           }
           case 18: {
             if (contactAddress_ == null) {
-              contactAddress_ = new global::Tbmatch.ContactAddress();
+              contactAddress_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.ContactAddress();
             }
             input.ReadMessage(contactAddress_);
             break;
@@ -2225,7 +2225,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AccountReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2447,7 +2447,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AccountReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2487,9 +2487,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "login_status" field.</summary>
     public const int LoginStatusFieldNumber = 2;
-    private global::Tbmatch.LoginStatus loginStatus_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LoginStatus loginStatus_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.LoginStatus LoginStatus {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LoginStatus LoginStatus {
       get { return loginStatus_; }
       set {
         loginStatus_ = value;
@@ -2587,7 +2587,7 @@ namespace Tbadmin {
             break;
           }
           case 16: {
-            loginStatus_ = (global::Tbmatch.LoginStatus) input.ReadEnum();
+            loginStatus_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LoginStatus) input.ReadEnum();
             break;
           }
         }
@@ -2607,7 +2607,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AccountReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2764,7 +2764,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AccountReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2896,7 +2896,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AccountReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3056,7 +3056,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AccountReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3185,7 +3185,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AccountReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3225,11 +3225,11 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "change" field.</summary>
     public const int ChangeFieldNumber = 2;
-    private static readonly pb::FieldCodec<global::Tbadmin.HandleChange> _repeated_change_codec
-        = pb::FieldCodec.ForMessage(18, global::Tbadmin.HandleChange.Parser);
-    private readonly pbc::RepeatedField<global::Tbadmin.HandleChange> change_ = new pbc::RepeatedField<global::Tbadmin.HandleChange>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.HandleChange> _repeated_change_codec
+        = pb::FieldCodec.ForMessage(18, global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.HandleChange.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.HandleChange> change_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.HandleChange>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbadmin.HandleChange> Change {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.HandleChange> Change {
       get { return change_; }
     }
 
@@ -3334,7 +3334,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AccountReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3378,9 +3378,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 2;
-    private global::Tbadmin.SendUserEmailNotificationRequest.Types.NotifyType type_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SendUserEmailNotificationRequest.Types.NotifyType type_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.SendUserEmailNotificationRequest.Types.NotifyType Type {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SendUserEmailNotificationRequest.Types.NotifyType Type {
       get { return type_; }
       set {
         type_ = value;
@@ -3389,9 +3389,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "friend_codes" field.</summary>
     public const int FriendCodesFieldNumber = 12;
-    private global::Tbadmin.SendUserEmailNotificationRequest.Types.FriendCodes friendCodes_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SendUserEmailNotificationRequest.Types.FriendCodes friendCodes_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.SendUserEmailNotificationRequest.Types.FriendCodes FriendCodes {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SendUserEmailNotificationRequest.Types.FriendCodes FriendCodes {
       get { return friendCodes_; }
       set {
         friendCodes_ = value;
@@ -3484,7 +3484,7 @@ namespace Tbadmin {
       }
       if (other.friendCodes_ != null) {
         if (friendCodes_ == null) {
-          friendCodes_ = new global::Tbadmin.SendUserEmailNotificationRequest.Types.FriendCodes();
+          friendCodes_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SendUserEmailNotificationRequest.Types.FriendCodes();
         }
         FriendCodes.MergeFrom(other.FriendCodes);
       }
@@ -3504,12 +3504,12 @@ namespace Tbadmin {
             break;
           }
           case 16: {
-            type_ = (global::Tbadmin.SendUserEmailNotificationRequest.Types.NotifyType) input.ReadEnum();
+            type_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SendUserEmailNotificationRequest.Types.NotifyType) input.ReadEnum();
             break;
           }
           case 98: {
             if (friendCodes_ == null) {
-              friendCodes_ = new global::Tbadmin.SendUserEmailNotificationRequest.Types.FriendCodes();
+              friendCodes_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SendUserEmailNotificationRequest.Types.FriendCodes();
             }
             input.ReadMessage(friendCodes_);
             break;
@@ -3542,7 +3542,7 @@ namespace Tbadmin {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::Tbadmin.SendUserEmailNotificationRequest.Descriptor.NestedTypes[0]; }
+          get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SendUserEmailNotificationRequest.Descriptor.NestedTypes[0]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

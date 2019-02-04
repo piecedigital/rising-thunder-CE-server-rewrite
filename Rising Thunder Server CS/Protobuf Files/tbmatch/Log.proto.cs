@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Tbmatch {
+namespace Rising_Thunder_Server_CS.Protobufs.Tbmatch {
 
   /// <summary>Holder for reflection information generated from tbmatch/log.proto</summary>
   public static partial class LogReflection {
@@ -35,7 +35,7 @@ namespace Tbmatch {
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.LogMessage), global::Tbmatch.LogMessage.Parser, new[]{ "TimestampMsec", "Message", "Priority", "Source" }, null, new[]{ typeof(global::Tbmatch.LogMessage.Types.EntityType), typeof(global::Tbmatch.LogMessage.Types.Priority) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.LogMessage.Types.Source), global::Tbmatch.LogMessage.Types.Source.Parser, new[]{ "Application", "Address" }, null, null, null)})
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LogMessage), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LogMessage.Parser, new[]{ "TimestampMsec", "Message", "Priority", "Source" }, null, new[]{ typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LogMessage.Types.EntityType), typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LogMessage.Types.Priority) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LogMessage.Types.Source), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LogMessage.Types.Source.Parser, new[]{ "Application", "Address" }, null, null, null)})
           }));
     }
     #endregion
@@ -54,7 +54,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.LogReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LogReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -113,12 +113,12 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "priority" field.</summary>
     public const int PriorityFieldNumber = 3;
-    private global::Tbmatch.LogMessage.Types.Priority priority_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LogMessage.Types.Priority priority_ = 0;
     /// <summary>
     /// The log level of the message.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.LogMessage.Types.Priority Priority {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LogMessage.Types.Priority Priority {
       get { return priority_; }
       set {
         priority_ = value;
@@ -127,12 +127,12 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "source" field.</summary>
     public const int SourceFieldNumber = 4;
-    private global::Tbmatch.LogMessage.Types.Source source_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LogMessage.Types.Source source_;
     /// <summary>
     /// The source of the log message.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.LogMessage.Types.Source Source {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LogMessage.Types.Source Source {
       get { return source_; }
       set {
         source_ = value;
@@ -237,7 +237,7 @@ namespace Tbmatch {
       }
       if (other.source_ != null) {
         if (source_ == null) {
-          source_ = new global::Tbmatch.LogMessage.Types.Source();
+          source_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LogMessage.Types.Source();
         }
         Source.MergeFrom(other.Source);
       }
@@ -261,12 +261,12 @@ namespace Tbmatch {
             break;
           }
           case 24: {
-            priority_ = (global::Tbmatch.LogMessage.Types.Priority) input.ReadEnum();
+            priority_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LogMessage.Types.Priority) input.ReadEnum();
             break;
           }
           case 34: {
             if (source_ == null) {
-              source_ = new global::Tbmatch.LogMessage.Types.Source();
+              source_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LogMessage.Types.Source();
             }
             input.ReadMessage(source_);
             break;
@@ -324,7 +324,7 @@ namespace Tbmatch {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::Tbmatch.LogMessage.Descriptor.NestedTypes[0]; }
+          get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LogMessage.Descriptor.NestedTypes[0]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

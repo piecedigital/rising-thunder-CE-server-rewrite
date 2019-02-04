@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Tbmatch {
+namespace Rising_Thunder_Server_CS.Protobufs.Tbmatch {
 
   /// <summary>Holder for reflection information generated from tbmatch/user.proto</summary>
   public static partial class UserReflection {
@@ -41,12 +41,12 @@ namespace Tbmatch {
             "EAASCwoHUFNfTUVOVRBlEgwKCFBTX1FVRVVFEGYSDAoIUFNfTE9CQlkQZ2IG",
             "cHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Tbmatch.MatchReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Tbmatch.PlayerState), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.PlayerSession), global::Tbmatch.PlayerSession.Parser, new[]{ "State", "ActiveMatch", "Menu", "Queue", "Lobby" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.PlayerSession.Types.ActiveMatch), global::Tbmatch.PlayerSession.Types.ActiveMatch.Parser, new[]{ "MatchId", "Spectator" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.PlayerSession.Types.Menu), global::Tbmatch.PlayerSession.Types.Menu.Parser, new[]{ "Screen" }, null, new[]{ typeof(global::Tbmatch.PlayerSession.Types.Menu.Types.Screen) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.PlayerSession.Types.Queue), global::Tbmatch.PlayerSession.Types.Queue.Parser, new[]{ "MatchType", "StartTime" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.PlayerSession.Types.Lobby), global::Tbmatch.PlayerSession.Types.Lobby.Parser, new[]{ "LobbyId" }, null, null, null)})
+          new pbr::FileDescriptor[] { global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchReflection.Descriptor, },
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerState), }, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Parser, new[]{ "State", "ActiveMatch", "Menu", "Queue", "Lobby" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.ActiveMatch), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.ActiveMatch.Parser, new[]{ "MatchId", "Spectator" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Menu), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Menu.Parser, new[]{ "Screen" }, null, new[]{ typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Menu.Types.Screen) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Queue), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Queue.Parser, new[]{ "MatchType", "StartTime" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Lobby), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Lobby.Parser, new[]{ "LobbyId" }, null, null, null)})
           }));
     }
     #endregion
@@ -71,7 +71,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.UserReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.UserReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -103,9 +103,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "state" field.</summary>
     public const int StateFieldNumber = 1;
-    private global::Tbmatch.PlayerState state_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerState state_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.PlayerState State {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerState State {
       get { return state_; }
       set {
         state_ = value;
@@ -114,9 +114,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "active_match" field.</summary>
     public const int ActiveMatchFieldNumber = 2;
-    private global::Tbmatch.PlayerSession.Types.ActiveMatch activeMatch_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.ActiveMatch activeMatch_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.PlayerSession.Types.ActiveMatch ActiveMatch {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.ActiveMatch ActiveMatch {
       get { return activeMatch_; }
       set {
         activeMatch_ = value;
@@ -125,9 +125,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "menu" field.</summary>
     public const int MenuFieldNumber = 101;
-    private global::Tbmatch.PlayerSession.Types.Menu menu_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Menu menu_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.PlayerSession.Types.Menu Menu {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Menu Menu {
       get { return menu_; }
       set {
         menu_ = value;
@@ -136,9 +136,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "queue" field.</summary>
     public const int QueueFieldNumber = 102;
-    private global::Tbmatch.PlayerSession.Types.Queue queue_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Queue queue_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.PlayerSession.Types.Queue Queue {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Queue Queue {
       get { return queue_; }
       set {
         queue_ = value;
@@ -147,9 +147,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "lobby" field.</summary>
     public const int LobbyFieldNumber = 103;
-    private global::Tbmatch.PlayerSession.Types.Lobby lobby_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Lobby lobby_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.PlayerSession.Types.Lobby Lobby {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Lobby Lobby {
       get { return lobby_; }
       set {
         lobby_ = value;
@@ -257,25 +257,25 @@ namespace Tbmatch {
       }
       if (other.activeMatch_ != null) {
         if (activeMatch_ == null) {
-          activeMatch_ = new global::Tbmatch.PlayerSession.Types.ActiveMatch();
+          activeMatch_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.ActiveMatch();
         }
         ActiveMatch.MergeFrom(other.ActiveMatch);
       }
       if (other.menu_ != null) {
         if (menu_ == null) {
-          menu_ = new global::Tbmatch.PlayerSession.Types.Menu();
+          menu_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Menu();
         }
         Menu.MergeFrom(other.Menu);
       }
       if (other.queue_ != null) {
         if (queue_ == null) {
-          queue_ = new global::Tbmatch.PlayerSession.Types.Queue();
+          queue_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Queue();
         }
         Queue.MergeFrom(other.Queue);
       }
       if (other.lobby_ != null) {
         if (lobby_ == null) {
-          lobby_ = new global::Tbmatch.PlayerSession.Types.Lobby();
+          lobby_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Lobby();
         }
         Lobby.MergeFrom(other.Lobby);
       }
@@ -291,33 +291,33 @@ namespace Tbmatch {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            state_ = (global::Tbmatch.PlayerState) input.ReadEnum();
+            state_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerState) input.ReadEnum();
             break;
           }
           case 18: {
             if (activeMatch_ == null) {
-              activeMatch_ = new global::Tbmatch.PlayerSession.Types.ActiveMatch();
+              activeMatch_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.ActiveMatch();
             }
             input.ReadMessage(activeMatch_);
             break;
           }
           case 810: {
             if (menu_ == null) {
-              menu_ = new global::Tbmatch.PlayerSession.Types.Menu();
+              menu_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Menu();
             }
             input.ReadMessage(menu_);
             break;
           }
           case 818: {
             if (queue_ == null) {
-              queue_ = new global::Tbmatch.PlayerSession.Types.Queue();
+              queue_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Queue();
             }
             input.ReadMessage(queue_);
             break;
           }
           case 826: {
             if (lobby_ == null) {
-              lobby_ = new global::Tbmatch.PlayerSession.Types.Lobby();
+              lobby_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Lobby();
             }
             input.ReadMessage(lobby_);
             break;
@@ -338,7 +338,7 @@ namespace Tbmatch {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::Tbmatch.PlayerSession.Descriptor.NestedTypes[0]; }
+          get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Descriptor.NestedTypes[0]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -495,7 +495,7 @@ namespace Tbmatch {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::Tbmatch.PlayerSession.Descriptor.NestedTypes[1]; }
+          get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Descriptor.NestedTypes[1]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -523,9 +523,9 @@ namespace Tbmatch {
 
         /// <summary>Field number for the "screen" field.</summary>
         public const int ScreenFieldNumber = 1;
-        private global::Tbmatch.PlayerSession.Types.Menu.Types.Screen screen_ = 0;
+        private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Menu.Types.Screen screen_ = 0;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public global::Tbmatch.PlayerSession.Types.Menu.Types.Screen Screen {
+        public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Menu.Types.Screen Screen {
           get { return screen_; }
           set {
             screen_ = value;
@@ -607,7 +607,7 @@ namespace Tbmatch {
                 _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
                 break;
               case 8: {
-                screen_ = (global::Tbmatch.PlayerSession.Types.Menu.Types.Screen) input.ReadEnum();
+                screen_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Types.Menu.Types.Screen) input.ReadEnum();
                 break;
               }
             }
@@ -639,7 +639,7 @@ namespace Tbmatch {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::Tbmatch.PlayerSession.Descriptor.NestedTypes[2]; }
+          get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Descriptor.NestedTypes[2]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -668,9 +668,9 @@ namespace Tbmatch {
 
         /// <summary>Field number for the "match_type" field.</summary>
         public const int MatchTypeFieldNumber = 1;
-        private global::Tbmatch.MatchType matchType_ = 0;
+        private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchType matchType_ = 0;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public global::Tbmatch.MatchType MatchType {
+        public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchType MatchType {
           get { return matchType_; }
           set {
             matchType_ = value;
@@ -775,7 +775,7 @@ namespace Tbmatch {
                 _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
                 break;
               case 8: {
-                matchType_ = (global::Tbmatch.MatchType) input.ReadEnum();
+                matchType_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchType) input.ReadEnum();
                 break;
               }
               case 16: {
@@ -796,7 +796,7 @@ namespace Tbmatch {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::Tbmatch.PlayerSession.Descriptor.NestedTypes[3]; }
+          get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.PlayerSession.Descriptor.NestedTypes[3]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

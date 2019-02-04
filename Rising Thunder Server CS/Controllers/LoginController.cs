@@ -6,10 +6,23 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Rising_Thunder_Server_CS.Controllers
 {
-    [Route("[controller]")]
+    [Route("ryzthn/[controller]")]
     [ApiController]
-    public class RyzthnController : ControllerBase
+    public class RPCController : ControllerBase
     {
+        [HttpGet("Login")]
+        public string Login()
+        {
+            return "Login";
+        }
+
+        [HttpPost("GetEvent")]
+        public string GetEvent()
+        {
+            return "Get Event";
+        }
+
+        /*
         // GET ryzthn
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
@@ -41,5 +54,6 @@ namespace Rising_Thunder_Server_CS.Controllers
         public void Delete(int id)
         {
         }
+        */
     }
 }

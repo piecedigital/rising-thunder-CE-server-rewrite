@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Tbadmin {
+namespace Rising_Thunder_Server_CS.Protobufs.Tbadmin {
 
   /// <summary>Holder for reflection information generated from tbadmin/audit.proto</summary>
   public static partial class AuditReflection {
@@ -62,16 +62,16 @@ namespace Tbadmin {
             "aW4uU2VhcmNoQXVkaXRIaXN0b3J5UmVxdWVzdBohLnRiYWRtaW4uU2VhcmNo",
             "QXVkaXRIaXN0b3J5UmVzdWx0IgTI8xgYYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Tbrpc.TbrpcReflection.Descriptor, global::Tbmatch.AccountReflection.Descriptor, global::Tbmatch.ShopReflection.Descriptor, global::Tbmatch.QueryReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Tbadmin.AuditEventType), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.AccountSummary), global::Tbadmin.AccountSummary.Parser, new[]{ "AccountId", "Email", "Handle" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.AuditAccount), global::Tbadmin.AuditAccount.Parser, new[]{ "User", "LoginStatus" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.AuditOrder), global::Tbadmin.AuditOrder.Parser, new[]{ "OrderNumber", "Status" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.AuditEvent), global::Tbadmin.AuditEvent.Parser, new[]{ "Actor", "EventTime", "EventType", "RemoteIp", "ServerHost", "Operation", "Query", "Account", "Order" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.AuditEventCriteria), global::Tbadmin.AuditEventCriteria.Parser, new[]{ "ActorAccountId", "EventTime", "EventType", "RemoteIpNet", "ServerHost", "Operation", "Query", "AccountId", "OrderId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.AuditEventSort), global::Tbadmin.AuditEventSort.Parser, new[]{ "First", "Second", "Descending" }, null, new[]{ typeof(global::Tbadmin.AuditEventSort.Types.SortBy) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SearchAuditHistoryRequest), global::Tbadmin.SearchAuditHistoryRequest.Parser, new[]{ "Criteria", "Sort", "Offset", "Limit" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SearchAuditHistoryResult), global::Tbadmin.SearchAuditHistoryResult.Parser, new[]{ "Events", "EndOfData" }, null, null, null)
+          new pbr::FileDescriptor[] { global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.TbrpcReflection.Descriptor, global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.AccountReflection.Descriptor, global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.ShopReflection.Descriptor, global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.QueryReflection.Descriptor, },
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventType), }, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountSummary), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountSummary.Parser, new[]{ "AccountId", "Email", "Handle" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditAccount), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditAccount.Parser, new[]{ "User", "LoginStatus" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditOrder), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditOrder.Parser, new[]{ "OrderNumber", "Status" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEvent), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEvent.Parser, new[]{ "Actor", "EventTime", "EventType", "RemoteIp", "ServerHost", "Operation", "Query", "Account", "Order" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventCriteria), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventCriteria.Parser, new[]{ "ActorAccountId", "EventTime", "EventType", "RemoteIpNet", "ServerHost", "Operation", "Query", "AccountId", "OrderId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventSort), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventSort.Parser, new[]{ "First", "Second", "Descending" }, null, new[]{ typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventSort.Types.SortBy) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SearchAuditHistoryRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SearchAuditHistoryRequest.Parser, new[]{ "Criteria", "Sort", "Offset", "Limit" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SearchAuditHistoryResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SearchAuditHistoryResult.Parser, new[]{ "Events", "EndOfData" }, null, null, null)
           }));
     }
     #endregion
@@ -97,7 +97,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AuditReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -282,7 +282,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AuditReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -311,12 +311,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "user" field.</summary>
     public const int UserFieldNumber = 1;
-    private global::Tbadmin.AccountSummary user_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountSummary user_;
     /// <summary>
     /// Account that was affected.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.AccountSummary User {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountSummary User {
       get { return user_; }
       set {
         user_ = value;
@@ -325,9 +325,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "login_status" field.</summary>
     public const int LoginStatusFieldNumber = 2;
-    private global::Tbmatch.LoginStatus loginStatus_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LoginStatus loginStatus_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.LoginStatus LoginStatus {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LoginStatus LoginStatus {
       get { return loginStatus_; }
       set {
         loginStatus_ = value;
@@ -405,7 +405,7 @@ namespace Tbadmin {
       }
       if (other.user_ != null) {
         if (user_ == null) {
-          user_ = new global::Tbadmin.AccountSummary();
+          user_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountSummary();
         }
         User.MergeFrom(other.User);
       }
@@ -425,13 +425,13 @@ namespace Tbadmin {
             break;
           case 10: {
             if (user_ == null) {
-              user_ = new global::Tbadmin.AccountSummary();
+              user_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountSummary();
             }
             input.ReadMessage(user_);
             break;
           }
           case 16: {
-            loginStatus_ = (global::Tbmatch.LoginStatus) input.ReadEnum();
+            loginStatus_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LoginStatus) input.ReadEnum();
             break;
           }
         }
@@ -448,7 +448,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AuditReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -491,12 +491,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 2;
-    private global::Tbmatch.OrderStatus status_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.OrderStatus status_ = 0;
     /// <summary>
     /// Order status as of the end of this event.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.OrderStatus Status {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.OrderStatus Status {
       get { return status_; }
       set {
         status_ = value;
@@ -594,7 +594,7 @@ namespace Tbadmin {
             break;
           }
           case 16: {
-            status_ = (global::Tbmatch.OrderStatus) input.ReadEnum();
+            status_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.OrderStatus) input.ReadEnum();
             break;
           }
         }
@@ -611,7 +611,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AuditReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -647,12 +647,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "actor" field.</summary>
     public const int ActorFieldNumber = 2;
-    private global::Tbadmin.AccountSummary actor_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountSummary actor_;
     /// <summary>
     /// User who initiated the operation.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.AccountSummary Actor {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountSummary Actor {
       get { return actor_; }
       set {
         actor_ = value;
@@ -675,12 +675,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "event_type" field.</summary>
     public const int EventTypeFieldNumber = 4;
-    private global::Tbadmin.AuditEventType eventType_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventType eventType_ = 0;
     /// <summary>
     /// Category of the event.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.AuditEventType EventType {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventType EventType {
       get { return eventType_; }
       set {
         eventType_ = value;
@@ -745,12 +745,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "account" field.</summary>
     public const int AccountFieldNumber = 11;
-    private global::Tbadmin.AuditAccount account_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditAccount account_;
     /// <summary>
     /// Account that was affected, if any.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.AuditAccount Account {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditAccount Account {
       get { return account_; }
       set {
         account_ = value;
@@ -759,12 +759,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "order" field.</summary>
     public const int OrderFieldNumber = 12;
-    private global::Tbadmin.AuditOrder order_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditOrder order_;
     /// <summary>
     /// Order that was affected, if any.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.AuditOrder Order {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditOrder Order {
       get { return order_; }
       set {
         order_ = value;
@@ -905,7 +905,7 @@ namespace Tbadmin {
       }
       if (other.actor_ != null) {
         if (actor_ == null) {
-          actor_ = new global::Tbadmin.AccountSummary();
+          actor_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountSummary();
         }
         Actor.MergeFrom(other.Actor);
       }
@@ -929,13 +929,13 @@ namespace Tbadmin {
       }
       if (other.account_ != null) {
         if (account_ == null) {
-          account_ = new global::Tbadmin.AuditAccount();
+          account_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditAccount();
         }
         Account.MergeFrom(other.Account);
       }
       if (other.order_ != null) {
         if (order_ == null) {
-          order_ = new global::Tbadmin.AuditOrder();
+          order_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditOrder();
         }
         Order.MergeFrom(other.Order);
       }
@@ -952,7 +952,7 @@ namespace Tbadmin {
             break;
           case 18: {
             if (actor_ == null) {
-              actor_ = new global::Tbadmin.AccountSummary();
+              actor_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountSummary();
             }
             input.ReadMessage(actor_);
             break;
@@ -962,7 +962,7 @@ namespace Tbadmin {
             break;
           }
           case 32: {
-            eventType_ = (global::Tbadmin.AuditEventType) input.ReadEnum();
+            eventType_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventType) input.ReadEnum();
             break;
           }
           case 42: {
@@ -983,14 +983,14 @@ namespace Tbadmin {
           }
           case 90: {
             if (account_ == null) {
-              account_ = new global::Tbadmin.AuditAccount();
+              account_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditAccount();
             }
             input.ReadMessage(account_);
             break;
           }
           case 98: {
             if (order_ == null) {
-              order_ = new global::Tbadmin.AuditOrder();
+              order_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditOrder();
             }
             input.ReadMessage(order_);
             break;
@@ -1012,7 +1012,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AuditReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1059,9 +1059,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "event_time" field.</summary>
     public const int EventTimeFieldNumber = 2;
-    private global::Tbmatch.TimeRange eventTime_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange eventTime_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.TimeRange EventTime {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange EventTime {
       get { return eventTime_; }
       set {
         eventTime_ = value;
@@ -1070,9 +1070,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "event_type" field.</summary>
     public const int EventTypeFieldNumber = 3;
-    private global::Tbadmin.AuditEventType eventType_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventType eventType_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.AuditEventType EventType {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventType EventType {
       get { return eventType_; }
       set {
         eventType_ = value;
@@ -1095,9 +1095,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "server_host" field.</summary>
     public const int ServerHostFieldNumber = 5;
-    private global::Tbmatch.StringMatch serverHost_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch serverHost_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.StringMatch ServerHost {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch ServerHost {
       get { return serverHost_; }
       set {
         serverHost_ = value;
@@ -1106,9 +1106,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "operation" field.</summary>
     public const int OperationFieldNumber = 6;
-    private global::Tbmatch.StringMatch operation_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch operation_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.StringMatch Operation {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch Operation {
       get { return operation_; }
       set {
         operation_ = value;
@@ -1117,9 +1117,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "query" field.</summary>
     public const int QueryFieldNumber = 7;
-    private global::Tbmatch.StringMatch query_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch query_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.StringMatch Query {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch Query {
       get { return query_; }
       set {
         query_ = value;
@@ -1285,7 +1285,7 @@ namespace Tbadmin {
       }
       if (other.eventTime_ != null) {
         if (eventTime_ == null) {
-          eventTime_ = new global::Tbmatch.TimeRange();
+          eventTime_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange();
         }
         EventTime.MergeFrom(other.EventTime);
       }
@@ -1297,19 +1297,19 @@ namespace Tbadmin {
       }
       if (other.serverHost_ != null) {
         if (serverHost_ == null) {
-          serverHost_ = new global::Tbmatch.StringMatch();
+          serverHost_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
         }
         ServerHost.MergeFrom(other.ServerHost);
       }
       if (other.operation_ != null) {
         if (operation_ == null) {
-          operation_ = new global::Tbmatch.StringMatch();
+          operation_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
         }
         Operation.MergeFrom(other.Operation);
       }
       if (other.query_ != null) {
         if (query_ == null) {
-          query_ = new global::Tbmatch.StringMatch();
+          query_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
         }
         Query.MergeFrom(other.Query);
       }
@@ -1336,13 +1336,13 @@ namespace Tbadmin {
           }
           case 18: {
             if (eventTime_ == null) {
-              eventTime_ = new global::Tbmatch.TimeRange();
+              eventTime_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.TimeRange();
             }
             input.ReadMessage(eventTime_);
             break;
           }
           case 24: {
-            eventType_ = (global::Tbadmin.AuditEventType) input.ReadEnum();
+            eventType_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventType) input.ReadEnum();
             break;
           }
           case 34: {
@@ -1351,21 +1351,21 @@ namespace Tbadmin {
           }
           case 42: {
             if (serverHost_ == null) {
-              serverHost_ = new global::Tbmatch.StringMatch();
+              serverHost_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
             }
             input.ReadMessage(serverHost_);
             break;
           }
           case 50: {
             if (operation_ == null) {
-              operation_ = new global::Tbmatch.StringMatch();
+              operation_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
             }
             input.ReadMessage(operation_);
             break;
           }
           case 58: {
             if (query_ == null) {
-              query_ = new global::Tbmatch.StringMatch();
+              query_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.StringMatch();
             }
             input.ReadMessage(query_);
             break;
@@ -1395,7 +1395,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AuditReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1425,9 +1425,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "first" field.</summary>
     public const int FirstFieldNumber = 1;
-    private global::Tbadmin.AuditEventSort.Types.SortBy first_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventSort.Types.SortBy first_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.AuditEventSort.Types.SortBy First {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventSort.Types.SortBy First {
       get { return first_; }
       set {
         first_ = value;
@@ -1436,9 +1436,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "second" field.</summary>
     public const int SecondFieldNumber = 2;
-    private global::Tbadmin.AuditEventSort.Types.SortBy second_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventSort.Types.SortBy second_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.AuditEventSort.Types.SortBy Second {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventSort.Types.SortBy Second {
       get { return second_; }
       set {
         second_ = value;
@@ -1555,11 +1555,11 @@ namespace Tbadmin {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            first_ = (global::Tbadmin.AuditEventSort.Types.SortBy) input.ReadEnum();
+            first_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventSort.Types.SortBy) input.ReadEnum();
             break;
           }
           case 16: {
-            second_ = (global::Tbadmin.AuditEventSort.Types.SortBy) input.ReadEnum();
+            second_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventSort.Types.SortBy) input.ReadEnum();
             break;
           }
           case 24: {
@@ -1598,7 +1598,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AuditReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1629,9 +1629,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "criteria" field.</summary>
     public const int CriteriaFieldNumber = 1;
-    private global::Tbadmin.AuditEventCriteria criteria_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventCriteria criteria_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.AuditEventCriteria Criteria {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventCriteria Criteria {
       get { return criteria_; }
       set {
         criteria_ = value;
@@ -1640,9 +1640,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "sort" field.</summary>
     public const int SortFieldNumber = 2;
-    private global::Tbadmin.AuditEventSort sort_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventSort sort_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.AuditEventSort Sort {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventSort Sort {
       get { return sort_; }
       set {
         sort_ = value;
@@ -1760,13 +1760,13 @@ namespace Tbadmin {
       }
       if (other.criteria_ != null) {
         if (criteria_ == null) {
-          criteria_ = new global::Tbadmin.AuditEventCriteria();
+          criteria_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventCriteria();
         }
         Criteria.MergeFrom(other.Criteria);
       }
       if (other.sort_ != null) {
         if (sort_ == null) {
-          sort_ = new global::Tbadmin.AuditEventSort();
+          sort_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventSort();
         }
         Sort.MergeFrom(other.Sort);
       }
@@ -1789,14 +1789,14 @@ namespace Tbadmin {
             break;
           case 10: {
             if (criteria_ == null) {
-              criteria_ = new global::Tbadmin.AuditEventCriteria();
+              criteria_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventCriteria();
             }
             input.ReadMessage(criteria_);
             break;
           }
           case 18: {
             if (sort_ == null) {
-              sort_ = new global::Tbadmin.AuditEventSort();
+              sort_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEventSort();
             }
             input.ReadMessage(sort_);
             break;
@@ -1823,7 +1823,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.AuditReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1852,11 +1852,11 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "events" field.</summary>
     public const int EventsFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbadmin.AuditEvent> _repeated_events_codec
-        = pb::FieldCodec.ForMessage(10, global::Tbadmin.AuditEvent.Parser);
-    private readonly pbc::RepeatedField<global::Tbadmin.AuditEvent> events_ = new pbc::RepeatedField<global::Tbadmin.AuditEvent>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEvent> _repeated_events_codec
+        = pb::FieldCodec.ForMessage(10, global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEvent.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEvent> events_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEvent>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbadmin.AuditEvent> Events {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditEvent> Events {
       get { return events_; }
     }
 

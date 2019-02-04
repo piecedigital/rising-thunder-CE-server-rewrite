@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Tbadmin {
+namespace Rising_Thunder_Server_CS.Protobufs.Tbadmin {
 
   /// <summary>Holder for reflection information generated from tbadmin/report.proto</summary>
   public static partial class ReportReflection {
@@ -61,20 +61,20 @@ namespace Tbadmin {
             "YmFkbWluLkxpc3RDcmFzaENvbGxlY3Rpb25zUmVxdWVzdBojLnRiYWRtaW4u",
             "TGlzdENyYXNoQ29sbGVjdGlvbnNSZXN1bHQiBMjzGBJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Tbrpc.TbrpcReflection.Descriptor, global::Tbmatch.MatchReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.TbrpcReflection.Descriptor, global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.CrashBuildIdentifier), global::Tbadmin.CrashBuildIdentifier.Parser, new[]{ "BuildIdentifier", "AppName", "BuildVersion" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.CrashCollection), global::Tbadmin.CrashCollection.Parser, new[]{ "CrashIdentifier", "BuildIdentifier", "Occurrences", "UsersAffected", "StackTrace" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SymbolHeader), global::Tbadmin.SymbolHeader.Parser, new[]{ "SymbolPath", "AppName", "BuildVersion", "SymbolDirectory" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.CrashReportHeader), global::Tbadmin.CrashReportHeader.Parser, new[]{ "ReportPath", "Timestamp", "AppName", "BuildVersion", "MachineId", "CrashNumber" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.ListDesyncsRequest), global::Tbadmin.ListDesyncsRequest.Parser, new[]{ "Offset", "Limit" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.ListDesyncsResult), global::Tbadmin.ListDesyncsResult.Parser, new[]{ "Desync" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.ListCrashesRequest), global::Tbadmin.ListCrashesRequest.Parser, new[]{ "Offset", "Limit", "BuildIdentifier", "CrashIdentifier" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.ListCrashesResult), global::Tbadmin.ListCrashesResult.Parser, new[]{ "Collection", "Reports" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.ListCrashBuildIdentifiersRequest), global::Tbadmin.ListCrashBuildIdentifiersRequest.Parser, new[]{ "Offset", "Limit" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.ListCrashBuildIdentifiersResult), global::Tbadmin.ListCrashBuildIdentifiersResult.Parser, new[]{ "Identifiers" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.ListCrashCollectionsRequest), global::Tbadmin.ListCrashCollectionsRequest.Parser, new[]{ "Offset", "Limit", "BuildIdentifier" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.ListCrashCollectionsResult), global::Tbadmin.ListCrashCollectionsResult.Parser, new[]{ "Collections" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashBuildIdentifier), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashBuildIdentifier.Parser, new[]{ "BuildIdentifier", "AppName", "BuildVersion" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashCollection), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashCollection.Parser, new[]{ "CrashIdentifier", "BuildIdentifier", "Occurrences", "UsersAffected", "StackTrace" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SymbolHeader), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SymbolHeader.Parser, new[]{ "SymbolPath", "AppName", "BuildVersion", "SymbolDirectory" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashReportHeader), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashReportHeader.Parser, new[]{ "ReportPath", "Timestamp", "AppName", "BuildVersion", "MachineId", "CrashNumber" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListDesyncsRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListDesyncsRequest.Parser, new[]{ "Offset", "Limit" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListDesyncsResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListDesyncsResult.Parser, new[]{ "Desync" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListCrashesRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListCrashesRequest.Parser, new[]{ "Offset", "Limit", "BuildIdentifier", "CrashIdentifier" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListCrashesResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListCrashesResult.Parser, new[]{ "Collection", "Reports" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListCrashBuildIdentifiersRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListCrashBuildIdentifiersRequest.Parser, new[]{ "Offset", "Limit" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListCrashBuildIdentifiersResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListCrashBuildIdentifiersResult.Parser, new[]{ "Identifiers" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListCrashCollectionsRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListCrashCollectionsRequest.Parser, new[]{ "Offset", "Limit", "BuildIdentifier" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListCrashCollectionsResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListCrashCollectionsResult.Parser, new[]{ "Collections" }, null, null, null)
           }));
     }
     #endregion
@@ -89,7 +89,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ReportReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ReportReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -274,7 +274,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ReportReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ReportReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -521,7 +521,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ReportReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ReportReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -740,7 +740,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ReportReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ReportReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1015,7 +1015,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ReportReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ReportReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1172,7 +1172,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ReportReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ReportReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1200,11 +1200,11 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "desync" field.</summary>
     public const int DesyncFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbmatch.DesyncReportHeader> _repeated_desync_codec
-        = pb::FieldCodec.ForMessage(10, global::Tbmatch.DesyncReportHeader.Parser);
-    private readonly pbc::RepeatedField<global::Tbmatch.DesyncReportHeader> desync_ = new pbc::RepeatedField<global::Tbmatch.DesyncReportHeader>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.DesyncReportHeader> _repeated_desync_codec
+        = pb::FieldCodec.ForMessage(10, global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.DesyncReportHeader.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.DesyncReportHeader> desync_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.DesyncReportHeader>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbmatch.DesyncReportHeader> Desync {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.DesyncReportHeader> Desync {
       get { return desync_; }
     }
 
@@ -1293,7 +1293,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ReportReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ReportReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1506,7 +1506,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ReportReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ReportReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1535,9 +1535,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "collection" field.</summary>
     public const int CollectionFieldNumber = 1;
-    private global::Tbadmin.CrashCollection collection_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashCollection collection_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.CrashCollection Collection {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashCollection Collection {
       get { return collection_; }
       set {
         collection_ = value;
@@ -1546,11 +1546,11 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "reports" field.</summary>
     public const int ReportsFieldNumber = 2;
-    private static readonly pb::FieldCodec<global::Tbadmin.CrashReportHeader> _repeated_reports_codec
-        = pb::FieldCodec.ForMessage(18, global::Tbadmin.CrashReportHeader.Parser);
-    private readonly pbc::RepeatedField<global::Tbadmin.CrashReportHeader> reports_ = new pbc::RepeatedField<global::Tbadmin.CrashReportHeader>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashReportHeader> _repeated_reports_codec
+        = pb::FieldCodec.ForMessage(18, global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashReportHeader.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashReportHeader> reports_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashReportHeader>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbadmin.CrashReportHeader> Reports {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashReportHeader> Reports {
       get { return reports_; }
     }
 
@@ -1620,7 +1620,7 @@ namespace Tbadmin {
       }
       if (other.collection_ != null) {
         if (collection_ == null) {
-          collection_ = new global::Tbadmin.CrashCollection();
+          collection_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashCollection();
         }
         Collection.MergeFrom(other.Collection);
       }
@@ -1638,7 +1638,7 @@ namespace Tbadmin {
             break;
           case 10: {
             if (collection_ == null) {
-              collection_ = new global::Tbadmin.CrashCollection();
+              collection_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashCollection();
             }
             input.ReadMessage(collection_);
             break;
@@ -1661,7 +1661,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ReportReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ReportReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1818,7 +1818,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ReportReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ReportReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1846,11 +1846,11 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "identifiers" field.</summary>
     public const int IdentifiersFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbadmin.CrashBuildIdentifier> _repeated_identifiers_codec
-        = pb::FieldCodec.ForMessage(10, global::Tbadmin.CrashBuildIdentifier.Parser);
-    private readonly pbc::RepeatedField<global::Tbadmin.CrashBuildIdentifier> identifiers_ = new pbc::RepeatedField<global::Tbadmin.CrashBuildIdentifier>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashBuildIdentifier> _repeated_identifiers_codec
+        = pb::FieldCodec.ForMessage(10, global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashBuildIdentifier.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashBuildIdentifier> identifiers_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashBuildIdentifier>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbadmin.CrashBuildIdentifier> Identifiers {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashBuildIdentifier> Identifiers {
       get { return identifiers_; }
     }
 
@@ -1939,7 +1939,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ReportReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ReportReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2124,7 +2124,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ReportReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ReportReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2152,11 +2152,11 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "collections" field.</summary>
     public const int CollectionsFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbadmin.CrashCollection> _repeated_collections_codec
-        = pb::FieldCodec.ForMessage(10, global::Tbadmin.CrashCollection.Parser);
-    private readonly pbc::RepeatedField<global::Tbadmin.CrashCollection> collections_ = new pbc::RepeatedField<global::Tbadmin.CrashCollection>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashCollection> _repeated_collections_codec
+        = pb::FieldCodec.ForMessage(10, global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashCollection.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashCollection> collections_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashCollection>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbadmin.CrashCollection> Collections {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashCollection> Collections {
       get { return collections_; }
     }
 

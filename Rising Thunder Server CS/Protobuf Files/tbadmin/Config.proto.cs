@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Tbadmin {
+namespace Rising_Thunder_Server_CS.Protobufs.Tbadmin {
 
   /// <summary>Holder for reflection information generated from tbadmin/config.proto</summary>
   public static partial class ConfigReflection {
@@ -301,69 +301,69 @@ namespace Tbadmin {
             "EgwudGJycGMuRW1wdHkaEi50YmFkbWluLkFwcENvbmZpZyIEyPMYFGIGcHJv",
             "dG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Tbrpc.TbrpcReflection.Descriptor, global::Tbmatch.MatchReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.TbrpcReflection.Descriptor, global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.GlobalConfig), global::Tbadmin.GlobalConfig.Parser, new[]{ "ReqBuildVersion" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.MatchQueueConfig), global::Tbadmin.MatchQueueConfig.Parser, new[]{ "ProposalTtl", "QueueTicketTtl", "SelectSize", "EchelonDistMin", "EchelonDistMax", "EchelonDistPerSec", "EchelonScoreCoeff", "EchelonDistNormalizedMin", "EchelonDistNormalizedMax", "PointDistMin", "PointDistMax", "PointDistPerSec", "PointScoreCoeff", "PointDistNormalizedMin", "PointDistNormalizedMax", "LastOppExcludeTime", "LastOppTimeout", "CrossContinentExcludeTime", "PingScoreMin", "PingScoreMax", "PingScorePerSec", "PingScoreCoeff", "PingScoreNormalizedMin", "PingScoreNormalizedMax", "GeoDistMin", "GeoDistMax", "GeoDistPerSec", "GeoScoreCoeff", "GeoDistNormalizedMin", "GeoDistNormalizedMax", "RatingDistMin", "RatingDistPerSec", "RatingScoreCoeff", "RatingDistNormalizedMin", "RatingDistNormalizedMax", "MaintenanceMode", "ActiveMatchTimeout", "WaitTimeoutSec", "DeprecatedRatingDistMax" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.MatchUserConfig), global::Tbadmin.MatchUserConfig.Parser, new[]{ "PingTableTtl", "BlacklistTtl" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.LobbyConfig), global::Tbadmin.LobbyConfig.Parser, new[]{ "MaxMembers", "MatchTtl", "LobbyTtl", "ActiveMatchTimeout" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.LogAggregatorConfig), global::Tbadmin.LogAggregatorConfig.Parser, new[]{ "MatchLogTtl", "DefaultLogTtl" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.FeatureDefinition), global::Tbadmin.FeatureDefinition.Parser, new[]{ "Tag", "Description" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.FeatureRule), global::Tbadmin.FeatureRule.Parser, new[]{ "RuleId", "FeatureSet", "Enabled", "Priority", "Owner", "Notes", "ActiveTimeUnix", "InactiveTimeUnix" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.GetGlobalConfigResult), global::Tbadmin.GetGlobalConfigResult.Parser, new[]{ "Config" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SetGlobalConfigRequest), global::Tbadmin.SetGlobalConfigRequest.Parser, new[]{ "Config" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.GetMatchQueueConfigResult), global::Tbadmin.GetMatchQueueConfigResult.Parser, new[]{ "Config" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SetMatchQueueConfigRequest), global::Tbadmin.SetMatchQueueConfigRequest.Parser, new[]{ "Config" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.GetMatchUserConfigResult), global::Tbadmin.GetMatchUserConfigResult.Parser, new[]{ "Config" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SetMatchUserConfigRequest), global::Tbadmin.SetMatchUserConfigRequest.Parser, new[]{ "Config" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.GetLobbyConfigResult), global::Tbadmin.GetLobbyConfigResult.Parser, new[]{ "Config" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SetLobbyConfigRequest), global::Tbadmin.SetLobbyConfigRequest.Parser, new[]{ "Config" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.ListFeatureDefinitionsResult), global::Tbadmin.ListFeatureDefinitionsResult.Parser, new[]{ "Def" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SetFeatureDefinitionRequest), global::Tbadmin.SetFeatureDefinitionRequest.Parser, new[]{ "Def" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.DeleteFeatureDefinitionRequest), global::Tbadmin.DeleteFeatureDefinitionRequest.Parser, new[]{ "Tag" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.ListFeatureRulesResult), global::Tbadmin.ListFeatureRulesResult.Parser, new[]{ "Rule" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.GetActiveFeaturesResult), global::Tbadmin.GetActiveFeaturesResult.Parser, new[]{ "FeatureSet" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.CreateFeatureRuleRequest), global::Tbadmin.CreateFeatureRuleRequest.Parser, new[]{ "Rule" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.UpdateFeatureRuleRequest), global::Tbadmin.UpdateFeatureRuleRequest.Parser, new[]{ "Rule" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.DeleteFeatureRuleRequest), global::Tbadmin.DeleteFeatureRuleRequest.Parser, new[]{ "RuleId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.DatabaseConfig), global::Tbadmin.DatabaseConfig.Parser, new[]{ "User", "Password", "Host", "Port", "Database", "ConnectTimeout", "MaxIdle", "MaxOpen", "SslMode", "SchemaPath" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.RedisConfig), global::Tbadmin.RedisConfig.Parser, new[]{ "Host", "Port", "Password", "MaxIdle", "Database", "ConnectTimeoutMs", "ReadTimeoutMs", "WriteTimeoutMs", "LuaPath", "LuaInclude" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.GApiConfig), global::Tbadmin.GApiConfig.Parser, new[]{ "ProxyUrl", "ProjectId", "Auth", "GceAccount", "SdkAccount" }, null, new[]{ typeof(global::Tbadmin.GApiConfig.Types.AuthType) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.GcsStorageConfig), global::Tbadmin.GcsStorageConfig.Parser, new[]{ "ProxyUrl", "ProjectId", "BucketName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.SessionAuthKey), global::Tbadmin.SessionAuthKey.Parser, new[]{ "Current", "Previous" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.RPCConfig), global::Tbadmin.RPCConfig.Parser, new[]{ "HttpPort", "RpcUri", "SessionKey", "SessionTimeoutSecs", "SessionActiveWindowSecs", "MaxRequestSize", "JsonLogPath" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.PaymentCreds), global::Tbadmin.PaymentCreds.Parser, new[]{ "ApiUrl", "ApiLoginId", "TransactionKey" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.PortalClientConfig), global::Tbadmin.PortalClientConfig.Parser, new[]{ "RequestQueue", "ReportQueue", "ResponseTimeoutMs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.MonitorConfig), global::Tbadmin.MonitorConfig.Parser, new[]{ "VarsUri", "HealthUri", "VarsAllowNet", "HealthAllowNet", "AppconfzUri" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.MailGlobalVars), global::Tbadmin.MailGlobalVars.Parser, new[]{ "SenderAddress", "SiteName", "SenderName", "AccountRecoveryUrl" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.MailConfig), global::Tbadmin.MailConfig.Parser, new[]{ "Host", "Tls", "InsecureSkipVerify", "AuthUser", "AuthPassword", "TemplatePath", "IncludePath", "AutoReload", "Vars" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.MailConfig.Types.MailHost), global::Tbadmin.MailConfig.Types.MailHost.Parser, new[]{ "Host", "Port" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.MatchMakerConfig), global::Tbadmin.MatchMakerConfig.Parser, new[]{ "Enabled", "MasterRetryIntervalMs", "MasterLockExpiryMs", "PollPeriodMs", "ErrorRetryMs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.AdminServerConfig), global::Tbadmin.AdminServerConfig.Parser, new[]{ "EnableExportTrim" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.ServerConfig), global::Tbadmin.ServerConfig.Parser, new[]{ "DbConfig", "RpcConfig", "RedisConfig", "Mail", "PaymentCreds", "PortalClient", "MatchMaker", "MonitorConfig", "DesyncStorage", "CrashStorage", "StackwalkBinaryPath", "MatchLogStorage", "GeoliteDatabaseFile", "Google", "BigqueryDataset", "BigqueryPrefix", "GoMaxProcs", "PortalSimEnabled", "AdminServer", "AdminServerConfig" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.AccountConfig), global::Tbadmin.AccountConfig.Parser, new[]{ "MinPasswordLength", "MinPasswordClasses", "RegisterAccess", "EmailValidateConfirmSecs", "EmailValidateUrlPrefix", "ValidateNonceLength", "PasswordResetExpireSecs", "PasswordResetCodeLength", "MaxUserSearchResult", "LockoutDurationMins", "LockoutThreshold", "ResetLockoutCounterAfterMins", "SessionTicketExpireSecs", "RequireRegistrationKey", "DisallowHandleRegexp", "NukeHandlePrefix", "NukeRetries" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.LevelProgression), global::Tbadmin.LevelProgression.Parser, new[]{ "Baseline", "Coefficient", "MatchXp", "WinBonusXp" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.EchelonRules), global::Tbadmin.EchelonRules.Parser, new[]{ "TierPoints", "IgnoreLoss", "Final" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.EchelonConfig), global::Tbadmin.EchelonConfig.Parser, new[]{ "Echelon", "WinStreakBonusMinimum", "WinStreakBonusPoints" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.RankConfig), global::Tbadmin.RankConfig.Parser, new[]{ "PlayerProgress", "CharProgress", "EchelonConfig" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.Glicko2RatingConfig), global::Tbadmin.Glicko2RatingConfig.Parser, new[]{ "Tau", "RatingPeriodMins", "CheckPeriodMins", "MaxDeviation", "MinDeviation", "DeviationDecayPeriods", "TypicalDeviation" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.MatchServiceConfig), global::Tbadmin.MatchServiceConfig.Parser, new[]{ "MatchReadyTimeoutMs", "Rank", "MaxRecentResults", "MaxPacketLossRatio", "DesyncReportMaxDrift", "RatingConfig", "UnratedGlickoRating", "DefaultGlickoRating", "SessionRatingAdjustCoefficient", "LuaConfigCacheSec", "StrictGameSessions", "DeprecatedGetRankedTimeoutMs", "DeprecatedProvideLocalFsm", "DeprecatedReplayPath", "DeprecatedMatchLifetimeSec", "DeprecatedSelectSize", "DeprecatedDesyncReportPath", "PingTestLifetimeSec", "DeprecatedGamesToWin" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.LobbyServiceConfig), global::Tbadmin.LobbyServiceConfig.Parser, new[]{ "JoinCodeLength", "MaxMembers" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.PaymentConfig), global::Tbadmin.PaymentConfig.Parser, new[]{ "TimeoutMs", "Currency", "TestMode", "ValMode", "DirectResponseDelimiter" }, null, new[]{ typeof(global::Tbadmin.PaymentConfig.Types.Validation) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.CurrencyDesc), global::Tbadmin.CurrencyDesc.Parser, new[]{ "Code", "Precision", "Symbol", "CountryIso3", "BalancePurchaseAllow", "BalancePurchaseDefault", "BalancePurchaseMin", "BalancePurchaseMax", "BalanceMax" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.CurrencyConfig), global::Tbadmin.CurrencyConfig.Parser, new[]{ "Desc", "DefaultCurrency" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.ShopConfig), global::Tbadmin.ShopConfig.Parser, new[]{ "Payment", "Currency", "MaxOrderSearchResult", "OrderHistoryPageSize", "MaxBalanceHistoryDays" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.EventConfig), global::Tbadmin.EventConfig.Parser, new[]{ "ChangeWaitTimeoutMs", "EventExpiryMs", "UserKeyExpirySec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.AuditConfig), global::Tbadmin.AuditConfig.Parser, new[]{ "MaxAuditSearchResult", "MaxAuditSearchDays" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.CrashReportConfig), global::Tbadmin.CrashReportConfig.Parser, new[]{ "ShouldStoreCrashBundles", "MaxVersionsToKeep", "PollingInterval" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.ServerRolloutFlags), global::Tbadmin.ServerRolloutFlags.Parser, new[]{ "SecurePortalUdpTraffic", "DeprecatedAutoResumeGetMatch" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.DesyncReportConfig), global::Tbadmin.DesyncReportConfig.Parser, new[]{ "PollingInterval" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.ExportTrimConfig), global::Tbadmin.ExportTrimConfig.Parser, new[]{ "TrimEnabled", "MinAgeDays", "BatchSize", "TrimIntervalMins" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.AppConfig), global::Tbadmin.AppConfig.Parser, new[]{ "AccountConfig", "MatchConfig", "ShopConfig", "EventConfig", "AuditConfig", "LobbyConfig", "CrashReportConfig", "ServerRolloutFlags", "DesyncReportConfig", "ExportTrimConfig" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.FEContentConfig), global::Tbadmin.FEContentConfig.Parser, new[]{ "DataDir", "StaticDir", "DevelMode", "MessageDir", "ApplicationName", "RecaptchaSiteKey", "RecaptchaSecretKey", "RecaptchaVerifyUrl", "RecaptchaProxyUrl", "RecaptchaFailureThreshold", "CanonicalHostname", "CanonicalScheme", "InternalErrorTemplate", "NotFoundTemplate", "LoginRedirectPath", "LauncherDownloadUrl", "ForumUrl", "LandingRedirectUrl" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.FEBackendConfig), global::Tbadmin.FEBackendConfig.Parser, new[]{ "MatchClient", "AppLogin", "AppPassword", "StartupWaitSec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.VanillaJSConnectConfig), global::Tbadmin.VanillaJSConnectConfig.Parser, new[]{ "ClientId", "Secret", "MaxAgeSecs", "UnauthRole", "BlessEmailSuffix", "BlessRole" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.FEConfig), global::Tbadmin.FEConfig.Parser, new[]{ "HttpPort", "SessionKey", "SessionTimeoutSecs", "GoMaxProcs", "JsonAccessLogPath", "MonitorConfig", "RedisConfig", "ContentConfig", "BackendConfig", "Vanilla" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbadmin.MatchMonConfig), global::Tbadmin.MatchMonConfig.Parser, new[]{ "HttpPort", "DataDir", "StaticDir", "GeoipDir", "MsgDir", "SessionDir", "DesyncStorage", "CrashStorage", "BackendConfig", "PollIntervalSec", "SessionCountMaxAgeSec", "SessionResultLimit", "LobbyResultLimit", "ActiveMatchResultLimit" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GlobalConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GlobalConfig.Parser, new[]{ "ReqBuildVersion" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchQueueConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchQueueConfig.Parser, new[]{ "ProposalTtl", "QueueTicketTtl", "SelectSize", "EchelonDistMin", "EchelonDistMax", "EchelonDistPerSec", "EchelonScoreCoeff", "EchelonDistNormalizedMin", "EchelonDistNormalizedMax", "PointDistMin", "PointDistMax", "PointDistPerSec", "PointScoreCoeff", "PointDistNormalizedMin", "PointDistNormalizedMax", "LastOppExcludeTime", "LastOppTimeout", "CrossContinentExcludeTime", "PingScoreMin", "PingScoreMax", "PingScorePerSec", "PingScoreCoeff", "PingScoreNormalizedMin", "PingScoreNormalizedMax", "GeoDistMin", "GeoDistMax", "GeoDistPerSec", "GeoScoreCoeff", "GeoDistNormalizedMin", "GeoDistNormalizedMax", "RatingDistMin", "RatingDistPerSec", "RatingScoreCoeff", "RatingDistNormalizedMin", "RatingDistNormalizedMax", "MaintenanceMode", "ActiveMatchTimeout", "WaitTimeoutSec", "DeprecatedRatingDistMax" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchUserConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchUserConfig.Parser, new[]{ "PingTableTtl", "BlacklistTtl" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LobbyConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LobbyConfig.Parser, new[]{ "MaxMembers", "MatchTtl", "LobbyTtl", "ActiveMatchTimeout" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LogAggregatorConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LogAggregatorConfig.Parser, new[]{ "MatchLogTtl", "DefaultLogTtl" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureDefinition), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureDefinition.Parser, new[]{ "Tag", "Description" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureRule), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureRule.Parser, new[]{ "RuleId", "FeatureSet", "Enabled", "Priority", "Owner", "Notes", "ActiveTimeUnix", "InactiveTimeUnix" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetGlobalConfigResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetGlobalConfigResult.Parser, new[]{ "Config" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SetGlobalConfigRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SetGlobalConfigRequest.Parser, new[]{ "Config" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetMatchQueueConfigResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetMatchQueueConfigResult.Parser, new[]{ "Config" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SetMatchQueueConfigRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SetMatchQueueConfigRequest.Parser, new[]{ "Config" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetMatchUserConfigResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetMatchUserConfigResult.Parser, new[]{ "Config" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SetMatchUserConfigRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SetMatchUserConfigRequest.Parser, new[]{ "Config" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetLobbyConfigResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetLobbyConfigResult.Parser, new[]{ "Config" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SetLobbyConfigRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SetLobbyConfigRequest.Parser, new[]{ "Config" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListFeatureDefinitionsResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListFeatureDefinitionsResult.Parser, new[]{ "Def" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SetFeatureDefinitionRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SetFeatureDefinitionRequest.Parser, new[]{ "Def" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.DeleteFeatureDefinitionRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.DeleteFeatureDefinitionRequest.Parser, new[]{ "Tag" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListFeatureRulesResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ListFeatureRulesResult.Parser, new[]{ "Rule" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetActiveFeaturesResult), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GetActiveFeaturesResult.Parser, new[]{ "FeatureSet" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CreateFeatureRuleRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CreateFeatureRuleRequest.Parser, new[]{ "Rule" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UpdateFeatureRuleRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.UpdateFeatureRuleRequest.Parser, new[]{ "Rule" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.DeleteFeatureRuleRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.DeleteFeatureRuleRequest.Parser, new[]{ "RuleId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.DatabaseConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.DatabaseConfig.Parser, new[]{ "User", "Password", "Host", "Port", "Database", "ConnectTimeout", "MaxIdle", "MaxOpen", "SslMode", "SchemaPath" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RedisConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RedisConfig.Parser, new[]{ "Host", "Port", "Password", "MaxIdle", "Database", "ConnectTimeoutMs", "ReadTimeoutMs", "WriteTimeoutMs", "LuaPath", "LuaInclude" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GApiConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GApiConfig.Parser, new[]{ "ProxyUrl", "ProjectId", "Auth", "GceAccount", "SdkAccount" }, null, new[]{ typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GApiConfig.Types.AuthType) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig.Parser, new[]{ "ProxyUrl", "ProjectId", "BucketName" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SessionAuthKey), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SessionAuthKey.Parser, new[]{ "Current", "Previous" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RPCConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RPCConfig.Parser, new[]{ "HttpPort", "RpcUri", "SessionKey", "SessionTimeoutSecs", "SessionActiveWindowSecs", "MaxRequestSize", "JsonLogPath" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PaymentCreds), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PaymentCreds.Parser, new[]{ "ApiUrl", "ApiLoginId", "TransactionKey" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PortalClientConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PortalClientConfig.Parser, new[]{ "RequestQueue", "ReportQueue", "ResponseTimeoutMs" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MonitorConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MonitorConfig.Parser, new[]{ "VarsUri", "HealthUri", "VarsAllowNet", "HealthAllowNet", "AppconfzUri" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailGlobalVars), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailGlobalVars.Parser, new[]{ "SenderAddress", "SiteName", "SenderName", "AccountRecoveryUrl" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailConfig.Parser, new[]{ "Host", "Tls", "InsecureSkipVerify", "AuthUser", "AuthPassword", "TemplatePath", "IncludePath", "AutoReload", "Vars" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailConfig.Types.MailHost), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailConfig.Types.MailHost.Parser, new[]{ "Host", "Port" }, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchMakerConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchMakerConfig.Parser, new[]{ "Enabled", "MasterRetryIntervalMs", "MasterLockExpiryMs", "PollPeriodMs", "ErrorRetryMs" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AdminServerConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AdminServerConfig.Parser, new[]{ "EnableExportTrim" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ServerConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ServerConfig.Parser, new[]{ "DbConfig", "RpcConfig", "RedisConfig", "Mail", "PaymentCreds", "PortalClient", "MatchMaker", "MonitorConfig", "DesyncStorage", "CrashStorage", "StackwalkBinaryPath", "MatchLogStorage", "GeoliteDatabaseFile", "Google", "BigqueryDataset", "BigqueryPrefix", "GoMaxProcs", "PortalSimEnabled", "AdminServer", "AdminServerConfig" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountConfig.Parser, new[]{ "MinPasswordLength", "MinPasswordClasses", "RegisterAccess", "EmailValidateConfirmSecs", "EmailValidateUrlPrefix", "ValidateNonceLength", "PasswordResetExpireSecs", "PasswordResetCodeLength", "MaxUserSearchResult", "LockoutDurationMins", "LockoutThreshold", "ResetLockoutCounterAfterMins", "SessionTicketExpireSecs", "RequireRegistrationKey", "DisallowHandleRegexp", "NukeHandlePrefix", "NukeRetries" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LevelProgression), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LevelProgression.Parser, new[]{ "Baseline", "Coefficient", "MatchXp", "WinBonusXp" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EchelonRules), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EchelonRules.Parser, new[]{ "TierPoints", "IgnoreLoss", "Final" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EchelonConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EchelonConfig.Parser, new[]{ "Echelon", "WinStreakBonusMinimum", "WinStreakBonusPoints" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RankConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RankConfig.Parser, new[]{ "PlayerProgress", "CharProgress", "EchelonConfig" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Glicko2RatingConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Glicko2RatingConfig.Parser, new[]{ "Tau", "RatingPeriodMins", "CheckPeriodMins", "MaxDeviation", "MinDeviation", "DeviationDecayPeriods", "TypicalDeviation" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchServiceConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchServiceConfig.Parser, new[]{ "MatchReadyTimeoutMs", "Rank", "MaxRecentResults", "MaxPacketLossRatio", "DesyncReportMaxDrift", "RatingConfig", "UnratedGlickoRating", "DefaultGlickoRating", "SessionRatingAdjustCoefficient", "LuaConfigCacheSec", "StrictGameSessions", "DeprecatedGetRankedTimeoutMs", "DeprecatedProvideLocalFsm", "DeprecatedReplayPath", "DeprecatedMatchLifetimeSec", "DeprecatedSelectSize", "DeprecatedDesyncReportPath", "PingTestLifetimeSec", "DeprecatedGamesToWin" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LobbyServiceConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LobbyServiceConfig.Parser, new[]{ "JoinCodeLength", "MaxMembers" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PaymentConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PaymentConfig.Parser, new[]{ "TimeoutMs", "Currency", "TestMode", "ValMode", "DirectResponseDelimiter" }, null, new[]{ typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PaymentConfig.Types.Validation) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CurrencyDesc), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CurrencyDesc.Parser, new[]{ "Code", "Precision", "Symbol", "CountryIso3", "BalancePurchaseAllow", "BalancePurchaseDefault", "BalancePurchaseMin", "BalancePurchaseMax", "BalanceMax" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CurrencyConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CurrencyConfig.Parser, new[]{ "Desc", "DefaultCurrency" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ShopConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ShopConfig.Parser, new[]{ "Payment", "Currency", "MaxOrderSearchResult", "OrderHistoryPageSize", "MaxBalanceHistoryDays" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EventConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EventConfig.Parser, new[]{ "ChangeWaitTimeoutMs", "EventExpiryMs", "UserKeyExpirySec" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditConfig.Parser, new[]{ "MaxAuditSearchResult", "MaxAuditSearchDays" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashReportConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashReportConfig.Parser, new[]{ "ShouldStoreCrashBundles", "MaxVersionsToKeep", "PollingInterval" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ServerRolloutFlags), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ServerRolloutFlags.Parser, new[]{ "SecurePortalUdpTraffic", "DeprecatedAutoResumeGetMatch" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.DesyncReportConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.DesyncReportConfig.Parser, new[]{ "PollingInterval" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ExportTrimConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ExportTrimConfig.Parser, new[]{ "TrimEnabled", "MinAgeDays", "BatchSize", "TrimIntervalMins" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AppConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AppConfig.Parser, new[]{ "AccountConfig", "MatchConfig", "ShopConfig", "EventConfig", "AuditConfig", "LobbyConfig", "CrashReportConfig", "ServerRolloutFlags", "DesyncReportConfig", "ExportTrimConfig" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FEContentConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FEContentConfig.Parser, new[]{ "DataDir", "StaticDir", "DevelMode", "MessageDir", "ApplicationName", "RecaptchaSiteKey", "RecaptchaSecretKey", "RecaptchaVerifyUrl", "RecaptchaProxyUrl", "RecaptchaFailureThreshold", "CanonicalHostname", "CanonicalScheme", "InternalErrorTemplate", "NotFoundTemplate", "LoginRedirectPath", "LauncherDownloadUrl", "ForumUrl", "LandingRedirectUrl" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FEBackendConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FEBackendConfig.Parser, new[]{ "MatchClient", "AppLogin", "AppPassword", "StartupWaitSec" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.VanillaJSConnectConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.VanillaJSConnectConfig.Parser, new[]{ "ClientId", "Secret", "MaxAgeSecs", "UnauthRole", "BlessEmailSuffix", "BlessRole" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FEConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FEConfig.Parser, new[]{ "HttpPort", "SessionKey", "SessionTimeoutSecs", "GoMaxProcs", "JsonAccessLogPath", "MonitorConfig", "RedisConfig", "ContentConfig", "BackendConfig", "Vanilla" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchMonConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchMonConfig.Parser, new[]{ "HttpPort", "DataDir", "StaticDir", "GeoipDir", "MsgDir", "SessionDir", "DesyncStorage", "CrashStorage", "BackendConfig", "PollIntervalSec", "SessionCountMaxAgeSec", "SessionResultLimit", "LobbyResultLimit", "ActiveMatchResultLimit" }, null, null, null)
           }));
     }
     #endregion
@@ -378,7 +378,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -511,7 +511,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1755,7 +1755,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1918,7 +1918,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2143,7 +2143,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2309,7 +2309,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2475,7 +2475,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2524,12 +2524,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "feature_set" field.</summary>
     public const int FeatureSetFieldNumber = 2;
-    private global::Tbmatch.ClientFeatureSet featureSet_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.ClientFeatureSet featureSet_;
     /// <summary>
     /// Feature tags and values enabled by the rule.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.ClientFeatureSet FeatureSet {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.ClientFeatureSet FeatureSet {
       get { return featureSet_; }
       set {
         featureSet_ = value;
@@ -2749,7 +2749,7 @@ namespace Tbadmin {
       }
       if (other.featureSet_ != null) {
         if (featureSet_ == null) {
-          featureSet_ = new global::Tbmatch.ClientFeatureSet();
+          featureSet_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.ClientFeatureSet();
         }
         FeatureSet.MergeFrom(other.FeatureSet);
       }
@@ -2788,7 +2788,7 @@ namespace Tbadmin {
           }
           case 18: {
             if (featureSet_ == null) {
-              featureSet_ = new global::Tbmatch.ClientFeatureSet();
+              featureSet_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.ClientFeatureSet();
             }
             input.ReadMessage(featureSet_);
             break;
@@ -2831,7 +2831,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2859,9 +2859,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "config" field.</summary>
     public const int ConfigFieldNumber = 1;
-    private global::Tbadmin.GlobalConfig config_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GlobalConfig config_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.GlobalConfig Config {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GlobalConfig Config {
       get { return config_; }
       set {
         config_ = value;
@@ -2930,7 +2930,7 @@ namespace Tbadmin {
       }
       if (other.config_ != null) {
         if (config_ == null) {
-          config_ = new global::Tbadmin.GlobalConfig();
+          config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GlobalConfig();
         }
         Config.MergeFrom(other.Config);
       }
@@ -2947,7 +2947,7 @@ namespace Tbadmin {
             break;
           case 10: {
             if (config_ == null) {
-              config_ = new global::Tbadmin.GlobalConfig();
+              config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GlobalConfig();
             }
             input.ReadMessage(config_);
             break;
@@ -2966,7 +2966,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2994,9 +2994,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "config" field.</summary>
     public const int ConfigFieldNumber = 1;
-    private global::Tbadmin.GlobalConfig config_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GlobalConfig config_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.GlobalConfig Config {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GlobalConfig Config {
       get { return config_; }
       set {
         config_ = value;
@@ -3065,7 +3065,7 @@ namespace Tbadmin {
       }
       if (other.config_ != null) {
         if (config_ == null) {
-          config_ = new global::Tbadmin.GlobalConfig();
+          config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GlobalConfig();
         }
         Config.MergeFrom(other.Config);
       }
@@ -3082,7 +3082,7 @@ namespace Tbadmin {
             break;
           case 10: {
             if (config_ == null) {
-              config_ = new global::Tbadmin.GlobalConfig();
+              config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GlobalConfig();
             }
             input.ReadMessage(config_);
             break;
@@ -3101,7 +3101,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3129,9 +3129,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "config" field.</summary>
     public const int ConfigFieldNumber = 1;
-    private global::Tbadmin.MatchQueueConfig config_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchQueueConfig config_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.MatchQueueConfig Config {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchQueueConfig Config {
       get { return config_; }
       set {
         config_ = value;
@@ -3200,7 +3200,7 @@ namespace Tbadmin {
       }
       if (other.config_ != null) {
         if (config_ == null) {
-          config_ = new global::Tbadmin.MatchQueueConfig();
+          config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchQueueConfig();
         }
         Config.MergeFrom(other.Config);
       }
@@ -3217,7 +3217,7 @@ namespace Tbadmin {
             break;
           case 10: {
             if (config_ == null) {
-              config_ = new global::Tbadmin.MatchQueueConfig();
+              config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchQueueConfig();
             }
             input.ReadMessage(config_);
             break;
@@ -3236,7 +3236,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3264,9 +3264,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "config" field.</summary>
     public const int ConfigFieldNumber = 1;
-    private global::Tbadmin.MatchQueueConfig config_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchQueueConfig config_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.MatchQueueConfig Config {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchQueueConfig Config {
       get { return config_; }
       set {
         config_ = value;
@@ -3335,7 +3335,7 @@ namespace Tbadmin {
       }
       if (other.config_ != null) {
         if (config_ == null) {
-          config_ = new global::Tbadmin.MatchQueueConfig();
+          config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchQueueConfig();
         }
         Config.MergeFrom(other.Config);
       }
@@ -3352,7 +3352,7 @@ namespace Tbadmin {
             break;
           case 10: {
             if (config_ == null) {
-              config_ = new global::Tbadmin.MatchQueueConfig();
+              config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchQueueConfig();
             }
             input.ReadMessage(config_);
             break;
@@ -3371,7 +3371,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3399,9 +3399,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "config" field.</summary>
     public const int ConfigFieldNumber = 1;
-    private global::Tbadmin.MatchUserConfig config_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchUserConfig config_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.MatchUserConfig Config {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchUserConfig Config {
       get { return config_; }
       set {
         config_ = value;
@@ -3470,7 +3470,7 @@ namespace Tbadmin {
       }
       if (other.config_ != null) {
         if (config_ == null) {
-          config_ = new global::Tbadmin.MatchUserConfig();
+          config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchUserConfig();
         }
         Config.MergeFrom(other.Config);
       }
@@ -3487,7 +3487,7 @@ namespace Tbadmin {
             break;
           case 10: {
             if (config_ == null) {
-              config_ = new global::Tbadmin.MatchUserConfig();
+              config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchUserConfig();
             }
             input.ReadMessage(config_);
             break;
@@ -3506,7 +3506,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3534,9 +3534,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "config" field.</summary>
     public const int ConfigFieldNumber = 1;
-    private global::Tbadmin.MatchUserConfig config_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchUserConfig config_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.MatchUserConfig Config {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchUserConfig Config {
       get { return config_; }
       set {
         config_ = value;
@@ -3605,7 +3605,7 @@ namespace Tbadmin {
       }
       if (other.config_ != null) {
         if (config_ == null) {
-          config_ = new global::Tbadmin.MatchUserConfig();
+          config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchUserConfig();
         }
         Config.MergeFrom(other.Config);
       }
@@ -3622,7 +3622,7 @@ namespace Tbadmin {
             break;
           case 10: {
             if (config_ == null) {
-              config_ = new global::Tbadmin.MatchUserConfig();
+              config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchUserConfig();
             }
             input.ReadMessage(config_);
             break;
@@ -3641,7 +3641,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3669,9 +3669,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "config" field.</summary>
     public const int ConfigFieldNumber = 1;
-    private global::Tbadmin.LobbyConfig config_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LobbyConfig config_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.LobbyConfig Config {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LobbyConfig Config {
       get { return config_; }
       set {
         config_ = value;
@@ -3740,7 +3740,7 @@ namespace Tbadmin {
       }
       if (other.config_ != null) {
         if (config_ == null) {
-          config_ = new global::Tbadmin.LobbyConfig();
+          config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LobbyConfig();
         }
         Config.MergeFrom(other.Config);
       }
@@ -3757,7 +3757,7 @@ namespace Tbadmin {
             break;
           case 10: {
             if (config_ == null) {
-              config_ = new global::Tbadmin.LobbyConfig();
+              config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LobbyConfig();
             }
             input.ReadMessage(config_);
             break;
@@ -3776,7 +3776,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3804,9 +3804,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "config" field.</summary>
     public const int ConfigFieldNumber = 1;
-    private global::Tbadmin.LobbyConfig config_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LobbyConfig config_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.LobbyConfig Config {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LobbyConfig Config {
       get { return config_; }
       set {
         config_ = value;
@@ -3875,7 +3875,7 @@ namespace Tbadmin {
       }
       if (other.config_ != null) {
         if (config_ == null) {
-          config_ = new global::Tbadmin.LobbyConfig();
+          config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LobbyConfig();
         }
         Config.MergeFrom(other.Config);
       }
@@ -3892,7 +3892,7 @@ namespace Tbadmin {
             break;
           case 10: {
             if (config_ == null) {
-              config_ = new global::Tbadmin.LobbyConfig();
+              config_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LobbyConfig();
             }
             input.ReadMessage(config_);
             break;
@@ -3911,7 +3911,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3939,11 +3939,11 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "def" field.</summary>
     public const int DefFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbadmin.FeatureDefinition> _repeated_def_codec
-        = pb::FieldCodec.ForMessage(10, global::Tbadmin.FeatureDefinition.Parser);
-    private readonly pbc::RepeatedField<global::Tbadmin.FeatureDefinition> def_ = new pbc::RepeatedField<global::Tbadmin.FeatureDefinition>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureDefinition> _repeated_def_codec
+        = pb::FieldCodec.ForMessage(10, global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureDefinition.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureDefinition> def_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureDefinition>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbadmin.FeatureDefinition> Def {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureDefinition> Def {
       get { return def_; }
     }
 
@@ -4032,7 +4032,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4060,9 +4060,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "def" field.</summary>
     public const int DefFieldNumber = 1;
-    private global::Tbadmin.FeatureDefinition def_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureDefinition def_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.FeatureDefinition Def {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureDefinition Def {
       get { return def_; }
       set {
         def_ = value;
@@ -4131,7 +4131,7 @@ namespace Tbadmin {
       }
       if (other.def_ != null) {
         if (def_ == null) {
-          def_ = new global::Tbadmin.FeatureDefinition();
+          def_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureDefinition();
         }
         Def.MergeFrom(other.Def);
       }
@@ -4148,7 +4148,7 @@ namespace Tbadmin {
             break;
           case 10: {
             if (def_ == null) {
-              def_ = new global::Tbadmin.FeatureDefinition();
+              def_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureDefinition();
             }
             input.ReadMessage(def_);
             break;
@@ -4167,7 +4167,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4296,7 +4296,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4324,11 +4324,11 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "rule" field.</summary>
     public const int RuleFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbadmin.FeatureRule> _repeated_rule_codec
-        = pb::FieldCodec.ForMessage(10, global::Tbadmin.FeatureRule.Parser);
-    private readonly pbc::RepeatedField<global::Tbadmin.FeatureRule> rule_ = new pbc::RepeatedField<global::Tbadmin.FeatureRule>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureRule> _repeated_rule_codec
+        = pb::FieldCodec.ForMessage(10, global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureRule.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureRule> rule_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureRule>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbadmin.FeatureRule> Rule {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureRule> Rule {
       get { return rule_; }
     }
 
@@ -4417,7 +4417,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4445,9 +4445,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "feature_set" field.</summary>
     public const int FeatureSetFieldNumber = 1;
-    private global::Tbmatch.ClientFeatureSet featureSet_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.ClientFeatureSet featureSet_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.ClientFeatureSet FeatureSet {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.ClientFeatureSet FeatureSet {
       get { return featureSet_; }
       set {
         featureSet_ = value;
@@ -4516,7 +4516,7 @@ namespace Tbadmin {
       }
       if (other.featureSet_ != null) {
         if (featureSet_ == null) {
-          featureSet_ = new global::Tbmatch.ClientFeatureSet();
+          featureSet_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.ClientFeatureSet();
         }
         FeatureSet.MergeFrom(other.FeatureSet);
       }
@@ -4533,7 +4533,7 @@ namespace Tbadmin {
             break;
           case 10: {
             if (featureSet_ == null) {
-              featureSet_ = new global::Tbmatch.ClientFeatureSet();
+              featureSet_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.ClientFeatureSet();
             }
             input.ReadMessage(featureSet_);
             break;
@@ -4552,7 +4552,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4580,9 +4580,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "rule" field.</summary>
     public const int RuleFieldNumber = 1;
-    private global::Tbadmin.FeatureRule rule_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureRule rule_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.FeatureRule Rule {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureRule Rule {
       get { return rule_; }
       set {
         rule_ = value;
@@ -4651,7 +4651,7 @@ namespace Tbadmin {
       }
       if (other.rule_ != null) {
         if (rule_ == null) {
-          rule_ = new global::Tbadmin.FeatureRule();
+          rule_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureRule();
         }
         Rule.MergeFrom(other.Rule);
       }
@@ -4668,7 +4668,7 @@ namespace Tbadmin {
             break;
           case 10: {
             if (rule_ == null) {
-              rule_ = new global::Tbadmin.FeatureRule();
+              rule_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureRule();
             }
             input.ReadMessage(rule_);
             break;
@@ -4687,7 +4687,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4715,9 +4715,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "rule" field.</summary>
     public const int RuleFieldNumber = 1;
-    private global::Tbadmin.FeatureRule rule_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureRule rule_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.FeatureRule Rule {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureRule Rule {
       get { return rule_; }
       set {
         rule_ = value;
@@ -4786,7 +4786,7 @@ namespace Tbadmin {
       }
       if (other.rule_ != null) {
         if (rule_ == null) {
-          rule_ = new global::Tbadmin.FeatureRule();
+          rule_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureRule();
         }
         Rule.MergeFrom(other.Rule);
       }
@@ -4803,7 +4803,7 @@ namespace Tbadmin {
             break;
           case 10: {
             if (rule_ == null) {
-              rule_ = new global::Tbadmin.FeatureRule();
+              rule_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FeatureRule();
             }
             input.ReadMessage(rule_);
             break;
@@ -4822,7 +4822,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4954,7 +4954,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5348,7 +5348,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5739,7 +5739,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5793,9 +5793,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "auth" field.</summary>
     public const int AuthFieldNumber = 4;
-    private global::Tbadmin.GApiConfig.Types.AuthType auth_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GApiConfig.Types.AuthType auth_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.GApiConfig.Types.AuthType Auth {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GApiConfig.Types.AuthType Auth {
       get { return auth_; }
       set {
         auth_ = value;
@@ -5961,7 +5961,7 @@ namespace Tbadmin {
             break;
           }
           case 32: {
-            auth_ = (global::Tbadmin.GApiConfig.Types.AuthType) input.ReadEnum();
+            auth_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GApiConfig.Types.AuthType) input.ReadEnum();
             break;
           }
           case 82: {
@@ -6002,7 +6002,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6187,7 +6187,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6353,7 +6353,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[28]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6415,12 +6415,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "session_key" field.</summary>
     public const int SessionKeyFieldNumber = 3;
-    private global::Tbadmin.SessionAuthKey sessionKey_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SessionAuthKey sessionKey_;
     /// <summary>
     /// The 64-byte session key.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.SessionAuthKey SessionKey {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SessionAuthKey SessionKey {
       get { return sessionKey_; }
       set {
         sessionKey_ = value;
@@ -6606,7 +6606,7 @@ namespace Tbadmin {
       }
       if (other.sessionKey_ != null) {
         if (sessionKey_ == null) {
-          sessionKey_ = new global::Tbadmin.SessionAuthKey();
+          sessionKey_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SessionAuthKey();
         }
         SessionKey.MergeFrom(other.SessionKey);
       }
@@ -6643,7 +6643,7 @@ namespace Tbadmin {
           }
           case 26: {
             if (sessionKey_ == null) {
-              sessionKey_ = new global::Tbadmin.SessionAuthKey();
+              sessionKey_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SessionAuthKey();
             }
             input.ReadMessage(sessionKey_);
             break;
@@ -6681,7 +6681,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[29]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6878,7 +6878,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[30]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7072,7 +7072,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[31]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7313,7 +7313,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[32]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[32]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7526,7 +7526,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[33]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[33]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7562,11 +7562,11 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "host" field.</summary>
     public const int HostFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbadmin.MailConfig.Types.MailHost> _repeated_host_codec
-        = pb::FieldCodec.ForMessage(10, global::Tbadmin.MailConfig.Types.MailHost.Parser);
-    private readonly pbc::RepeatedField<global::Tbadmin.MailConfig.Types.MailHost> host_ = new pbc::RepeatedField<global::Tbadmin.MailConfig.Types.MailHost>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailConfig.Types.MailHost> _repeated_host_codec
+        = pb::FieldCodec.ForMessage(10, global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailConfig.Types.MailHost.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailConfig.Types.MailHost> host_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailConfig.Types.MailHost>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbadmin.MailConfig.Types.MailHost> Host {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailConfig.Types.MailHost> Host {
       get { return host_; }
     }
 
@@ -7658,9 +7658,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "vars" field.</summary>
     public const int VarsFieldNumber = 20;
-    private global::Tbadmin.MailGlobalVars vars_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailGlobalVars vars_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.MailGlobalVars Vars {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailGlobalVars Vars {
       get { return vars_; }
       set {
         vars_ = value;
@@ -7818,7 +7818,7 @@ namespace Tbadmin {
       }
       if (other.vars_ != null) {
         if (vars_ == null) {
-          vars_ = new global::Tbadmin.MailGlobalVars();
+          vars_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailGlobalVars();
         }
         Vars.MergeFrom(other.Vars);
       }
@@ -7867,7 +7867,7 @@ namespace Tbadmin {
           }
           case 162: {
             if (vars_ == null) {
-              vars_ = new global::Tbadmin.MailGlobalVars();
+              vars_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailGlobalVars();
             }
             input.ReadMessage(vars_);
             break;
@@ -7891,7 +7891,7 @@ namespace Tbadmin {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::Tbadmin.MailConfig.Descriptor.NestedTypes[0]; }
+          get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailConfig.Descriptor.NestedTypes[0]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8053,7 +8053,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[34]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[34]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8309,7 +8309,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[35]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[35]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8447,7 +8447,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[36]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[36]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8494,9 +8494,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "db_config" field.</summary>
     public const int DbConfigFieldNumber = 1;
-    private global::Tbadmin.DatabaseConfig dbConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.DatabaseConfig dbConfig_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.DatabaseConfig DbConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.DatabaseConfig DbConfig {
       get { return dbConfig_; }
       set {
         dbConfig_ = value;
@@ -8505,9 +8505,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "rpc_config" field.</summary>
     public const int RpcConfigFieldNumber = 2;
-    private global::Tbadmin.RPCConfig rpcConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RPCConfig rpcConfig_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.RPCConfig RpcConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RPCConfig RpcConfig {
       get { return rpcConfig_; }
       set {
         rpcConfig_ = value;
@@ -8516,9 +8516,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "redis_config" field.</summary>
     public const int RedisConfigFieldNumber = 3;
-    private global::Tbadmin.RedisConfig redisConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RedisConfig redisConfig_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.RedisConfig RedisConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RedisConfig RedisConfig {
       get { return redisConfig_; }
       set {
         redisConfig_ = value;
@@ -8527,9 +8527,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "mail" field.</summary>
     public const int MailFieldNumber = 4;
-    private global::Tbadmin.MailConfig mail_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailConfig mail_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.MailConfig Mail {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailConfig Mail {
       get { return mail_; }
       set {
         mail_ = value;
@@ -8538,9 +8538,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "payment_creds" field.</summary>
     public const int PaymentCredsFieldNumber = 5;
-    private global::Tbadmin.PaymentCreds paymentCreds_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PaymentCreds paymentCreds_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.PaymentCreds PaymentCreds {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PaymentCreds PaymentCreds {
       get { return paymentCreds_; }
       set {
         paymentCreds_ = value;
@@ -8549,9 +8549,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "portal_client" field.</summary>
     public const int PortalClientFieldNumber = 6;
-    private global::Tbadmin.PortalClientConfig portalClient_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PortalClientConfig portalClient_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.PortalClientConfig PortalClient {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PortalClientConfig PortalClient {
       get { return portalClient_; }
       set {
         portalClient_ = value;
@@ -8560,9 +8560,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "match_maker" field.</summary>
     public const int MatchMakerFieldNumber = 7;
-    private global::Tbadmin.MatchMakerConfig matchMaker_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchMakerConfig matchMaker_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.MatchMakerConfig MatchMaker {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchMakerConfig MatchMaker {
       get { return matchMaker_; }
       set {
         matchMaker_ = value;
@@ -8571,9 +8571,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "monitor_config" field.</summary>
     public const int MonitorConfigFieldNumber = 10;
-    private global::Tbadmin.MonitorConfig monitorConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MonitorConfig monitorConfig_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.MonitorConfig MonitorConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MonitorConfig MonitorConfig {
       get { return monitorConfig_; }
       set {
         monitorConfig_ = value;
@@ -8582,9 +8582,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "desync_storage" field.</summary>
     public const int DesyncStorageFieldNumber = 11;
-    private global::Tbadmin.GcsStorageConfig desyncStorage_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig desyncStorage_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.GcsStorageConfig DesyncStorage {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig DesyncStorage {
       get { return desyncStorage_; }
       set {
         desyncStorage_ = value;
@@ -8593,9 +8593,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "crash_storage" field.</summary>
     public const int CrashStorageFieldNumber = 12;
-    private global::Tbadmin.GcsStorageConfig crashStorage_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig crashStorage_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.GcsStorageConfig CrashStorage {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig CrashStorage {
       get { return crashStorage_; }
       set {
         crashStorage_ = value;
@@ -8615,9 +8615,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "match_log_storage" field.</summary>
     public const int MatchLogStorageFieldNumber = 14;
-    private global::Tbadmin.GcsStorageConfig matchLogStorage_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig matchLogStorage_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.GcsStorageConfig MatchLogStorage {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig MatchLogStorage {
       get { return matchLogStorage_; }
       set {
         matchLogStorage_ = value;
@@ -8637,12 +8637,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "google" field.</summary>
     public const int GoogleFieldNumber = 30;
-    private global::Tbadmin.GApiConfig google_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GApiConfig google_;
     /// <summary>
     /// How to reach and authenticate to all Google APIs.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.GApiConfig Google {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GApiConfig Google {
       get { return google_; }
       set {
         google_ = value;
@@ -8712,9 +8712,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "admin_server_config" field.</summary>
     public const int AdminServerConfigFieldNumber = 71;
-    private global::Tbadmin.AdminServerConfig adminServerConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AdminServerConfig adminServerConfig_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.AdminServerConfig AdminServerConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AdminServerConfig AdminServerConfig {
       get { return adminServerConfig_; }
       set {
         adminServerConfig_ = value;
@@ -8954,61 +8954,61 @@ namespace Tbadmin {
       }
       if (other.dbConfig_ != null) {
         if (dbConfig_ == null) {
-          dbConfig_ = new global::Tbadmin.DatabaseConfig();
+          dbConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.DatabaseConfig();
         }
         DbConfig.MergeFrom(other.DbConfig);
       }
       if (other.rpcConfig_ != null) {
         if (rpcConfig_ == null) {
-          rpcConfig_ = new global::Tbadmin.RPCConfig();
+          rpcConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RPCConfig();
         }
         RpcConfig.MergeFrom(other.RpcConfig);
       }
       if (other.redisConfig_ != null) {
         if (redisConfig_ == null) {
-          redisConfig_ = new global::Tbadmin.RedisConfig();
+          redisConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RedisConfig();
         }
         RedisConfig.MergeFrom(other.RedisConfig);
       }
       if (other.mail_ != null) {
         if (mail_ == null) {
-          mail_ = new global::Tbadmin.MailConfig();
+          mail_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailConfig();
         }
         Mail.MergeFrom(other.Mail);
       }
       if (other.paymentCreds_ != null) {
         if (paymentCreds_ == null) {
-          paymentCreds_ = new global::Tbadmin.PaymentCreds();
+          paymentCreds_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PaymentCreds();
         }
         PaymentCreds.MergeFrom(other.PaymentCreds);
       }
       if (other.portalClient_ != null) {
         if (portalClient_ == null) {
-          portalClient_ = new global::Tbadmin.PortalClientConfig();
+          portalClient_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PortalClientConfig();
         }
         PortalClient.MergeFrom(other.PortalClient);
       }
       if (other.matchMaker_ != null) {
         if (matchMaker_ == null) {
-          matchMaker_ = new global::Tbadmin.MatchMakerConfig();
+          matchMaker_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchMakerConfig();
         }
         MatchMaker.MergeFrom(other.MatchMaker);
       }
       if (other.monitorConfig_ != null) {
         if (monitorConfig_ == null) {
-          monitorConfig_ = new global::Tbadmin.MonitorConfig();
+          monitorConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MonitorConfig();
         }
         MonitorConfig.MergeFrom(other.MonitorConfig);
       }
       if (other.desyncStorage_ != null) {
         if (desyncStorage_ == null) {
-          desyncStorage_ = new global::Tbadmin.GcsStorageConfig();
+          desyncStorage_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig();
         }
         DesyncStorage.MergeFrom(other.DesyncStorage);
       }
       if (other.crashStorage_ != null) {
         if (crashStorage_ == null) {
-          crashStorage_ = new global::Tbadmin.GcsStorageConfig();
+          crashStorage_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig();
         }
         CrashStorage.MergeFrom(other.CrashStorage);
       }
@@ -9017,7 +9017,7 @@ namespace Tbadmin {
       }
       if (other.matchLogStorage_ != null) {
         if (matchLogStorage_ == null) {
-          matchLogStorage_ = new global::Tbadmin.GcsStorageConfig();
+          matchLogStorage_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig();
         }
         MatchLogStorage.MergeFrom(other.MatchLogStorage);
       }
@@ -9026,7 +9026,7 @@ namespace Tbadmin {
       }
       if (other.google_ != null) {
         if (google_ == null) {
-          google_ = new global::Tbadmin.GApiConfig();
+          google_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GApiConfig();
         }
         Google.MergeFrom(other.Google);
       }
@@ -9047,7 +9047,7 @@ namespace Tbadmin {
       }
       if (other.adminServerConfig_ != null) {
         if (adminServerConfig_ == null) {
-          adminServerConfig_ = new global::Tbadmin.AdminServerConfig();
+          adminServerConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AdminServerConfig();
         }
         AdminServerConfig.MergeFrom(other.AdminServerConfig);
       }
@@ -9064,70 +9064,70 @@ namespace Tbadmin {
             break;
           case 10: {
             if (dbConfig_ == null) {
-              dbConfig_ = new global::Tbadmin.DatabaseConfig();
+              dbConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.DatabaseConfig();
             }
             input.ReadMessage(dbConfig_);
             break;
           }
           case 18: {
             if (rpcConfig_ == null) {
-              rpcConfig_ = new global::Tbadmin.RPCConfig();
+              rpcConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RPCConfig();
             }
             input.ReadMessage(rpcConfig_);
             break;
           }
           case 26: {
             if (redisConfig_ == null) {
-              redisConfig_ = new global::Tbadmin.RedisConfig();
+              redisConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RedisConfig();
             }
             input.ReadMessage(redisConfig_);
             break;
           }
           case 34: {
             if (mail_ == null) {
-              mail_ = new global::Tbadmin.MailConfig();
+              mail_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MailConfig();
             }
             input.ReadMessage(mail_);
             break;
           }
           case 42: {
             if (paymentCreds_ == null) {
-              paymentCreds_ = new global::Tbadmin.PaymentCreds();
+              paymentCreds_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PaymentCreds();
             }
             input.ReadMessage(paymentCreds_);
             break;
           }
           case 50: {
             if (portalClient_ == null) {
-              portalClient_ = new global::Tbadmin.PortalClientConfig();
+              portalClient_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PortalClientConfig();
             }
             input.ReadMessage(portalClient_);
             break;
           }
           case 58: {
             if (matchMaker_ == null) {
-              matchMaker_ = new global::Tbadmin.MatchMakerConfig();
+              matchMaker_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchMakerConfig();
             }
             input.ReadMessage(matchMaker_);
             break;
           }
           case 82: {
             if (monitorConfig_ == null) {
-              monitorConfig_ = new global::Tbadmin.MonitorConfig();
+              monitorConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MonitorConfig();
             }
             input.ReadMessage(monitorConfig_);
             break;
           }
           case 90: {
             if (desyncStorage_ == null) {
-              desyncStorage_ = new global::Tbadmin.GcsStorageConfig();
+              desyncStorage_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig();
             }
             input.ReadMessage(desyncStorage_);
             break;
           }
           case 98: {
             if (crashStorage_ == null) {
-              crashStorage_ = new global::Tbadmin.GcsStorageConfig();
+              crashStorage_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig();
             }
             input.ReadMessage(crashStorage_);
             break;
@@ -9138,7 +9138,7 @@ namespace Tbadmin {
           }
           case 114: {
             if (matchLogStorage_ == null) {
-              matchLogStorage_ = new global::Tbadmin.GcsStorageConfig();
+              matchLogStorage_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig();
             }
             input.ReadMessage(matchLogStorage_);
             break;
@@ -9149,7 +9149,7 @@ namespace Tbadmin {
           }
           case 242: {
             if (google_ == null) {
-              google_ = new global::Tbadmin.GApiConfig();
+              google_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GApiConfig();
             }
             input.ReadMessage(google_);
             break;
@@ -9176,7 +9176,7 @@ namespace Tbadmin {
           }
           case 570: {
             if (adminServerConfig_ == null) {
-              adminServerConfig_ = new global::Tbadmin.AdminServerConfig();
+              adminServerConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AdminServerConfig();
             }
             input.ReadMessage(adminServerConfig_);
             break;
@@ -9198,7 +9198,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[37]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[37]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9270,14 +9270,14 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "register_access" field.</summary>
     public const int RegisterAccessFieldNumber = 3;
-    private static readonly pb::FieldCodec<global::Tbrpc.Access> _repeated_registerAccess_codec
-        = pb::FieldCodec.ForEnum(26, x => (int) x, x => (global::Tbrpc.Access) x);
-    private readonly pbc::RepeatedField<global::Tbrpc.Access> registerAccess_ = new pbc::RepeatedField<global::Tbrpc.Access>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Access> _repeated_registerAccess_codec
+        = pb::FieldCodec.ForEnum(26, x => (int) x, x => (global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Access) x);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Access> registerAccess_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Access>();
     /// <summary>
     /// Access roles granted to publicly registered accounts.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbrpc.Access> RegisterAccess {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Access> RegisterAccess {
       get { return registerAccess_; }
     }
 
@@ -9816,7 +9816,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[38]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[38]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10041,7 +10041,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[39]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[39]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10228,7 +10228,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[40]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[40]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10258,14 +10258,14 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "echelon" field.</summary>
     public const int EchelonFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbadmin.EchelonRules> _repeated_echelon_codec
-        = pb::FieldCodec.ForMessage(10, global::Tbadmin.EchelonRules.Parser);
-    private readonly pbc::RepeatedField<global::Tbadmin.EchelonRules> echelon_ = new pbc::RepeatedField<global::Tbadmin.EchelonRules>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EchelonRules> _repeated_echelon_codec
+        = pb::FieldCodec.ForMessage(10, global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EchelonRules.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EchelonRules> echelon_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EchelonRules>();
     /// <summary>
     /// Define all ranking echelons in progression order (0=Carbon .. N-1=Legend)
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbadmin.EchelonRules> Echelon {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EchelonRules> Echelon {
       get { return echelon_; }
     }
 
@@ -10414,7 +10414,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[41]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[41]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10444,9 +10444,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "player_progress" field.</summary>
     public const int PlayerProgressFieldNumber = 1;
-    private global::Tbadmin.LevelProgression playerProgress_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LevelProgression playerProgress_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.LevelProgression PlayerProgress {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LevelProgression PlayerProgress {
       get { return playerProgress_; }
       set {
         playerProgress_ = value;
@@ -10455,9 +10455,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "char_progress" field.</summary>
     public const int CharProgressFieldNumber = 2;
-    private global::Tbadmin.LevelProgression charProgress_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LevelProgression charProgress_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.LevelProgression CharProgress {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LevelProgression CharProgress {
       get { return charProgress_; }
       set {
         charProgress_ = value;
@@ -10466,12 +10466,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "echelon_config" field.</summary>
     public const int EchelonConfigFieldNumber = 3;
-    private global::Tbadmin.EchelonConfig echelonConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EchelonConfig echelonConfig_;
     /// <summary>
     /// Define the ranking echelons.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.EchelonConfig EchelonConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EchelonConfig EchelonConfig {
       get { return echelonConfig_; }
       set {
         echelonConfig_ = value;
@@ -10558,19 +10558,19 @@ namespace Tbadmin {
       }
       if (other.playerProgress_ != null) {
         if (playerProgress_ == null) {
-          playerProgress_ = new global::Tbadmin.LevelProgression();
+          playerProgress_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LevelProgression();
         }
         PlayerProgress.MergeFrom(other.PlayerProgress);
       }
       if (other.charProgress_ != null) {
         if (charProgress_ == null) {
-          charProgress_ = new global::Tbadmin.LevelProgression();
+          charProgress_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LevelProgression();
         }
         CharProgress.MergeFrom(other.CharProgress);
       }
       if (other.echelonConfig_ != null) {
         if (echelonConfig_ == null) {
-          echelonConfig_ = new global::Tbadmin.EchelonConfig();
+          echelonConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EchelonConfig();
         }
         EchelonConfig.MergeFrom(other.EchelonConfig);
       }
@@ -10587,21 +10587,21 @@ namespace Tbadmin {
             break;
           case 10: {
             if (playerProgress_ == null) {
-              playerProgress_ = new global::Tbadmin.LevelProgression();
+              playerProgress_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LevelProgression();
             }
             input.ReadMessage(playerProgress_);
             break;
           }
           case 18: {
             if (charProgress_ == null) {
-              charProgress_ = new global::Tbadmin.LevelProgression();
+              charProgress_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LevelProgression();
             }
             input.ReadMessage(charProgress_);
             break;
           }
           case 26: {
             if (echelonConfig_ == null) {
-              echelonConfig_ = new global::Tbadmin.EchelonConfig();
+              echelonConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EchelonConfig();
             }
             input.ReadMessage(echelonConfig_);
             break;
@@ -10620,7 +10620,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[42]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[42]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10943,7 +10943,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[43]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[43]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11003,12 +11003,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "rank" field.</summary>
     public const int RankFieldNumber = 7;
-    private global::Tbadmin.RankConfig rank_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RankConfig rank_;
     /// <summary>
     /// How to award players with the outcome of a match.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.RankConfig Rank {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RankConfig Rank {
       get { return rank_; }
       set {
         rank_ = value;
@@ -11060,12 +11060,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "rating_config" field.</summary>
     public const int RatingConfigFieldNumber = 50;
-    private global::Tbadmin.Glicko2RatingConfig ratingConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Glicko2RatingConfig ratingConfig_;
     /// <summary>
     /// How to perform perform Glicko2 rating system updates.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.Glicko2RatingConfig RatingConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Glicko2RatingConfig RatingConfig {
       get { return ratingConfig_; }
       set {
         ratingConfig_ = value;
@@ -11464,7 +11464,7 @@ namespace Tbadmin {
       }
       if (other.rank_ != null) {
         if (rank_ == null) {
-          rank_ = new global::Tbadmin.RankConfig();
+          rank_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RankConfig();
         }
         Rank.MergeFrom(other.Rank);
       }
@@ -11479,7 +11479,7 @@ namespace Tbadmin {
       }
       if (other.ratingConfig_ != null) {
         if (ratingConfig_ == null) {
-          ratingConfig_ = new global::Tbadmin.Glicko2RatingConfig();
+          ratingConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Glicko2RatingConfig();
         }
         RatingConfig.MergeFrom(other.RatingConfig);
       }
@@ -11557,7 +11557,7 @@ namespace Tbadmin {
           }
           case 58: {
             if (rank_ == null) {
-              rank_ = new global::Tbadmin.RankConfig();
+              rank_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RankConfig();
             }
             input.ReadMessage(rank_);
             break;
@@ -11588,7 +11588,7 @@ namespace Tbadmin {
           }
           case 402: {
             if (ratingConfig_ == null) {
-              ratingConfig_ = new global::Tbadmin.Glicko2RatingConfig();
+              ratingConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.Glicko2RatingConfig();
             }
             input.ReadMessage(ratingConfig_);
             break;
@@ -11628,7 +11628,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[44]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[44]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11794,7 +11794,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[45]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[45]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11873,9 +11873,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "val_mode" field.</summary>
     public const int ValModeFieldNumber = 4;
-    private global::Tbadmin.PaymentConfig.Types.Validation valMode_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PaymentConfig.Types.Validation valMode_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.PaymentConfig.Types.Validation ValMode {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PaymentConfig.Types.Validation ValMode {
       get { return valMode_; }
       set {
         valMode_ = value;
@@ -12033,7 +12033,7 @@ namespace Tbadmin {
             break;
           }
           case 32: {
-            valMode_ = (global::Tbadmin.PaymentConfig.Types.Validation) input.ReadEnum();
+            valMode_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PaymentConfig.Types.Validation) input.ReadEnum();
             break;
           }
           case 42: {
@@ -12077,7 +12077,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[46]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[46]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12182,25 +12182,25 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "balance_purchase_default" field.</summary>
     public const int BalancePurchaseDefaultFieldNumber = 41;
-    private static readonly pb::FieldCodec<global::Tbrpc.Money> _repeated_balancePurchaseDefault_codec
-        = pb::FieldCodec.ForMessage(330, global::Tbrpc.Money.Parser);
-    private readonly pbc::RepeatedField<global::Tbrpc.Money> balancePurchaseDefault_ = new pbc::RepeatedField<global::Tbrpc.Money>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money> _repeated_balancePurchaseDefault_codec
+        = pb::FieldCodec.ForMessage(330, global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money> balancePurchaseDefault_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money>();
     /// <summary>
     /// Default values given for account balance purchases.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbrpc.Money> BalancePurchaseDefault {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money> BalancePurchaseDefault {
       get { return balancePurchaseDefault_; }
     }
 
     /// <summary>Field number for the "balance_purchase_min" field.</summary>
     public const int BalancePurchaseMinFieldNumber = 42;
-    private global::Tbrpc.Money balancePurchaseMin_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money balancePurchaseMin_;
     /// <summary>
     /// Range of allowed custom balance purchase amounts.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbrpc.Money BalancePurchaseMin {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money BalancePurchaseMin {
       get { return balancePurchaseMin_; }
       set {
         balancePurchaseMin_ = value;
@@ -12209,9 +12209,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "balance_purchase_max" field.</summary>
     public const int BalancePurchaseMaxFieldNumber = 43;
-    private global::Tbrpc.Money balancePurchaseMax_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money balancePurchaseMax_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbrpc.Money BalancePurchaseMax {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money BalancePurchaseMax {
       get { return balancePurchaseMax_; }
       set {
         balancePurchaseMax_ = value;
@@ -12220,13 +12220,13 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "balance_max" field.</summary>
     public const int BalanceMaxFieldNumber = 50;
-    private global::Tbrpc.Money balanceMax_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money balanceMax_;
     /// <summary>
     /// Maximum balance an account may hold in this currency.
     /// Orders that would exceed this amount are rejected.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbrpc.Money BalanceMax {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money BalanceMax {
       get { return balanceMax_; }
       set {
         balanceMax_ = value;
@@ -12371,19 +12371,19 @@ namespace Tbadmin {
       balancePurchaseDefault_.Add(other.balancePurchaseDefault_);
       if (other.balancePurchaseMin_ != null) {
         if (balancePurchaseMin_ == null) {
-          balancePurchaseMin_ = new global::Tbrpc.Money();
+          balancePurchaseMin_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money();
         }
         BalancePurchaseMin.MergeFrom(other.BalancePurchaseMin);
       }
       if (other.balancePurchaseMax_ != null) {
         if (balancePurchaseMax_ == null) {
-          balancePurchaseMax_ = new global::Tbrpc.Money();
+          balancePurchaseMax_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money();
         }
         BalancePurchaseMax.MergeFrom(other.BalancePurchaseMax);
       }
       if (other.balanceMax_ != null) {
         if (balanceMax_ == null) {
-          balanceMax_ = new global::Tbrpc.Money();
+          balanceMax_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money();
         }
         BalanceMax.MergeFrom(other.BalanceMax);
       }
@@ -12424,21 +12424,21 @@ namespace Tbadmin {
           }
           case 338: {
             if (balancePurchaseMin_ == null) {
-              balancePurchaseMin_ = new global::Tbrpc.Money();
+              balancePurchaseMin_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money();
             }
             input.ReadMessage(balancePurchaseMin_);
             break;
           }
           case 346: {
             if (balancePurchaseMax_ == null) {
-              balancePurchaseMax_ = new global::Tbrpc.Money();
+              balancePurchaseMax_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money();
             }
             input.ReadMessage(balancePurchaseMax_);
             break;
           }
           case 402: {
             if (balanceMax_ == null) {
-              balanceMax_ = new global::Tbrpc.Money();
+              balanceMax_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money();
             }
             input.ReadMessage(balanceMax_);
             break;
@@ -12460,7 +12460,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[47]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[47]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12489,11 +12489,11 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "desc" field.</summary>
     public const int DescFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbadmin.CurrencyDesc> _repeated_desc_codec
-        = pb::FieldCodec.ForMessage(10, global::Tbadmin.CurrencyDesc.Parser);
-    private readonly pbc::RepeatedField<global::Tbadmin.CurrencyDesc> desc_ = new pbc::RepeatedField<global::Tbadmin.CurrencyDesc>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CurrencyDesc> _repeated_desc_codec
+        = pb::FieldCodec.ForMessage(10, global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CurrencyDesc.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CurrencyDesc> desc_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CurrencyDesc>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbadmin.CurrencyDesc> Desc {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CurrencyDesc> Desc {
       get { return desc_; }
     }
 
@@ -12616,7 +12616,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[48]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[48]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12648,9 +12648,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "payment" field.</summary>
     public const int PaymentFieldNumber = 1;
-    private global::Tbadmin.PaymentConfig payment_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PaymentConfig payment_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.PaymentConfig Payment {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PaymentConfig Payment {
       get { return payment_; }
       set {
         payment_ = value;
@@ -12659,9 +12659,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "currency" field.</summary>
     public const int CurrencyFieldNumber = 2;
-    private global::Tbadmin.CurrencyConfig currency_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CurrencyConfig currency_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.CurrencyConfig Currency {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CurrencyConfig Currency {
       get { return currency_; }
       set {
         currency_ = value;
@@ -12808,13 +12808,13 @@ namespace Tbadmin {
       }
       if (other.payment_ != null) {
         if (payment_ == null) {
-          payment_ = new global::Tbadmin.PaymentConfig();
+          payment_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PaymentConfig();
         }
         Payment.MergeFrom(other.Payment);
       }
       if (other.currency_ != null) {
         if (currency_ == null) {
-          currency_ = new global::Tbadmin.CurrencyConfig();
+          currency_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CurrencyConfig();
         }
         Currency.MergeFrom(other.Currency);
       }
@@ -12840,14 +12840,14 @@ namespace Tbadmin {
             break;
           case 10: {
             if (payment_ == null) {
-              payment_ = new global::Tbadmin.PaymentConfig();
+              payment_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.PaymentConfig();
             }
             input.ReadMessage(payment_);
             break;
           }
           case 18: {
             if (currency_ == null) {
-              currency_ = new global::Tbadmin.CurrencyConfig();
+              currency_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CurrencyConfig();
             }
             input.ReadMessage(currency_);
             break;
@@ -12878,7 +12878,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[49]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[49]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13073,7 +13073,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[50]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[50]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13236,7 +13236,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[51]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[51]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13430,7 +13430,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[52]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[52]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13597,7 +13597,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[53]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[53]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13732,7 +13732,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[54]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[54]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13965,7 +13965,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[55]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[55]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14002,9 +14002,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "account_config" field.</summary>
     public const int AccountConfigFieldNumber = 1;
-    private global::Tbadmin.AccountConfig accountConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountConfig accountConfig_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.AccountConfig AccountConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountConfig AccountConfig {
       get { return accountConfig_; }
       set {
         accountConfig_ = value;
@@ -14013,9 +14013,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "match_config" field.</summary>
     public const int MatchConfigFieldNumber = 2;
-    private global::Tbadmin.MatchServiceConfig matchConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchServiceConfig matchConfig_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.MatchServiceConfig MatchConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchServiceConfig MatchConfig {
       get { return matchConfig_; }
       set {
         matchConfig_ = value;
@@ -14024,9 +14024,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "shop_config" field.</summary>
     public const int ShopConfigFieldNumber = 3;
-    private global::Tbadmin.ShopConfig shopConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ShopConfig shopConfig_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.ShopConfig ShopConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ShopConfig ShopConfig {
       get { return shopConfig_; }
       set {
         shopConfig_ = value;
@@ -14035,9 +14035,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "event_config" field.</summary>
     public const int EventConfigFieldNumber = 4;
-    private global::Tbadmin.EventConfig eventConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EventConfig eventConfig_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.EventConfig EventConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EventConfig EventConfig {
       get { return eventConfig_; }
       set {
         eventConfig_ = value;
@@ -14046,9 +14046,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "audit_config" field.</summary>
     public const int AuditConfigFieldNumber = 5;
-    private global::Tbadmin.AuditConfig auditConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditConfig auditConfig_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.AuditConfig AuditConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditConfig AuditConfig {
       get { return auditConfig_; }
       set {
         auditConfig_ = value;
@@ -14057,9 +14057,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "lobby_config" field.</summary>
     public const int LobbyConfigFieldNumber = 6;
-    private global::Tbadmin.LobbyServiceConfig lobbyConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LobbyServiceConfig lobbyConfig_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.LobbyServiceConfig LobbyConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LobbyServiceConfig LobbyConfig {
       get { return lobbyConfig_; }
       set {
         lobbyConfig_ = value;
@@ -14068,9 +14068,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "crash_report_config" field.</summary>
     public const int CrashReportConfigFieldNumber = 7;
-    private global::Tbadmin.CrashReportConfig crashReportConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashReportConfig crashReportConfig_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.CrashReportConfig CrashReportConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashReportConfig CrashReportConfig {
       get { return crashReportConfig_; }
       set {
         crashReportConfig_ = value;
@@ -14079,9 +14079,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "server_rollout_flags" field.</summary>
     public const int ServerRolloutFlagsFieldNumber = 8;
-    private global::Tbadmin.ServerRolloutFlags serverRolloutFlags_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ServerRolloutFlags serverRolloutFlags_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.ServerRolloutFlags ServerRolloutFlags {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ServerRolloutFlags ServerRolloutFlags {
       get { return serverRolloutFlags_; }
       set {
         serverRolloutFlags_ = value;
@@ -14090,9 +14090,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "desync_report_config" field.</summary>
     public const int DesyncReportConfigFieldNumber = 9;
-    private global::Tbadmin.DesyncReportConfig desyncReportConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.DesyncReportConfig desyncReportConfig_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.DesyncReportConfig DesyncReportConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.DesyncReportConfig DesyncReportConfig {
       get { return desyncReportConfig_; }
       set {
         desyncReportConfig_ = value;
@@ -14101,9 +14101,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "export_trim_config" field.</summary>
     public const int ExportTrimConfigFieldNumber = 10;
-    private global::Tbadmin.ExportTrimConfig exportTrimConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ExportTrimConfig exportTrimConfig_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.ExportTrimConfig ExportTrimConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ExportTrimConfig ExportTrimConfig {
       get { return exportTrimConfig_; }
       set {
         exportTrimConfig_ = value;
@@ -14253,61 +14253,61 @@ namespace Tbadmin {
       }
       if (other.accountConfig_ != null) {
         if (accountConfig_ == null) {
-          accountConfig_ = new global::Tbadmin.AccountConfig();
+          accountConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountConfig();
         }
         AccountConfig.MergeFrom(other.AccountConfig);
       }
       if (other.matchConfig_ != null) {
         if (matchConfig_ == null) {
-          matchConfig_ = new global::Tbadmin.MatchServiceConfig();
+          matchConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchServiceConfig();
         }
         MatchConfig.MergeFrom(other.MatchConfig);
       }
       if (other.shopConfig_ != null) {
         if (shopConfig_ == null) {
-          shopConfig_ = new global::Tbadmin.ShopConfig();
+          shopConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ShopConfig();
         }
         ShopConfig.MergeFrom(other.ShopConfig);
       }
       if (other.eventConfig_ != null) {
         if (eventConfig_ == null) {
-          eventConfig_ = new global::Tbadmin.EventConfig();
+          eventConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EventConfig();
         }
         EventConfig.MergeFrom(other.EventConfig);
       }
       if (other.auditConfig_ != null) {
         if (auditConfig_ == null) {
-          auditConfig_ = new global::Tbadmin.AuditConfig();
+          auditConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditConfig();
         }
         AuditConfig.MergeFrom(other.AuditConfig);
       }
       if (other.lobbyConfig_ != null) {
         if (lobbyConfig_ == null) {
-          lobbyConfig_ = new global::Tbadmin.LobbyServiceConfig();
+          lobbyConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LobbyServiceConfig();
         }
         LobbyConfig.MergeFrom(other.LobbyConfig);
       }
       if (other.crashReportConfig_ != null) {
         if (crashReportConfig_ == null) {
-          crashReportConfig_ = new global::Tbadmin.CrashReportConfig();
+          crashReportConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashReportConfig();
         }
         CrashReportConfig.MergeFrom(other.CrashReportConfig);
       }
       if (other.serverRolloutFlags_ != null) {
         if (serverRolloutFlags_ == null) {
-          serverRolloutFlags_ = new global::Tbadmin.ServerRolloutFlags();
+          serverRolloutFlags_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ServerRolloutFlags();
         }
         ServerRolloutFlags.MergeFrom(other.ServerRolloutFlags);
       }
       if (other.desyncReportConfig_ != null) {
         if (desyncReportConfig_ == null) {
-          desyncReportConfig_ = new global::Tbadmin.DesyncReportConfig();
+          desyncReportConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.DesyncReportConfig();
         }
         DesyncReportConfig.MergeFrom(other.DesyncReportConfig);
       }
       if (other.exportTrimConfig_ != null) {
         if (exportTrimConfig_ == null) {
-          exportTrimConfig_ = new global::Tbadmin.ExportTrimConfig();
+          exportTrimConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ExportTrimConfig();
         }
         ExportTrimConfig.MergeFrom(other.ExportTrimConfig);
       }
@@ -14324,70 +14324,70 @@ namespace Tbadmin {
             break;
           case 10: {
             if (accountConfig_ == null) {
-              accountConfig_ = new global::Tbadmin.AccountConfig();
+              accountConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AccountConfig();
             }
             input.ReadMessage(accountConfig_);
             break;
           }
           case 18: {
             if (matchConfig_ == null) {
-              matchConfig_ = new global::Tbadmin.MatchServiceConfig();
+              matchConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MatchServiceConfig();
             }
             input.ReadMessage(matchConfig_);
             break;
           }
           case 26: {
             if (shopConfig_ == null) {
-              shopConfig_ = new global::Tbadmin.ShopConfig();
+              shopConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ShopConfig();
             }
             input.ReadMessage(shopConfig_);
             break;
           }
           case 34: {
             if (eventConfig_ == null) {
-              eventConfig_ = new global::Tbadmin.EventConfig();
+              eventConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.EventConfig();
             }
             input.ReadMessage(eventConfig_);
             break;
           }
           case 42: {
             if (auditConfig_ == null) {
-              auditConfig_ = new global::Tbadmin.AuditConfig();
+              auditConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.AuditConfig();
             }
             input.ReadMessage(auditConfig_);
             break;
           }
           case 50: {
             if (lobbyConfig_ == null) {
-              lobbyConfig_ = new global::Tbadmin.LobbyServiceConfig();
+              lobbyConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.LobbyServiceConfig();
             }
             input.ReadMessage(lobbyConfig_);
             break;
           }
           case 58: {
             if (crashReportConfig_ == null) {
-              crashReportConfig_ = new global::Tbadmin.CrashReportConfig();
+              crashReportConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.CrashReportConfig();
             }
             input.ReadMessage(crashReportConfig_);
             break;
           }
           case 66: {
             if (serverRolloutFlags_ == null) {
-              serverRolloutFlags_ = new global::Tbadmin.ServerRolloutFlags();
+              serverRolloutFlags_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ServerRolloutFlags();
             }
             input.ReadMessage(serverRolloutFlags_);
             break;
           }
           case 74: {
             if (desyncReportConfig_ == null) {
-              desyncReportConfig_ = new global::Tbadmin.DesyncReportConfig();
+              desyncReportConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.DesyncReportConfig();
             }
             input.ReadMessage(desyncReportConfig_);
             break;
           }
           case 82: {
             if (exportTrimConfig_ == null) {
-              exportTrimConfig_ = new global::Tbadmin.ExportTrimConfig();
+              exportTrimConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ExportTrimConfig();
             }
             input.ReadMessage(exportTrimConfig_);
             break;
@@ -14406,7 +14406,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[56]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[56]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15058,7 +15058,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[57]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[57]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15089,12 +15089,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "match_client" field.</summary>
     public const int MatchClientFieldNumber = 1;
-    private global::Tbrpc.LBClientConfig matchClient_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LBClientConfig matchClient_;
     /// <summary>
     /// Where to reach Match API servers.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbrpc.LBClientConfig MatchClient {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LBClientConfig MatchClient {
       get { return matchClient_; }
       set {
         matchClient_ = value;
@@ -15229,7 +15229,7 @@ namespace Tbadmin {
       }
       if (other.matchClient_ != null) {
         if (matchClient_ == null) {
-          matchClient_ = new global::Tbrpc.LBClientConfig();
+          matchClient_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LBClientConfig();
         }
         MatchClient.MergeFrom(other.MatchClient);
       }
@@ -15255,7 +15255,7 @@ namespace Tbadmin {
             break;
           case 10: {
             if (matchClient_ == null) {
-              matchClient_ = new global::Tbrpc.LBClientConfig();
+              matchClient_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LBClientConfig();
             }
             input.ReadMessage(matchClient_);
             break;
@@ -15286,7 +15286,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[58]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[58]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15568,7 +15568,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[59]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[59]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -15619,12 +15619,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "session_key" field.</summary>
     public const int SessionKeyFieldNumber = 2;
-    private global::Tbadmin.SessionAuthKey sessionKey_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SessionAuthKey sessionKey_;
     /// <summary>
     /// Session key(s) to use.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.SessionAuthKey SessionKey {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SessionAuthKey SessionKey {
       get { return sessionKey_; }
       set {
         sessionKey_ = value;
@@ -15676,12 +15676,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "monitor_config" field.</summary>
     public const int MonitorConfigFieldNumber = 10;
-    private global::Tbadmin.MonitorConfig monitorConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MonitorConfig monitorConfig_;
     /// <summary>
     /// Monitoring configuration.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.MonitorConfig MonitorConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MonitorConfig MonitorConfig {
       get { return monitorConfig_; }
       set {
         monitorConfig_ = value;
@@ -15690,12 +15690,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "redis_config" field.</summary>
     public const int RedisConfigFieldNumber = 60;
-    private global::Tbadmin.RedisConfig redisConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RedisConfig redisConfig_;
     /// <summary>
     /// How to talk to Redis for sessions.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.RedisConfig RedisConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RedisConfig RedisConfig {
       get { return redisConfig_; }
       set {
         redisConfig_ = value;
@@ -15704,12 +15704,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "content_config" field.</summary>
     public const int ContentConfigFieldNumber = 61;
-    private global::Tbadmin.FEContentConfig contentConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FEContentConfig contentConfig_;
     /// <summary>
     /// Where to find and how to serve dynamic HTML content.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.FEContentConfig ContentConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FEContentConfig ContentConfig {
       get { return contentConfig_; }
       set {
         contentConfig_ = value;
@@ -15718,12 +15718,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "backend_config" field.</summary>
     public const int BackendConfigFieldNumber = 62;
-    private global::Tbadmin.FEBackendConfig backendConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FEBackendConfig backendConfig_;
     /// <summary>
     /// Where to reach backend API servers.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.FEBackendConfig BackendConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FEBackendConfig BackendConfig {
       get { return backendConfig_; }
       set {
         backendConfig_ = value;
@@ -15732,9 +15732,9 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "vanilla" field.</summary>
     public const int VanillaFieldNumber = 70;
-    private global::Tbadmin.VanillaJSConnectConfig vanilla_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.VanillaJSConnectConfig vanilla_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.VanillaJSConnectConfig Vanilla {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.VanillaJSConnectConfig Vanilla {
       get { return vanilla_; }
       set {
         vanilla_ = value;
@@ -15887,7 +15887,7 @@ namespace Tbadmin {
       }
       if (other.sessionKey_ != null) {
         if (sessionKey_ == null) {
-          sessionKey_ = new global::Tbadmin.SessionAuthKey();
+          sessionKey_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SessionAuthKey();
         }
         SessionKey.MergeFrom(other.SessionKey);
       }
@@ -15902,31 +15902,31 @@ namespace Tbadmin {
       }
       if (other.monitorConfig_ != null) {
         if (monitorConfig_ == null) {
-          monitorConfig_ = new global::Tbadmin.MonitorConfig();
+          monitorConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MonitorConfig();
         }
         MonitorConfig.MergeFrom(other.MonitorConfig);
       }
       if (other.redisConfig_ != null) {
         if (redisConfig_ == null) {
-          redisConfig_ = new global::Tbadmin.RedisConfig();
+          redisConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RedisConfig();
         }
         RedisConfig.MergeFrom(other.RedisConfig);
       }
       if (other.contentConfig_ != null) {
         if (contentConfig_ == null) {
-          contentConfig_ = new global::Tbadmin.FEContentConfig();
+          contentConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FEContentConfig();
         }
         ContentConfig.MergeFrom(other.ContentConfig);
       }
       if (other.backendConfig_ != null) {
         if (backendConfig_ == null) {
-          backendConfig_ = new global::Tbadmin.FEBackendConfig();
+          backendConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FEBackendConfig();
         }
         BackendConfig.MergeFrom(other.BackendConfig);
       }
       if (other.vanilla_ != null) {
         if (vanilla_ == null) {
-          vanilla_ = new global::Tbadmin.VanillaJSConnectConfig();
+          vanilla_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.VanillaJSConnectConfig();
         }
         Vanilla.MergeFrom(other.Vanilla);
       }
@@ -15947,7 +15947,7 @@ namespace Tbadmin {
           }
           case 18: {
             if (sessionKey_ == null) {
-              sessionKey_ = new global::Tbadmin.SessionAuthKey();
+              sessionKey_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.SessionAuthKey();
             }
             input.ReadMessage(sessionKey_);
             break;
@@ -15966,35 +15966,35 @@ namespace Tbadmin {
           }
           case 82: {
             if (monitorConfig_ == null) {
-              monitorConfig_ = new global::Tbadmin.MonitorConfig();
+              monitorConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.MonitorConfig();
             }
             input.ReadMessage(monitorConfig_);
             break;
           }
           case 482: {
             if (redisConfig_ == null) {
-              redisConfig_ = new global::Tbadmin.RedisConfig();
+              redisConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.RedisConfig();
             }
             input.ReadMessage(redisConfig_);
             break;
           }
           case 490: {
             if (contentConfig_ == null) {
-              contentConfig_ = new global::Tbadmin.FEContentConfig();
+              contentConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FEContentConfig();
             }
             input.ReadMessage(contentConfig_);
             break;
           }
           case 498: {
             if (backendConfig_ == null) {
-              backendConfig_ = new global::Tbadmin.FEBackendConfig();
+              backendConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FEBackendConfig();
             }
             input.ReadMessage(backendConfig_);
             break;
           }
           case 562: {
             if (vanilla_ == null) {
-              vanilla_ = new global::Tbadmin.VanillaJSConnectConfig();
+              vanilla_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.VanillaJSConnectConfig();
             }
             input.ReadMessage(vanilla_);
             break;
@@ -16013,7 +16013,7 @@ namespace Tbadmin {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbadmin.ConfigReflection.Descriptor.MessageTypes[60]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.ConfigReflection.Descriptor.MessageTypes[60]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16138,12 +16138,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "desync_storage" field.</summary>
     public const int DesyncStorageFieldNumber = 11;
-    private global::Tbadmin.GcsStorageConfig desyncStorage_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig desyncStorage_;
     /// <summary>
     /// Where desyncs are stored.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.GcsStorageConfig DesyncStorage {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig DesyncStorage {
       get { return desyncStorage_; }
       set {
         desyncStorage_ = value;
@@ -16152,12 +16152,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "crash_storage" field.</summary>
     public const int CrashStorageFieldNumber = 12;
-    private global::Tbadmin.GcsStorageConfig crashStorage_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig crashStorage_;
     /// <summary>
     /// Where crash information is stored.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.GcsStorageConfig CrashStorage {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig CrashStorage {
       get { return crashStorage_; }
       set {
         crashStorage_ = value;
@@ -16166,12 +16166,12 @@ namespace Tbadmin {
 
     /// <summary>Field number for the "backend_config" field.</summary>
     public const int BackendConfigFieldNumber = 13;
-    private global::Tbadmin.FEBackendConfig backendConfig_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FEBackendConfig backendConfig_;
     /// <summary>
     /// Where to reach backend API servers.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbadmin.FEBackendConfig BackendConfig {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FEBackendConfig BackendConfig {
       get { return backendConfig_; }
       set {
         backendConfig_ = value;
@@ -16445,19 +16445,19 @@ namespace Tbadmin {
       }
       if (other.desyncStorage_ != null) {
         if (desyncStorage_ == null) {
-          desyncStorage_ = new global::Tbadmin.GcsStorageConfig();
+          desyncStorage_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig();
         }
         DesyncStorage.MergeFrom(other.DesyncStorage);
       }
       if (other.crashStorage_ != null) {
         if (crashStorage_ == null) {
-          crashStorage_ = new global::Tbadmin.GcsStorageConfig();
+          crashStorage_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig();
         }
         CrashStorage.MergeFrom(other.CrashStorage);
       }
       if (other.backendConfig_ != null) {
         if (backendConfig_ == null) {
-          backendConfig_ = new global::Tbadmin.FEBackendConfig();
+          backendConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FEBackendConfig();
         }
         BackendConfig.MergeFrom(other.BackendConfig);
       }
@@ -16513,21 +16513,21 @@ namespace Tbadmin {
           }
           case 90: {
             if (desyncStorage_ == null) {
-              desyncStorage_ = new global::Tbadmin.GcsStorageConfig();
+              desyncStorage_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig();
             }
             input.ReadMessage(desyncStorage_);
             break;
           }
           case 98: {
             if (crashStorage_ == null) {
-              crashStorage_ = new global::Tbadmin.GcsStorageConfig();
+              crashStorage_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.GcsStorageConfig();
             }
             input.ReadMessage(crashStorage_);
             break;
           }
           case 106: {
             if (backendConfig_ == null) {
-              backendConfig_ = new global::Tbadmin.FEBackendConfig();
+              backendConfig_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbadmin.FEBackendConfig();
             }
             input.ReadMessage(backendConfig_);
             break;

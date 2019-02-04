@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Tbportal {
+namespace Rising_Thunder_Server_CS.Protobufs.Tbportal {
 
   /// <summary>Holder for reflection information generated from tbportal/portal.proto</summary>
   public static partial class PortalReflection {
@@ -109,28 +109,28 @@ namespace Tbportal {
             "R0FNRV9TRVNTSU9OEAoSDQoJUElOR19URVNUEAsSGwoXR0FNRV9SRVNFVF9O",
             "T1RJRklDQVRJT04QDGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Tbmatch.MatchReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Tbportal.RequestType), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.RedisListenConfig), global::Tbportal.RedisListenConfig.Parser, new[]{ "RedisHost", "RedisPort", "ListenKey", "ReqExpireSec", "RespExpireSec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.NetConfig), global::Tbportal.NetConfig.Parser, new[]{ "PublicIp", "PortBase", "PortRange", "Instance" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.StatusConfig), global::Tbportal.StatusConfig.Parser, new[]{ "Port", "Uri", "HealthUri", "AllowNet" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.GameSessionConfig), global::Tbportal.GameSessionConfig.Parser, new[]{ "MaxSessions", "MaxAuthFail", "ConnectTimeoutMs", "HandshakeReportTimeoutMs", "InactiveTimeoutMs", "ActiveTimeoutMs", "GoodbyeTimeoutMs", "DoubleDisconnectTimeoutMs", "VarChangeTimeoutMs", "InputLingerTimeoutMs", "MaxHandshakeReplies", "HandshakeReplyIntervalMs", "MaxVarChangeReplies", "VarChangeReplyIntervalMs", "GamesToWin" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.ObserverConfig), global::Tbportal.ObserverConfig.Parser, new[]{ "ReportSize", "BucketSize" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.PingTestConfig), global::Tbportal.PingTestConfig.Parser, new[]{ "PingCount", "WaitTimeoutMs", "NextPingTimeoutMs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.ServerConfig), global::Tbportal.ServerConfig.Parser, new[]{ "Redis", "Status", "Net", "Session", "PingTest", "Observer" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.ClientSpec), global::Tbportal.ClientSpec.Parser, new[]{ "Secret", "ClientIp", "Character", "SharedKey" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.EventQueue), global::Tbportal.EventQueue.Parser, new[]{ "Type", "Id" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.GameSessionRequest), global::Tbportal.GameSessionRequest.Parser, new[]{ "Spec", "Observer", "AllowReset" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.GameSessionResponse), global::Tbportal.GameSessionResponse.Parser, new[]{ "PublicIp", "PublicPort" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.GameSessionReport), global::Tbportal.GameSessionReport.Parser, new[]{ "Uuid", "Resolution", "OpenTime", "CloseTime", "TimeoutSlot", "HandshakeStatus", "PingReport", "MatchReport", "PlayerStat", "DisconnectReason", "DeprecatedOutcomeAgree", "DeprecatedOutcome" }, null, new[]{ typeof(global::Tbportal.GameSessionReport.Types.Resolution), typeof(global::Tbportal.GameSessionReport.Types.HandshakeStatus), typeof(global::Tbportal.GameSessionReport.Types.DisconnectReason) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.GameSessionReport.Types.PingReport), global::Tbportal.GameSessionReport.Types.PingReport.Parser, new[]{ "MinPingMs", "AvgPingMs", "MaxPingMs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.GameSessionReport.Types.PlayerStat), global::Tbportal.GameSessionReport.Types.PlayerStat.Parser, new[]{ "AvgPingMs", "AvgFps", "LevelLoadTime" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.PingTestRequest), global::Tbportal.PingTestRequest.Parser, new[]{ "Spec" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.PingTestResponse), global::Tbportal.PingTestResponse.Parser, new[]{ "PublicIp", "PublicPort" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.PingTestReport), global::Tbportal.PingTestReport.Parser, new[]{ "Resolution", "Sent", "Received", "MaxLatencyMs", "AvgLatencyMs" }, null, new[]{ typeof(global::Tbportal.PingTestReport.Types.Resolution) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.GameResetNotification), global::Tbportal.GameResetNotification.Parser, new[]{ "PortalUuid" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.Request), global::Tbportal.Request.Parser, new[]{ "Type", "CallerId", "ResponseChannel", "Timestamp", "ReportKey", "Game", "PingTest", "GameReset" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.Response), global::Tbportal.Response.Parser, new[]{ "Type", "CallerId", "Result", "OpUuid", "Game", "PingTest" }, null, new[]{ typeof(global::Tbportal.Response.Types.Result) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbportal.Report), global::Tbportal.Report.Parser, new[]{ "Type", "CallerId", "OpUuid", "Game", "PingTest" }, null, null, null)
+          new pbr::FileDescriptor[] { global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchReflection.Descriptor, },
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.RequestType), }, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.RedisListenConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.RedisListenConfig.Parser, new[]{ "RedisHost", "RedisPort", "ListenKey", "ReqExpireSec", "RespExpireSec" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.NetConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.NetConfig.Parser, new[]{ "PublicIp", "PortBase", "PortRange", "Instance" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.StatusConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.StatusConfig.Parser, new[]{ "Port", "Uri", "HealthUri", "AllowNet" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionConfig.Parser, new[]{ "MaxSessions", "MaxAuthFail", "ConnectTimeoutMs", "HandshakeReportTimeoutMs", "InactiveTimeoutMs", "ActiveTimeoutMs", "GoodbyeTimeoutMs", "DoubleDisconnectTimeoutMs", "VarChangeTimeoutMs", "InputLingerTimeoutMs", "MaxHandshakeReplies", "HandshakeReplyIntervalMs", "MaxVarChangeReplies", "VarChangeReplyIntervalMs", "GamesToWin" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ObserverConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ObserverConfig.Parser, new[]{ "ReportSize", "BucketSize" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestConfig.Parser, new[]{ "PingCount", "WaitTimeoutMs", "NextPingTimeoutMs" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ServerConfig), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ServerConfig.Parser, new[]{ "Redis", "Status", "Net", "Session", "PingTest", "Observer" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ClientSpec), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ClientSpec.Parser, new[]{ "Secret", "ClientIp", "Character", "SharedKey" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.EventQueue), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.EventQueue.Parser, new[]{ "Type", "Id" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionRequest.Parser, new[]{ "Spec", "Observer", "AllowReset" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionResponse), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionResponse.Parser, new[]{ "PublicIp", "PublicPort" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Parser, new[]{ "Uuid", "Resolution", "OpenTime", "CloseTime", "TimeoutSlot", "HandshakeStatus", "PingReport", "MatchReport", "PlayerStat", "DisconnectReason", "DeprecatedOutcomeAgree", "DeprecatedOutcome" }, null, new[]{ typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.Resolution), typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.HandshakeStatus), typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.DisconnectReason) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.PingReport), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.PingReport.Parser, new[]{ "MinPingMs", "AvgPingMs", "MaxPingMs" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.PlayerStat), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.PlayerStat.Parser, new[]{ "AvgPingMs", "AvgFps", "LevelLoadTime" }, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestRequest.Parser, new[]{ "Spec" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestResponse), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestResponse.Parser, new[]{ "PublicIp", "PublicPort" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestReport), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestReport.Parser, new[]{ "Resolution", "Sent", "Received", "MaxLatencyMs", "AvgLatencyMs" }, null, new[]{ typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestReport.Types.Resolution) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameResetNotification), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameResetNotification.Parser, new[]{ "PortalUuid" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.Request), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.Request.Parser, new[]{ "Type", "CallerId", "ResponseChannel", "Timestamp", "ReportKey", "Game", "PingTest", "GameReset" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.Response), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.Response.Parser, new[]{ "Type", "CallerId", "Result", "OpUuid", "Game", "PingTest" }, null, new[]{ typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.Response.Types.Result) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbportal.Report), global::Rising_Thunder_Server_CS.Protobufs.Tbportal.Report.Parser, new[]{ "Type", "CallerId", "OpUuid", "Game", "PingTest" }, null, null, null)
           }));
     }
     #endregion
@@ -155,7 +155,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -409,7 +409,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -628,7 +628,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -845,7 +845,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1415,7 +1415,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[4]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1578,7 +1578,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[5]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1775,7 +1775,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[6]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1808,9 +1808,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "redis" field.</summary>
     public const int RedisFieldNumber = 1;
-    private global::Tbportal.RedisListenConfig redis_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.RedisListenConfig redis_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.RedisListenConfig Redis {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.RedisListenConfig Redis {
       get { return redis_; }
       set {
         redis_ = value;
@@ -1819,9 +1819,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 2;
-    private global::Tbportal.StatusConfig status_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.StatusConfig status_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.StatusConfig Status {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.StatusConfig Status {
       get { return status_; }
       set {
         status_ = value;
@@ -1830,9 +1830,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "net" field.</summary>
     public const int NetFieldNumber = 3;
-    private global::Tbportal.NetConfig net_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.NetConfig net_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.NetConfig Net {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.NetConfig Net {
       get { return net_; }
       set {
         net_ = value;
@@ -1841,9 +1841,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "session" field.</summary>
     public const int SessionFieldNumber = 10;
-    private global::Tbportal.GameSessionConfig session_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionConfig session_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.GameSessionConfig Session {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionConfig Session {
       get { return session_; }
       set {
         session_ = value;
@@ -1852,9 +1852,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "ping_test" field.</summary>
     public const int PingTestFieldNumber = 11;
-    private global::Tbportal.PingTestConfig pingTest_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestConfig pingTest_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.PingTestConfig PingTest {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestConfig PingTest {
       get { return pingTest_; }
       set {
         pingTest_ = value;
@@ -1863,9 +1863,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "observer" field.</summary>
     public const int ObserverFieldNumber = 20;
-    private global::Tbportal.ObserverConfig observer_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ObserverConfig observer_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.ObserverConfig Observer {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ObserverConfig Observer {
       get { return observer_; }
       set {
         observer_ = value;
@@ -1979,37 +1979,37 @@ namespace Tbportal {
       }
       if (other.redis_ != null) {
         if (redis_ == null) {
-          redis_ = new global::Tbportal.RedisListenConfig();
+          redis_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.RedisListenConfig();
         }
         Redis.MergeFrom(other.Redis);
       }
       if (other.status_ != null) {
         if (status_ == null) {
-          status_ = new global::Tbportal.StatusConfig();
+          status_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.StatusConfig();
         }
         Status.MergeFrom(other.Status);
       }
       if (other.net_ != null) {
         if (net_ == null) {
-          net_ = new global::Tbportal.NetConfig();
+          net_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.NetConfig();
         }
         Net.MergeFrom(other.Net);
       }
       if (other.session_ != null) {
         if (session_ == null) {
-          session_ = new global::Tbportal.GameSessionConfig();
+          session_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionConfig();
         }
         Session.MergeFrom(other.Session);
       }
       if (other.pingTest_ != null) {
         if (pingTest_ == null) {
-          pingTest_ = new global::Tbportal.PingTestConfig();
+          pingTest_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestConfig();
         }
         PingTest.MergeFrom(other.PingTest);
       }
       if (other.observer_ != null) {
         if (observer_ == null) {
-          observer_ = new global::Tbportal.ObserverConfig();
+          observer_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ObserverConfig();
         }
         Observer.MergeFrom(other.Observer);
       }
@@ -2026,42 +2026,42 @@ namespace Tbportal {
             break;
           case 10: {
             if (redis_ == null) {
-              redis_ = new global::Tbportal.RedisListenConfig();
+              redis_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.RedisListenConfig();
             }
             input.ReadMessage(redis_);
             break;
           }
           case 18: {
             if (status_ == null) {
-              status_ = new global::Tbportal.StatusConfig();
+              status_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.StatusConfig();
             }
             input.ReadMessage(status_);
             break;
           }
           case 26: {
             if (net_ == null) {
-              net_ = new global::Tbportal.NetConfig();
+              net_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.NetConfig();
             }
             input.ReadMessage(net_);
             break;
           }
           case 82: {
             if (session_ == null) {
-              session_ = new global::Tbportal.GameSessionConfig();
+              session_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionConfig();
             }
             input.ReadMessage(session_);
             break;
           }
           case 90: {
             if (pingTest_ == null) {
-              pingTest_ = new global::Tbportal.PingTestConfig();
+              pingTest_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestConfig();
             }
             input.ReadMessage(pingTest_);
             break;
           }
           case 162: {
             if (observer_ == null) {
-              observer_ = new global::Tbportal.ObserverConfig();
+              observer_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ObserverConfig();
             }
             input.ReadMessage(observer_);
             break;
@@ -2080,7 +2080,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[7]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2140,12 +2140,12 @@ namespace Tbportal {
 
     /// <summary>Field number for the "character" field.</summary>
     public const int CharacterFieldNumber = 3;
-    private global::Tbmatch.CharacterSpec character_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.CharacterSpec character_;
     /// <summary>
     /// The initial character spec for the client.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.CharacterSpec Character {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.CharacterSpec Character {
       get { return character_; }
       set {
         character_ = value;
@@ -2261,7 +2261,7 @@ namespace Tbportal {
       }
       if (other.character_ != null) {
         if (character_ == null) {
-          character_ = new global::Tbmatch.CharacterSpec();
+          character_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.CharacterSpec();
         }
         Character.MergeFrom(other.Character);
       }
@@ -2289,7 +2289,7 @@ namespace Tbportal {
           }
           case 26: {
             if (character_ == null) {
-              character_ = new global::Tbmatch.CharacterSpec();
+              character_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.CharacterSpec();
             }
             input.ReadMessage(character_);
             break;
@@ -2312,7 +2312,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2472,7 +2472,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2502,25 +2502,25 @@ namespace Tbportal {
 
     /// <summary>Field number for the "spec" field.</summary>
     public const int SpecFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Tbportal.ClientSpec> _repeated_spec_codec
-        = pb::FieldCodec.ForMessage(10, global::Tbportal.ClientSpec.Parser);
-    private readonly pbc::RepeatedField<global::Tbportal.ClientSpec> spec_ = new pbc::RepeatedField<global::Tbportal.ClientSpec>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ClientSpec> _repeated_spec_codec
+        = pb::FieldCodec.ForMessage(10, global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ClientSpec.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ClientSpec> spec_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ClientSpec>();
     /// <summary>
     /// Clients of the portal, should be exactly 2.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbportal.ClientSpec> Spec {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ClientSpec> Spec {
       get { return spec_; }
     }
 
     /// <summary>Field number for the "observer" field.</summary>
     public const int ObserverFieldNumber = 2;
-    private global::Tbportal.EventQueue observer_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.EventQueue observer_;
     /// <summary>
     /// Queue to publish input events.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.EventQueue Observer {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.EventQueue Observer {
       get { return observer_; }
       set {
         observer_ = value;
@@ -2617,7 +2617,7 @@ namespace Tbportal {
       spec_.Add(other.spec_);
       if (other.observer_ != null) {
         if (observer_ == null) {
-          observer_ = new global::Tbportal.EventQueue();
+          observer_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.EventQueue();
         }
         Observer.MergeFrom(other.Observer);
       }
@@ -2641,7 +2641,7 @@ namespace Tbportal {
           }
           case 18: {
             if (observer_ == null) {
-              observer_ = new global::Tbportal.EventQueue();
+              observer_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.EventQueue();
             }
             input.ReadMessage(observer_);
             break;
@@ -2667,7 +2667,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2828,7 +2828,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2881,9 +2881,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "resolution" field.</summary>
     public const int ResolutionFieldNumber = 3;
-    private global::Tbportal.GameSessionReport.Types.Resolution resolution_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.Resolution resolution_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.GameSessionReport.Types.Resolution Resolution {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.Resolution Resolution {
       get { return resolution_; }
       set {
         resolution_ = value;
@@ -2934,9 +2934,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "handshake_status" field.</summary>
     public const int HandshakeStatusFieldNumber = 10;
-    private global::Tbportal.GameSessionReport.Types.HandshakeStatus handshakeStatus_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.HandshakeStatus handshakeStatus_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.GameSessionReport.Types.HandshakeStatus HandshakeStatus {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.HandshakeStatus HandshakeStatus {
       get { return handshakeStatus_; }
       set {
         handshakeStatus_ = value;
@@ -2945,9 +2945,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "ping_report" field.</summary>
     public const int PingReportFieldNumber = 13;
-    private global::Tbportal.GameSessionReport.Types.PingReport pingReport_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.PingReport pingReport_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.GameSessionReport.Types.PingReport PingReport {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.PingReport PingReport {
       get { return pingReport_; }
       set {
         pingReport_ = value;
@@ -2956,9 +2956,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "match_report" field.</summary>
     public const int MatchReportFieldNumber = 9;
-    private global::Tbmatch.MatchReport matchReport_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchReport matchReport_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.MatchReport MatchReport {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchReport MatchReport {
       get { return matchReport_; }
       set {
         matchReport_ = value;
@@ -2967,19 +2967,19 @@ namespace Tbportal {
 
     /// <summary>Field number for the "player_stat" field.</summary>
     public const int PlayerStatFieldNumber = 11;
-    private static readonly pb::FieldCodec<global::Tbportal.GameSessionReport.Types.PlayerStat> _repeated_playerStat_codec
-        = pb::FieldCodec.ForMessage(90, global::Tbportal.GameSessionReport.Types.PlayerStat.Parser);
-    private readonly pbc::RepeatedField<global::Tbportal.GameSessionReport.Types.PlayerStat> playerStat_ = new pbc::RepeatedField<global::Tbportal.GameSessionReport.Types.PlayerStat>();
+    private static readonly pb::FieldCodec<global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.PlayerStat> _repeated_playerStat_codec
+        = pb::FieldCodec.ForMessage(90, global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.PlayerStat.Parser);
+    private readonly pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.PlayerStat> playerStat_ = new pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.PlayerStat>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Tbportal.GameSessionReport.Types.PlayerStat> PlayerStat {
+    public pbc::RepeatedField<global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.PlayerStat> PlayerStat {
       get { return playerStat_; }
     }
 
     /// <summary>Field number for the "disconnect_reason" field.</summary>
     public const int DisconnectReasonFieldNumber = 12;
-    private global::Tbportal.GameSessionReport.Types.DisconnectReason disconnectReason_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.DisconnectReason disconnectReason_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.GameSessionReport.Types.DisconnectReason DisconnectReason {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.DisconnectReason DisconnectReason {
       get { return disconnectReason_; }
       set {
         disconnectReason_ = value;
@@ -3178,13 +3178,13 @@ namespace Tbportal {
       }
       if (other.pingReport_ != null) {
         if (pingReport_ == null) {
-          pingReport_ = new global::Tbportal.GameSessionReport.Types.PingReport();
+          pingReport_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.PingReport();
         }
         PingReport.MergeFrom(other.PingReport);
       }
       if (other.matchReport_ != null) {
         if (matchReport_ == null) {
-          matchReport_ = new global::Tbmatch.MatchReport();
+          matchReport_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchReport();
         }
         MatchReport.MergeFrom(other.MatchReport);
       }
@@ -3214,7 +3214,7 @@ namespace Tbportal {
             break;
           }
           case 24: {
-            resolution_ = (global::Tbportal.GameSessionReport.Types.Resolution) input.ReadEnum();
+            resolution_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.Resolution) input.ReadEnum();
             break;
           }
           case 32: {
@@ -3240,13 +3240,13 @@ namespace Tbportal {
           }
           case 74: {
             if (matchReport_ == null) {
-              matchReport_ = new global::Tbmatch.MatchReport();
+              matchReport_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.MatchReport();
             }
             input.ReadMessage(matchReport_);
             break;
           }
           case 80: {
-            handshakeStatus_ = (global::Tbportal.GameSessionReport.Types.HandshakeStatus) input.ReadEnum();
+            handshakeStatus_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.HandshakeStatus) input.ReadEnum();
             break;
           }
           case 90: {
@@ -3254,12 +3254,12 @@ namespace Tbportal {
             break;
           }
           case 96: {
-            disconnectReason_ = (global::Tbportal.GameSessionReport.Types.DisconnectReason) input.ReadEnum();
+            disconnectReason_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.DisconnectReason) input.ReadEnum();
             break;
           }
           case 106: {
             if (pingReport_ == null) {
-              pingReport_ = new global::Tbportal.GameSessionReport.Types.PingReport();
+              pingReport_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Types.PingReport();
             }
             input.ReadMessage(pingReport_);
             break;
@@ -3335,7 +3335,7 @@ namespace Tbportal {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::Tbportal.GameSessionReport.Descriptor.NestedTypes[0]; }
+          get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Descriptor.NestedTypes[0]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3523,7 +3523,7 @@ namespace Tbportal {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::Tbportal.GameSessionReport.Descriptor.NestedTypes[1]; }
+          get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport.Descriptor.NestedTypes[1]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3716,7 +3716,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3744,12 +3744,12 @@ namespace Tbportal {
 
     /// <summary>Field number for the "spec" field.</summary>
     public const int SpecFieldNumber = 1;
-    private global::Tbportal.ClientSpec spec_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ClientSpec spec_;
     /// <summary>
     /// Client that will be performing the ping.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.ClientSpec Spec {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ClientSpec Spec {
       get { return spec_; }
       set {
         spec_ = value;
@@ -3818,7 +3818,7 @@ namespace Tbportal {
       }
       if (other.spec_ != null) {
         if (spec_ == null) {
-          spec_ = new global::Tbportal.ClientSpec();
+          spec_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ClientSpec();
         }
         Spec.MergeFrom(other.Spec);
       }
@@ -3835,7 +3835,7 @@ namespace Tbportal {
             break;
           case 10: {
             if (spec_ == null) {
-              spec_ = new global::Tbportal.ClientSpec();
+              spec_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.ClientSpec();
             }
             input.ReadMessage(spec_);
             break;
@@ -3854,7 +3854,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4017,7 +4017,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4049,9 +4049,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "resolution" field.</summary>
     public const int ResolutionFieldNumber = 2;
-    private global::Tbportal.PingTestReport.Types.Resolution resolution_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestReport.Types.Resolution resolution_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.PingTestReport.Types.Resolution Resolution {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestReport.Types.Resolution Resolution {
       get { return resolution_; }
       set {
         resolution_ = value;
@@ -4234,7 +4234,7 @@ namespace Tbportal {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 16: {
-            resolution_ = (global::Tbportal.PingTestReport.Types.Resolution) input.ReadEnum();
+            resolution_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestReport.Types.Resolution) input.ReadEnum();
             break;
           }
           case 80: {
@@ -4286,7 +4286,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4418,7 +4418,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4453,9 +4453,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 1;
-    private global::Tbportal.RequestType type_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.RequestType type_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.RequestType Type {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.RequestType Type {
       get { return type_; }
       set {
         type_ = value;
@@ -4521,9 +4521,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "game" field.</summary>
     public const int GameFieldNumber = 10;
-    private global::Tbportal.GameSessionRequest game_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionRequest game_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.GameSessionRequest Game {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionRequest Game {
       get { return game_; }
       set {
         game_ = value;
@@ -4532,9 +4532,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "ping_test" field.</summary>
     public const int PingTestFieldNumber = 11;
-    private global::Tbportal.PingTestRequest pingTest_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestRequest pingTest_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.PingTestRequest PingTest {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestRequest PingTest {
       get { return pingTest_; }
       set {
         pingTest_ = value;
@@ -4543,9 +4543,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "game_reset" field.</summary>
     public const int GameResetFieldNumber = 12;
-    private global::Tbportal.GameResetNotification gameReset_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameResetNotification gameReset_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.GameResetNotification GameReset {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameResetNotification GameReset {
       get { return gameReset_; }
       set {
         gameReset_ = value;
@@ -4692,19 +4692,19 @@ namespace Tbportal {
       }
       if (other.game_ != null) {
         if (game_ == null) {
-          game_ = new global::Tbportal.GameSessionRequest();
+          game_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionRequest();
         }
         Game.MergeFrom(other.Game);
       }
       if (other.pingTest_ != null) {
         if (pingTest_ == null) {
-          pingTest_ = new global::Tbportal.PingTestRequest();
+          pingTest_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestRequest();
         }
         PingTest.MergeFrom(other.PingTest);
       }
       if (other.gameReset_ != null) {
         if (gameReset_ == null) {
-          gameReset_ = new global::Tbportal.GameResetNotification();
+          gameReset_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameResetNotification();
         }
         GameReset.MergeFrom(other.GameReset);
       }
@@ -4720,7 +4720,7 @@ namespace Tbportal {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            type_ = (global::Tbportal.RequestType) input.ReadEnum();
+            type_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbportal.RequestType) input.ReadEnum();
             break;
           }
           case 16: {
@@ -4741,21 +4741,21 @@ namespace Tbportal {
           }
           case 82: {
             if (game_ == null) {
-              game_ = new global::Tbportal.GameSessionRequest();
+              game_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionRequest();
             }
             input.ReadMessage(game_);
             break;
           }
           case 90: {
             if (pingTest_ == null) {
-              pingTest_ = new global::Tbportal.PingTestRequest();
+              pingTest_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestRequest();
             }
             input.ReadMessage(pingTest_);
             break;
           }
           case 98: {
             if (gameReset_ == null) {
-              gameReset_ = new global::Tbportal.GameResetNotification();
+              gameReset_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameResetNotification();
             }
             input.ReadMessage(gameReset_);
             break;
@@ -4777,7 +4777,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4810,9 +4810,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 1;
-    private global::Tbportal.RequestType type_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.RequestType type_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.RequestType Type {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.RequestType Type {
       get { return type_; }
       set {
         type_ = value;
@@ -4832,9 +4832,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "result" field.</summary>
     public const int ResultFieldNumber = 3;
-    private global::Tbportal.Response.Types.Result result_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.Response.Types.Result result_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.Response.Types.Result Result {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.Response.Types.Result Result {
       get { return result_; }
       set {
         result_ = value;
@@ -4857,9 +4857,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "game" field.</summary>
     public const int GameFieldNumber = 10;
-    private global::Tbportal.GameSessionResponse game_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionResponse game_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.GameSessionResponse Game {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionResponse Game {
       get { return game_; }
       set {
         game_ = value;
@@ -4868,9 +4868,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "ping_test" field.</summary>
     public const int PingTestFieldNumber = 11;
-    private global::Tbportal.PingTestResponse pingTest_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestResponse pingTest_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.PingTestResponse PingTest {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestResponse PingTest {
       get { return pingTest_; }
       set {
         pingTest_ = value;
@@ -4996,13 +4996,13 @@ namespace Tbportal {
       }
       if (other.game_ != null) {
         if (game_ == null) {
-          game_ = new global::Tbportal.GameSessionResponse();
+          game_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionResponse();
         }
         Game.MergeFrom(other.Game);
       }
       if (other.pingTest_ != null) {
         if (pingTest_ == null) {
-          pingTest_ = new global::Tbportal.PingTestResponse();
+          pingTest_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestResponse();
         }
         PingTest.MergeFrom(other.PingTest);
       }
@@ -5018,7 +5018,7 @@ namespace Tbportal {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            type_ = (global::Tbportal.RequestType) input.ReadEnum();
+            type_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbportal.RequestType) input.ReadEnum();
             break;
           }
           case 16: {
@@ -5026,7 +5026,7 @@ namespace Tbportal {
             break;
           }
           case 24: {
-            result_ = (global::Tbportal.Response.Types.Result) input.ReadEnum();
+            result_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbportal.Response.Types.Result) input.ReadEnum();
             break;
           }
           case 34: {
@@ -5035,14 +5035,14 @@ namespace Tbportal {
           }
           case 82: {
             if (game_ == null) {
-              game_ = new global::Tbportal.GameSessionResponse();
+              game_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionResponse();
             }
             input.ReadMessage(game_);
             break;
           }
           case 90: {
             if (pingTest_ == null) {
-              pingTest_ = new global::Tbportal.PingTestResponse();
+              pingTest_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestResponse();
             }
             input.ReadMessage(pingTest_);
             break;
@@ -5091,7 +5091,7 @@ namespace Tbportal {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbportal.PortalReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PortalReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5123,9 +5123,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 1;
-    private global::Tbportal.RequestType type_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.RequestType type_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.RequestType Type {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.RequestType Type {
       get { return type_; }
       set {
         type_ = value;
@@ -5156,9 +5156,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "game" field.</summary>
     public const int GameFieldNumber = 10;
-    private global::Tbportal.GameSessionReport game_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport game_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.GameSessionReport Game {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport Game {
       get { return game_; }
       set {
         game_ = value;
@@ -5167,9 +5167,9 @@ namespace Tbportal {
 
     /// <summary>Field number for the "ping_test" field.</summary>
     public const int PingTestFieldNumber = 11;
-    private global::Tbportal.PingTestReport pingTest_;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestReport pingTest_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbportal.PingTestReport PingTest {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestReport PingTest {
       get { return pingTest_; }
       set {
         pingTest_ = value;
@@ -5283,13 +5283,13 @@ namespace Tbportal {
       }
       if (other.game_ != null) {
         if (game_ == null) {
-          game_ = new global::Tbportal.GameSessionReport();
+          game_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport();
         }
         Game.MergeFrom(other.Game);
       }
       if (other.pingTest_ != null) {
         if (pingTest_ == null) {
-          pingTest_ = new global::Tbportal.PingTestReport();
+          pingTest_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestReport();
         }
         PingTest.MergeFrom(other.PingTest);
       }
@@ -5305,7 +5305,7 @@ namespace Tbportal {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            type_ = (global::Tbportal.RequestType) input.ReadEnum();
+            type_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbportal.RequestType) input.ReadEnum();
             break;
           }
           case 16: {
@@ -5318,14 +5318,14 @@ namespace Tbportal {
           }
           case 82: {
             if (game_ == null) {
-              game_ = new global::Tbportal.GameSessionReport();
+              game_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.GameSessionReport();
             }
             input.ReadMessage(game_);
             break;
           }
           case 90: {
             if (pingTest_ == null) {
-              pingTest_ = new global::Tbportal.PingTestReport();
+              pingTest_ = new global::Rising_Thunder_Server_CS.Protobufs.Tbportal.PingTestReport();
             }
             input.ReadMessage(pingTest_);
             break;

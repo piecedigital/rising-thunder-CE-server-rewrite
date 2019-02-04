@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Tbmatch {
+namespace Rising_Thunder_Server_CS.Protobufs.Tbmatch {
 
   /// <summary>Holder for reflection information generated from tbmatch/session.proto</summary>
   public static partial class SessionReflection {
@@ -43,12 +43,12 @@ namespace Tbmatch {
             "Y2tldFJlcXVlc3QaDC50YnJwYy5FbXB0eSIEyPMYABIqCgZMb2dvdXQSDC50",
             "YnJwYy5FbXB0eRoMLnRicnBjLkVtcHR5IgTI8xgBYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Tbrpc.TbrpcReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Tbmatch.GameType), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.LoginRequest), global::Tbmatch.LoginRequest.Parser, new[]{ "Login", "Password", "BuildVersion", "DeprecatedRemoteIp" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.GetGameSessionTicketResult), global::Tbmatch.GetGameSessionTicketResult.Parser, new[]{ "Game", "Nonce" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.RedeemGameSessionTicketRequest), global::Tbmatch.RedeemGameSessionTicketRequest.Parser, new[]{ "Game", "Nonce", "BuildVersion" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Tbmatch.GetGameSessionTicketRequest), global::Tbmatch.GetGameSessionTicketRequest.Parser, new[]{ "Game", "ClientBuildVersion" }, null, null, null)
+          new pbr::FileDescriptor[] { global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.TbrpcReflection.Descriptor, },
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameType), }, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LoginRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.LoginRequest.Parser, new[]{ "Login", "Password", "BuildVersion", "DeprecatedRemoteIp" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GetGameSessionTicketResult), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GetGameSessionTicketResult.Parser, new[]{ "Game", "Nonce" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.RedeemGameSessionTicketRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.RedeemGameSessionTicketRequest.Parser, new[]{ "Game", "Nonce", "BuildVersion" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GetGameSessionTicketRequest), global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GetGameSessionTicketRequest.Parser, new[]{ "Game", "ClientBuildVersion" }, null, null, null)
           }));
     }
     #endregion
@@ -74,7 +74,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.SessionReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.SessionReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -296,7 +296,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.SessionReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.SessionReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -325,9 +325,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "game" field.</summary>
     public const int GameFieldNumber = 1;
-    private global::Tbmatch.GameType game_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameType game_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.GameType Game {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameType Game {
       get { return game_; }
       set {
         game_ = value;
@@ -432,7 +432,7 @@ namespace Tbmatch {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            game_ = (global::Tbmatch.GameType) input.ReadEnum();
+            game_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameType) input.ReadEnum();
             break;
           }
           case 18: {
@@ -453,7 +453,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.SessionReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.SessionReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -483,9 +483,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "game" field.</summary>
     public const int GameFieldNumber = 1;
-    private global::Tbmatch.GameType game_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameType game_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.GameType Game {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameType Game {
       get { return game_; }
       set {
         game_ = value;
@@ -616,7 +616,7 @@ namespace Tbmatch {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            game_ = (global::Tbmatch.GameType) input.ReadEnum();
+            game_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameType) input.ReadEnum();
             break;
           }
           case 18: {
@@ -641,7 +641,7 @@ namespace Tbmatch {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Tbmatch.SessionReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.SessionReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -670,9 +670,9 @@ namespace Tbmatch {
 
     /// <summary>Field number for the "game" field.</summary>
     public const int GameFieldNumber = 1;
-    private global::Tbmatch.GameType game_ = 0;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameType game_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Tbmatch.GameType Game {
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameType Game {
       get { return game_; }
       set {
         game_ = value;
@@ -780,7 +780,7 @@ namespace Tbmatch {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            game_ = (global::Tbmatch.GameType) input.ReadEnum();
+            game_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbmatch.GameType) input.ReadEnum();
             break;
           }
           case 18: {
