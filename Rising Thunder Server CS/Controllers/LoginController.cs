@@ -1,8 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using Rising_Thunder_Server_CS.Protobufs.Tbrpc;
+using Rising_Thunder_Server_CS.Protobufs.Tbmatch;
+using System;
+using System.Diagnostics;
+using System.IO;
 
 namespace Rising_Thunder_Server_CS.Controllers
 {
@@ -10,10 +13,35 @@ namespace Rising_Thunder_Server_CS.Controllers
     [ApiController]
     public class RPCController : ControllerBase
     {
-        [HttpGet("Login")]
+
+        private byte[] convertPayload(Stream body)
+        {
+
+            byte[] payload = null;
+            Result converted = null;
+            using (StreamReader reader = new StreamReader(Request.Body))
+            {
+                payload = JsonConvert.DeserializeObject<Byte[]>(reader.ReadToEnd());
+            }
+
+            if (payload != null)
+            {
+                converted = Result.Parser.ParseFrom(payload);
+                return converted.Content.ToByteArray();
+            }
+
+            return null;
+        }
+
+        [HttpPost("Login")]
         public string Login()
         {
-            return "Login";
+
+            LoginRequest content = null;
+            content = LoginRequest.Parser.ParseFrom(convertPayload(Request.Body));
+
+            Debug.Print("\n\r\n\rSome converted data: '" + content.ToString() + "'\n\r\n\r");
+            return "Login: " + content.ToString();
         }
 
         [HttpPost("GetEvent")]
