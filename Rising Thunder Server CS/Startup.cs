@@ -27,9 +27,11 @@ namespace Rising_Thunder_Server_CS
         {
             services.AddCors(options =>
             {
-                options.AddPolicy("AllowAllOrigins", builder =>
+                options.AddPolicy("Cors", builder =>
                 {
-                    builder.AllowAnyOrigin();
+                    builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
                 });
             });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
@@ -49,6 +51,7 @@ namespace Rising_Thunder_Server_CS
 
 
             app.UseHttpsRedirection();
+            app.UseCors("Cors");
             app.UseMvc();
         }
     }
