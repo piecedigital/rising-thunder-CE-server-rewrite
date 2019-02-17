@@ -6,6 +6,8 @@ using Rising_Thunder_Server_CS.Protobufs.Tbmatch;
 using System;
 using System.Diagnostics;
 using System.IO;
+using Google.Protobuf;
+using System.Collections.Generic;
 
 namespace Rising_Thunder_Server_CS.Controllers
 {
@@ -34,14 +36,30 @@ namespace Rising_Thunder_Server_CS.Controllers
         }
 
         [HttpPost("Login")]
-        public string Login()
+        public ByteString Login()
         {
 
+            byte[] payload = null;
             LoginRequest content = null;
-            content = LoginRequest.Parser.ParseFrom(convertPayload(Request.Body));
+            using (StreamReader reader = new StreamReader(Request.Body))
+            {
+                payload = JsonConvert.DeserializeObject<Byte[]>(reader.ReadToEnd());
+            }
+
+            if (payload != null)
+            {
+                content = LoginRequest.Parser.ParseFrom(payload);
+            }
+
+            Result resultPayload = new Result() {
+                Result_ = Status.SSuccess
+            };
+
+            var outData = resultPayload.ToByteString();
 
             Debug.Print("\n\r\n\rSome converted data: '" + content.ToString() + "'\n\r\n\r");
-            return "Login: " + content.ToString();
+            Debug.Print("\n\r\n\rSome resulted data: '" + resultPayload.ToString() + "'\n\r\n\r");
+            return outData;
         }
 
         [HttpPost("GetEvent")]

@@ -9,7 +9,8 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Rising_Thunder_Server_CS.Protobufs.Tbrpc {
+namespace Rising_Thunder_Server_CS.Protobufs.Tbrpc
+{
 
   /// <summary>Holder for reflection information generated from tbrpc/tbrpc.proto</summary>
   public static partial class TbrpcReflection {
@@ -30,36 +31,37 @@ namespace Rising_Thunder_Server_CS.Protobufs.Tbrpc {
             "YW0uSW50EiIKA2ZsdBgDIAEoCzIVLnRicnBjLk1zZ1BhcmFtLkZsb2F0GhQK",
             "A1N0chINCgV2YWx1ZRgBIAEoCRoUCgNJbnQSDQoFdmFsdWUYASABKAUaFgoF",
             "RmxvYXQSDQoFdmFsdWUYASABKAIiNAoGTG9jTXNnEgoKAmlkGAEgASgJEh4K",
-            "BXBhcmFtGAIgAygLMg8udGJycGMuTXNnUGFyYW0igAEKBlJlc3VsdBIaCgNt",
-            "c2cYBCABKAsyDS50YnJwYy5Mb2NNc2cSDwoHY29udGVudBgKIAEoDBIZChFk",
-            "ZXByZWNhdGVkX21zZ19pZBgCIAEoCRIuChVkZXByZWNhdGVkX21zZ19wYXJh",
-            "bXMYAyADKAsyDy50YnJwYy5Nc2dQYXJhbSIHCgVFbXB0eSIvCg9EaXNjb3Jk",
-            "VXNlckRhdGESEAoIdXNlcm5hbWUYASABKAkSCgoCaWQYAiABKAkiJQoFTW9u",
-            "ZXkSDQoFd2hvbGUYASABKAMSDQoFY2VudHMYAiABKAUiKQoPUnBjQ2xpZW50",
-            "Q29uZmlnEhYKDnJwY190aW1lb3V0X21zGAIgASgFIqcBChlMQlRhcmdldEdD",
-            "RUJhY2tlbmRTZXJ2aWNlEhcKD3NlcnZpY2VfYWNjb3VudBgBIAEoCRIVCg1h",
-            "cGlfcHJveHlfdXJsGAIgASgJEg8KB3Byb2plY3QYAyABKAkSFwoPYmFja2Vu",
-            "ZF9zZXJ2aWNlGAQgASgJEhoKEnBvbGxfaW50ZXJ2YWxfc2VjcxgKIAEoBRIU",
-            "CgxlbmRwb2ludF91cmkYCyABKAkirQEKDkxCQ2xpZW50Q29uZmlnEjMKCWRp",
-            "c2NvdmVyeRgBIAEoCzIgLnRicnBjLkxCVGFyZ2V0R0NFQmFja2VuZFNlcnZp",
-            "Y2USDAoEaG9zdBgCIAMoCRImCgZjbGllbnQYBCABKAsyFi50YnJwYy5ScGND",
-            "bGllbnRDb25maWcSGQoRZmFpbHVyZV9yZXRyeV9zZWMYCiABKAUSFQoNaWRs",
-            "ZV9waW5nX3NlYxgLIAEoBSpuCgZTdGF0dXMSDQoJU19TVUNDRVNTEAASCwoH",
-            "U19FUlJPUhABEhIKDlNfU0VSVkVSX0VSUk9SEAISDQoJU19USU1FT1VUEAMS",
-            "FQoRU19UUkFOU1BPUlRfRVJST1IQBBIOCglTX1VOS05PV04QgAEq8wEKBkFj",
-            "Y2VzcxIICgRBTk9OEAASCQoFTE9HSU4QARIICgRTSE9QEAoSCQoFTUFUQ0gQ",
-            "CxIRCg1SVF9GT1JVTV9VU0VSEAwSDgoKU1RBVFNfUkVBRBASEgcKA0FQUBAU",
-            "Eg0KCVVTRVJfTUdNVBAVEhMKD09SREVSX1JFQURfU1lOQxAWEhEKDU9SREVS",
-            "X01BTkFHRVIQFxIJCgVBVURJVBAYEhEKDVJUX0ZPUlVNX01HTVQQGRIQCgxS",
-            "VF9GT1JVTV9NT0QQGhIPCgtDT05GSUdfUkVBRBAbEhAKDENPTkZJR19XUklU",
-            "RRAcEgkKBVNVUEVSEB4qJwoLU2Vzc2lvblR5cGUSCwoHREVGQVVMVBAAEgsK",
-            "B0dBTUVfUlQQZDo/CgZhY2Nlc3MSHi5nb29nbGUucHJvdG9idWYuTWV0aG9k",
-            "T3B0aW9ucxi5jgMgASgOMg0udGJycGMuQWNjZXNzOi8KBW5vX29wEh4uZ29v",
-            "Z2xlLnByb3RvYnVmLk1ldGhvZE9wdGlvbnMYuo4DIAEoCDpFCgdzZXNzaW9u",
-            "Eh4uZ29vZ2xlLnByb3RvYnVmLk1ldGhvZE9wdGlvbnMYu44DIAEoDjISLnRi",
-            "cnBjLlNlc3Npb25UeXBlOjUKCmx1YV9jb25maWcSHy5nb29nbGUucHJvdG9i",
-            "dWYuTWVzc2FnZU9wdGlvbnMYnY8DIAEoCTosCgNsdWESHS5nb29nbGUucHJv",
-            "dG9idWYuRmllbGRPcHRpb25zGIGQAyABKAliBnByb3RvMw=="));
+            "BXBhcmFtGAIgAygLMg8udGJycGMuTXNnUGFyYW0inwEKBlJlc3VsdBIdCgZy",
+            "ZXN1bHQYASABKA4yDS50YnJwYy5TdGF0dXMSGgoDbXNnGAQgASgLMg0udGJy",
+            "cGMuTG9jTXNnEg8KB2NvbnRlbnQYCiABKAwSGQoRZGVwcmVjYXRlZF9tc2df",
+            "aWQYAiABKAkSLgoVZGVwcmVjYXRlZF9tc2dfcGFyYW1zGAMgAygLMg8udGJy",
+            "cGMuTXNnUGFyYW0iBwoFRW1wdHkiLwoPRGlzY29yZFVzZXJEYXRhEhAKCHVz",
+            "ZXJuYW1lGAEgASgJEgoKAmlkGAIgASgJIiUKBU1vbmV5Eg0KBXdob2xlGAEg",
+            "ASgDEg0KBWNlbnRzGAIgASgFIikKD1JwY0NsaWVudENvbmZpZxIWCg5ycGNf",
+            "dGltZW91dF9tcxgCIAEoBSKnAQoZTEJUYXJnZXRHQ0VCYWNrZW5kU2Vydmlj",
+            "ZRIXCg9zZXJ2aWNlX2FjY291bnQYASABKAkSFQoNYXBpX3Byb3h5X3VybBgC",
+            "IAEoCRIPCgdwcm9qZWN0GAMgASgJEhcKD2JhY2tlbmRfc2VydmljZRgEIAEo",
+            "CRIaChJwb2xsX2ludGVydmFsX3NlY3MYCiABKAUSFAoMZW5kcG9pbnRfdXJp",
+            "GAsgASgJIq0BCg5MQkNsaWVudENvbmZpZxIzCglkaXNjb3ZlcnkYASABKAsy",
+            "IC50YnJwYy5MQlRhcmdldEdDRUJhY2tlbmRTZXJ2aWNlEgwKBGhvc3QYAiAD",
+            "KAkSJgoGY2xpZW50GAQgASgLMhYudGJycGMuUnBjQ2xpZW50Q29uZmlnEhkK",
+            "EWZhaWx1cmVfcmV0cnlfc2VjGAogASgFEhUKDWlkbGVfcGluZ19zZWMYCyAB",
+            "KAUqbgoGU3RhdHVzEg0KCVNfU1VDQ0VTUxAAEgsKB1NfRVJST1IQARISCg5T",
+            "X1NFUlZFUl9FUlJPUhACEg0KCVNfVElNRU9VVBADEhUKEVNfVFJBTlNQT1JU",
+            "X0VSUk9SEAQSDgoJU19VTktOT1dOEIABKvMBCgZBY2Nlc3MSCAoEQU5PThAA",
+            "EgkKBUxPR0lOEAESCAoEU0hPUBAKEgkKBU1BVENIEAsSEQoNUlRfRk9SVU1f",
+            "VVNFUhAMEg4KClNUQVRTX1JFQUQQEhIHCgNBUFAQFBINCglVU0VSX01HTVQQ",
+            "FRITCg9PUkRFUl9SRUFEX1NZTkMQFhIRCg1PUkRFUl9NQU5BR0VSEBcSCQoF",
+            "QVVESVQQGBIRCg1SVF9GT1JVTV9NR01UEBkSEAoMUlRfRk9SVU1fTU9EEBoS",
+            "DwoLQ09ORklHX1JFQUQQGxIQCgxDT05GSUdfV1JJVEUQHBIJCgVTVVBFUhAe",
+            "KicKC1Nlc3Npb25UeXBlEgsKB0RFRkFVTFQQABILCgdHQU1FX1JUEGQ6PwoG",
+            "YWNjZXNzEh4uZ29vZ2xlLnByb3RvYnVmLk1ldGhvZE9wdGlvbnMYuY4DIAEo",
+            "DjINLnRicnBjLkFjY2VzczovCgVub19vcBIeLmdvb2dsZS5wcm90b2J1Zi5N",
+            "ZXRob2RPcHRpb25zGLqOAyABKAg6RQoHc2Vzc2lvbhIeLmdvb2dsZS5wcm90",
+            "b2J1Zi5NZXRob2RPcHRpb25zGLuOAyABKA4yEi50YnJwYy5TZXNzaW9uVHlw",
+            "ZTo1CgpsdWFfY29uZmlnEh8uZ29vZ2xlLnByb3RvYnVmLk1lc3NhZ2VPcHRp",
+            "b25zGJ2PAyABKAk6LAoDbHVhEh0uZ29vZ2xlLnByb3RvYnVmLkZpZWxkT3B0",
+            "aW9ucxiBkAMgASgJYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { pbr::FileDescriptor.DescriptorProtoFileDescriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Status), typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Access), typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.SessionType), }, new pbr::GeneratedClrTypeInfo[] {
@@ -67,7 +69,7 @@ namespace Rising_Thunder_Server_CS.Protobufs.Tbrpc {
             new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Int), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Int.Parser, new[]{ "Value" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Float), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.MsgParam.Types.Float.Parser, new[]{ "Value" }, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LocMsg), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.LocMsg.Parser, new[]{ "Id", "Param" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Result), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Result.Parser, new[]{ "Msg", "Content", "DeprecatedMsgId", "DeprecatedMsgParams" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Result), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Result.Parser, new[]{ "Result_", "Msg", "Content", "DeprecatedMsgId", "DeprecatedMsgParams" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Empty), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Empty.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.DiscordUserData), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.DiscordUserData.Parser, new[]{ "Username", "Id" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money), global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Money.Parser, new[]{ "Whole", "Cents" }, null, null, null),
@@ -943,10 +945,6 @@ namespace Rising_Thunder_Server_CS.Protobufs.Tbrpc {
 
   }
 
-  /// <summary>
-  /// Result code of the invocation
-  /// Status result = 1;
-  /// </summary>
   public sealed partial class Result : pb::IMessage<Result> {
     private static readonly pb::MessageParser<Result> _parser = new pb::MessageParser<Result>(() => new Result());
     private pb::UnknownFieldSet _unknownFields;
@@ -972,6 +970,7 @@ namespace Rising_Thunder_Server_CS.Protobufs.Tbrpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public Result(Result other) : this() {
+      result_ = other.result_;
       Msg = other.msg_ != null ? other.Msg.Clone() : null;
       content_ = other.content_;
       deprecatedMsgId_ = other.deprecatedMsgId_;
@@ -982,6 +981,20 @@ namespace Rising_Thunder_Server_CS.Protobufs.Tbrpc {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public Result Clone() {
       return new Result(this);
+    }
+
+    /// <summary>Field number for the "result" field.</summary>
+    public const int Result_FieldNumber = 1;
+    private global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Status result_ = 0;
+    /// <summary>
+    /// Result code of the invocation
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Status Result_ {
+      get { return result_; }
+      set {
+        result_ = value;
+      }
     }
 
     /// <summary>Field number for the "msg" field.</summary>
@@ -1049,6 +1062,7 @@ namespace Rising_Thunder_Server_CS.Protobufs.Tbrpc {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (Result_ != other.Result_) return false;
       if (!object.Equals(Msg, other.Msg)) return false;
       if (Content != other.Content) return false;
       if (DeprecatedMsgId != other.DeprecatedMsgId) return false;
@@ -1059,6 +1073,7 @@ namespace Rising_Thunder_Server_CS.Protobufs.Tbrpc {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
+      if (Result_ != 0) hash ^= Result_.GetHashCode();
       if (msg_ != null) hash ^= Msg.GetHashCode();
       if (Content.Length != 0) hash ^= Content.GetHashCode();
       if (DeprecatedMsgId.Length != 0) hash ^= DeprecatedMsgId.GetHashCode();
@@ -1076,6 +1091,10 @@ namespace Rising_Thunder_Server_CS.Protobufs.Tbrpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
+      if (Result_ != 0) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) Result_);
+      }
       if (DeprecatedMsgId.Length != 0) {
         output.WriteRawTag(18);
         output.WriteString(DeprecatedMsgId);
@@ -1097,6 +1116,9 @@ namespace Rising_Thunder_Server_CS.Protobufs.Tbrpc {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
+      if (Result_ != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Result_);
+      }
       if (msg_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Msg);
       }
@@ -1117,6 +1139,9 @@ namespace Rising_Thunder_Server_CS.Protobufs.Tbrpc {
     public void MergeFrom(Result other) {
       if (other == null) {
         return;
+      }
+      if (other.Result_ != 0) {
+        Result_ = other.Result_;
       }
       if (other.msg_ != null) {
         if (msg_ == null) {
@@ -1142,6 +1167,10 @@ namespace Rising_Thunder_Server_CS.Protobufs.Tbrpc {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
+          case 8: {
+            result_ = (global::Rising_Thunder_Server_CS.Protobufs.Tbrpc.Status) input.ReadEnum();
+            break;
+          }
           case 18: {
             DeprecatedMsgId = input.ReadString();
             break;
