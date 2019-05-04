@@ -1,40 +1,21 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using Rising_Thunder_Server_CS.Protobufs.Tbrpc;
+﻿using Rising_Thunder_Server_CS.Protobufs.Tbportal;
+using Rising_Thunder_Server_CS.Protobufs.Tbadmin;
 using Rising_Thunder_Server_CS.Protobufs.Tbmatch;
-using System;
-using System.Diagnostics;
-using System.IO;
-using Google.Protobuf;
+using Rising_Thunder_Server_CS.Protobufs.Tbrpc;
+using Rising_Thunder_Server_CS.Protobufs.Tbui;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
+using System.Diagnostics;
+using Google.Protobuf;
+using Newtonsoft.Json;
+using System.IO;
+using System;
 
 namespace Rising_Thunder_Server_CS.Controllers
 {
-    [Route("ryzthn/[controller]")]
-    [ApiController]
-    public class RPCController : ControllerBase
+    public partial class RPCController : ControllerBase
     {
-
-        private byte[] convertPayload(Stream body)
-        {
-
-            byte[] payload = null;
-            Result converted = null;
-            using (StreamReader reader = new StreamReader(Request.Body))
-            {
-                payload = JsonConvert.DeserializeObject<Byte[]>(reader.ReadToEnd());
-            }
-
-            if (payload != null)
-            {
-                converted = Result.Parser.ParseFrom(payload);
-                return converted.Content.ToByteArray();
-            }
-
-            return null;
-        }
-
         [HttpPost("Login")]
         public ByteString Login()
         {
@@ -51,9 +32,15 @@ namespace Rising_Thunder_Server_CS.Controllers
                 content = LoginRequest.Parser.ParseFrom(payload);
             }
 
+            // do login stuff here...
+
+            // success
             Result resultPayload = new Result() {
                 Result_ = Status.SSuccess
             };
+
+            // fail
+            // ...
 
             var outData = resultPayload.ToByteString();
 
@@ -61,45 +48,5 @@ namespace Rising_Thunder_Server_CS.Controllers
             Debug.Print("\n\r\n\rSome resulted data: '" + resultPayload.ToString() + "'\n\r\n\r");
             return outData;
         }
-
-        [HttpPost("GetEvent")]
-        public string GetEvent()
-        {
-            return "Get Event";
-        }
-
-        /*
-        // GET ryzthn
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
-
-        // GET ryzthn/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return "value";
-        }
-
-        // POST ryzthn
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT ryzthn/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE ryzthn/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
-        */
     }
 }

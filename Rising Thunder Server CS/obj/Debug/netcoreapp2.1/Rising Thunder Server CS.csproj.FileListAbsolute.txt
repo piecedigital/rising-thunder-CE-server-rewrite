@@ -12,3 +12,17 @@ E:\GIT FILES\Sites\rising thunder c#\Rising Thunder Server CS\Rising Thunder Ser
 E:\GIT FILES\Sites\rising thunder c#\Rising Thunder Server CS\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.RazorTargetAssemblyInfo.cache
 E:\GIT FILES\Sites\rising thunder c#\Rising Thunder Server CS\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.dll
 E:\GIT FILES\Sites\rising thunder c#\Rising Thunder Server CS\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.pdb
+D:\TRANSFER\projects\risin-thunder-ce-mm-server-rewrite\server\Rising Thunder Server CS\bin\Debug\netcoreapp2.1\Rising Thunder Server CS.deps.json
+D:\TRANSFER\projects\risin-thunder-ce-mm-server-rewrite\server\Rising Thunder Server CS\bin\Debug\netcoreapp2.1\Rising Thunder Server CS.runtimeconfig.json
+D:\TRANSFER\projects\risin-thunder-ce-mm-server-rewrite\server\Rising Thunder Server CS\bin\Debug\netcoreapp2.1\Rising Thunder Server CS.runtimeconfig.dev.json
+D:\TRANSFER\projects\risin-thunder-ce-mm-server-rewrite\server\Rising Thunder Server CS\bin\Debug\netcoreapp2.1\Rising Thunder Server CS.dll
+D:\TRANSFER\projects\risin-thunder-ce-mm-server-rewrite\server\Rising Thunder Server CS\bin\Debug\netcoreapp2.1\Rising Thunder Server CS.pdb
+D:\TRANSFER\projects\risin-thunder-ce-mm-server-rewrite\server\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.csprojAssemblyReference.cache
+D:\TRANSFER\projects\risin-thunder-ce-mm-server-rewrite\server\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.csproj.CoreCompileInputs.cache
+D:\TRANSFER\projects\risin-thunder-ce-mm-server-rewrite\server\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.RazorAssemblyInfo.cache
+D:\TRANSFER\projects\risin-thunder-ce-mm-server-rewrite\server\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.RazorAssemblyInfo.cs
+D:\TRANSFER\projects\risin-thunder-ce-mm-server-rewrite\server\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.AssemblyInfoInputs.cache
+D:\TRANSFER\projects\risin-thunder-ce-mm-server-rewrite\server\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.AssemblyInfo.cs
+D:\TRANSFER\projects\risin-thunder-ce-mm-server-rewrite\server\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.RazorTargetAssemblyInfo.cache
+D:\TRANSFER\projects\risin-thunder-ce-mm-server-rewrite\server\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.dll
+D:\TRANSFER\projects\risin-thunder-ce-mm-server-rewrite\server\Rising Thunder Server CS\obj\Debug\netcoreapp2.1\Rising Thunder Server CS.pdb

@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\TRANSFER\\projects\\risin-thunder-ce-mm-server-rewrite\\server\\Rising Thunder Server CS\\Rising Thunder Server CS.csproj": {}
+  },
+  "projects": {
+    "D:\\TRANSFER\\projects\\risin-thunder-ce-mm-server-rewrite\\server\\Rising Thunder Server CS\\Rising Thunder Server CS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TRANSFER\\projects\\risin-thunder-ce-mm-server-rewrite\\server\\Rising Thunder Server CS\\Rising Thunder Server CS.csproj",
+        "projectName": "Rising Thunder Server CS",
+        "projectPath": "D:\\TRANSFER\\projects\\risin-thunder-ce-mm-server-rewrite\\server\\Rising Thunder Server CS\\Rising Thunder Server CS.csproj",
+        "packagesPath": "C:\\Users\\NoxidLyrrad\\.nuget\\packages\\",
+        "outputPath": "D:\\TRANSFER\\projects\\risin-thunder-ce-mm-server-rewrite\\server\\Rising Thunder Server CS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\NoxidLyrrad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "Google.Protobuf.Tools": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
